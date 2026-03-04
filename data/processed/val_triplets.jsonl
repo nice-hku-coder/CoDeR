@@ -1,0 +1,800 @@
+{"query": "Two women are embracing while holding to go packages.", "positive": "Two woman are holding packages.", "hard_negative": "The men are fighting outside a deli."}
+{"query": "Two young children in blue jerseys, one with the number 9 and one with the number 2 are standing on wooden steps in a bathroom and washing their hands in a sink.", "positive": "Two kids in numbered jerseys wash their hands.", "hard_negative": "Two kids in jackets walk to school."}
+{"query": "A man selling donuts to a customer during a world exhibition event held in the city of Angeles", "positive": "A man selling donuts to a customer.", "hard_negative": "A woman drinks her coffee in a small cafe."}
+{"query": "Two young boys of opposing teams play football, while wearing full protection uniforms and helmets.", "positive": "boys play football", "hard_negative": "dog eats out of bowl"}
+{"query": "A man in a blue shirt standing in front of a garage-like structure painted with geometric designs.", "positive": "A man is wearing a blue shirt", "hard_negative": "A man is wearing a black shirt"}
+{"query": "Under a blue sky with white clouds, a child reaches up to touch the propeller of a plane standing parked on a field of grass.", "positive": "A child is reaching to touch the propeller of a plane.", "hard_negative": "A child is playing with a ball."}
+{"query": "A woman is doing a cartwheel while wearing a bikini in the sand next to the beach.", "positive": "A woman is doing a cartwheel.", "hard_negative": "A woman is fixing her home."}
+{"query": "Two men on bicycles competing in a race.", "positive": "People are riding bikes.", "hard_negative": "A few people are catching fish."}
+{"query": "A young boy in a field of flowers carrying a ball", "positive": "boy in field", "hard_negative": "dog in pool"}
+{"query": "A senior is waiting at the window of a restaurant that serves sandwiches.", "positive": "A person waits to be served his food.", "hard_negative": "A man is waiting in line for the bus."}
+{"query": "Man in a black suit, white shirt and black bowtie playing an instrument with the rest of his symphony surrounding him.", "positive": "A person in a suit", "hard_negative": "Nobody has a suit"}
+{"query": "Two women having drinks and smoking cigarettes at the bar.", "positive": "Two women are at a bar.", "hard_negative": "Three women are at a bar."}
+{"query": "Two doctors perform surgery on patient.", "positive": "Doctors are performing surgery.", "hard_negative": "Two surgeons are having lunch."}
+{"query": "A white dog with long hair jumps to catch a red and green toy.", "positive": "An animal is jumping to catch an object.", "hard_negative": "A white dog with long hair is swimming underwater."}
+{"query": "Kids are on a amusement ride.", "positive": "Kids ride an amusement ride.", "hard_negative": "A car is broke down on the side of the road."}
+{"query": "A man in a black shirt is playing golf outside.", "positive": "The man wearing the black shirt plays a game of golf.", "hard_negative": "The man in the black shirt trades Pokemon cards with his girlfriend."}
+{"query": "A older gentleman finds it humorous that he is getting his picture taken while doing his laundry.", "positive": "a guy laughs while doing laundry", "hard_negative": "two ladies pin clothes to dry"}
+{"query": "An Indian woman is washing and cleaning dirty laundry at a lake and in the background is a kid who appears to have jumped into the lake.", "positive": "An Indian woman is doing her laundry in a lake.", "hard_negative": "An Indian woman is putting her laundry into the machine."}
+{"query": "A man in a green jersey and rollerskates stumbles as a man in a black jersey appears to collide with him.", "positive": "The man stumbles stumbles in rollerskates.", "hard_negative": "They are driving cars."}
+{"query": "A group of onlookers glance at a person doing a strange trick on her head.", "positive": "People watch another person do a trick.", "hard_negative": "A boy does a card trick."}
+{"query": "A taxi SUV drives past an urban construction site, as a man walks down the street in the other direction.", "positive": "An SUV and a man are going in opposite directions.", "hard_negative": "A man is chasing an SUV that is going in the same direction as him."}
+{"query": "People wearing red shirts are standing in a large pool of water as it splashes over and around them.", "positive": "A person in a shirt", "hard_negative": "Nobody has a shirt on"}
+{"query": "A man in a white t-shirt takes a picture in the middle of the street with two public buses in the background.", "positive": "A man is wearing a white shirt", "hard_negative": "A man is wearing a black shirt"}
+{"query": "A shirtless man is singing into a microphone while a woman next to him plays an accordion.", "positive": "A man is singing into a microphone.", "hard_negative": "He is playing a saxophone."}
+{"query": "Women and children sitting outside in the shade while a group of younger children sitting inside in the shade.", "positive": "The woman and kids and sitting down.", "hard_negative": "The woman is running."}
+{"query": "A pregnant lady singing on stage while holding a flag behind her.", "positive": "A woman is making music.", "hard_negative": "A woman is sick in bed."}
+{"query": "The two farmers are working on a piece of John Deere equipment.", "positive": "Men are working on John Deere equipment", "hard_negative": "2 Men are making a pool together"}
+{"query": "A little boy in a blue shirt holding a toy.", "positive": "Boy dressed in blue holds a toy.", "hard_negative": "Boy dressed in red lighting things on fire."}
+{"query": "A woman is writing something on a post-it note which is hanging on a bulletin board with a lot of other post-it notes.", "positive": "The woman is writing a note.", "hard_negative": "The woman is talking on the phone."}
+{"query": "A baby at the end of a slip and slide at a party", "positive": "The baby is wet.", "hard_negative": "The man is at the end of the slip and slide"}
+{"query": "A girl swings high in the air.", "positive": "A girl is on a swing", "hard_negative": "A girl is laying in the pool"}
+{"query": "A view of the back of a woman having a beverage.", "positive": "woman has a drink", "hard_negative": "woman dumps the drink on a man"}
+{"query": "A lady sitting on a bench that is against a building and under a poster of a man in a uniform waving.", "positive": "A person sitting", "hard_negative": "Nobody is sitting"}
+{"query": "A man with a shopping cart is studying the shelves in a supermarket aisle.", "positive": "There is a man inside a supermarket.", "hard_negative": "A man is watching a movie in a theater."}
+{"query": "A man wearing sunglasses is sitting on the steps outside, reading a magazine.", "positive": "The man is sitting.", "hard_negative": "The man is reading a spoon with the words \"HELP ME\" on it."}
+{"query": "A woman sitting outside weaving a long piece of red, white, and blue cloth.", "positive": "She is working with cloth", "hard_negative": "He is jumping over a house"}
+{"query": "A person powerwashing stairs leading down to a pool.", "positive": "a person washes stairs", "hard_negative": "a dog chases a cat"}
+{"query": "A person rides his bicycle in the sand beside the ocean.", "positive": "A person is on a beach.", "hard_negative": "A person is falling off his bike."}
+{"query": "Two black little boys hanging over an upside down bicycle, one examining the pedal.", "positive": "Children were looking at a bike.", "hard_negative": "Someone is riding a bike."}
+{"query": "A brown a dog and a black dog in the edge of the ocean with a wave under them boats are on the water in the background.", "positive": "The dogs are swimming among the boats.", "hard_negative": "The pets are sleeping on the grass."}
+{"query": "A group of people prepare hot air balloons for takeoff.", "positive": "A group of people are outside.", "hard_negative": "A group of people prepare cars for racing."}
+{"query": "Men stand on steps leading out of a body of water", "positive": "Men are standing on some steps near some water.", "hard_negative": "Men are sitting outside near a golf course."}
+{"query": "A long-beaked bird in mid-flight.", "positive": "A bird flying.", "hard_negative": "A rat running on a wheel."}
+{"query": "A man in the middle east with a corn-on-the-cob cart selling corn.", "positive": "In the middle east, a man sells corn-on-the-cob from a cart.", "hard_negative": "A middle east man is throwing corn at strangers."}
+{"query": "A man in a black shirt is playing a guitar.", "positive": "He is playing a song.", "hard_negative": "The man is wearing a blue shirt."}
+{"query": "Colorfully dressed people walk down the center of the road, with onlookers behind a barricade.", "positive": "A group of people walking down a road.", "hard_negative": "A group of people in a motorcade driving past an audience."}
+{"query": "A woman is talking on the phone while standing next to a dog.", "positive": "A woman is on the phone.", "hard_negative": "A woman is sleeping."}
+{"query": "5 women sitting around a table doing some crafts.", "positive": "Five women sit at a table.", "hard_negative": "Five men stand on chairs."}
+{"query": "Street performer with bowler hat and high boots performs outside.", "positive": "The person is performing.", "hard_negative": "The child is dancing inside."}
+{"query": "A young boy playing in the grass.", "positive": "There is a child in the grass.", "hard_negative": "The boy is in the sand."}
+{"query": "Two men playing baseball with the one in the black and red jersey running toward base.", "positive": "There is a baseball game going on.", "hard_negative": "The man in black and red is sitting in the bleachers."}
+{"query": "A man and a woman are looking at produce on display.", "positive": "A man and woman are looking at produce.", "hard_negative": "Two men throw produce at each other for fun."}
+{"query": "People are throwing tomatoes at each other.", "positive": "The people are having a food fight.", "hard_negative": "The people are sitting and eating their food."}
+{"query": "People standing in line of a beer and curry line.", "positive": "People standing in line", "hard_negative": "People not standing in line"}
+{"query": "A man and a woman are talking in a park", "positive": "A pair of people are talking outdoors.", "hard_negative": "A man and woman are talking in the aquarium."}
+{"query": "A small ice cream stand with two people standing near it.", "positive": "Two people standing outside an ice cream stand.", "hard_negative": "Two people selling ice cream from a car."}
+{"query": "Number 916 is hoping that he is going to win the race.", "positive": "A person is competing in a race.", "hard_negative": "A person is is playing baseball."}
+{"query": "Girl plays with colorful letters on the floor.", "positive": "The girl is having fun learning her letters.", "hard_negative": "The girl is playing a video game in the bath."}
+{"query": "Two men are cooking food together on the corner of the street.", "positive": "The men are making something to eat.", "hard_negative": "The two men are running in a race."}
+{"query": "A man wandering in the desert as the clouds roll in.", "positive": "A man wonders in the desert.", "hard_negative": "A man fights dead mummy's who magically came alive in the desert."}
+{"query": "A lady with bright orange hair walking in a crowd.", "positive": "A woman is near a group of people.", "hard_negative": "The woman is asleep."}
+{"query": "A man running a marathon talks to his friend.", "positive": "There is a man running.", "hard_negative": "There are people canoeing down a river."}
+{"query": "A lot of people walking outside a row of shops with an older man with his hands in his pocket is closer to the camera.", "positive": "A lot of people walking outside a row of shops with a man with hands in his pockets.", "hard_negative": "A lot of dogs barking outside a row of shops with a cat teasing them."}
+{"query": "A barefooted adolescent boy in a yellow shirt reaching the top of a small skateboarding ramp.", "positive": "a boy is barefooted", "hard_negative": "the boy is flying a helicopter"}
+{"query": "A group of children enjoy their time on the beach.", "positive": "Children are at the beach.", "hard_negative": "A group of adults are swimming at the beach."}
+{"query": "A small baby, possibly a newborn is being bathed by a person in blue scrubs wearing protective gloves.", "positive": "Someone is helping bathe the small baby.", "hard_negative": "The small baby is in it's crib sound asleep."}
+{"query": "An asian woman sitting outside an outdoor market stall.", "positive": "A woman sits outdoors.", "hard_negative": "A woman sitting in an indoor market."}
+{"query": "An older gentleman enjoys a scenic stroll through the countryside.", "positive": "A man walks the countryside.", "hard_negative": "A pirate boards the spaceship."}
+{"query": "A middle-aged man is sitting indian style outside holding a folded paper in his hands.", "positive": "A middle aged man is outdoors.", "hard_negative": "A middle aged man is sitting on a stool in a bar."}
+{"query": "Number 13 kicks a soccer ball towards the goal during children's soccer game.", "positive": "A player trying to score in a soccer game.", "hard_negative": "A player passing the ball in a soccer game."}
+{"query": "A man sits in a chair on the sidewalk in front of a huge display of brightly colored artwork.", "positive": "A man sits in a chair on the sidewalk in front of a huge display of brightly colored artwork", "hard_negative": "The man was watching tv"}
+{"query": "A young child is jumping into the arms of a woman wearing a black swimming suit while in a pool.", "positive": "Child leaping into arms of a woman wearing swimsuit in a pool.", "hard_negative": "Mother and daughter shopping for shoes."}
+{"query": "A guy waxing a wooden floor with wax.", "positive": "a guy is waxing", "hard_negative": "the guy is dead"}
+{"query": "This is the image of two Asian men squatting near a mop-pad.", "positive": "This picture is of two Asian men.", "hard_negative": "Two italian girls are squatting."}
+{"query": "A man uses a projector to give a presentation.", "positive": "A man is giving a presentation.", "hard_negative": "A man is using a projector to watch television."}
+{"query": "A young barefoot girl in a pink dress is jumping outside.", "positive": "A child is playing.", "hard_negative": "The child sits in a dark room watching television."}
+{"query": "Four guys with guns and army gear.", "positive": "The guys have guns.", "hard_negative": "The four guys are playing hopscotch."}
+{"query": "A man is a safety suit walking outside while another man in a dark suit walks into a building.", "positive": "There are two men walking outside.", "hard_negative": "Men are sitting in the park."}
+{"query": "A man poses for a photo in front of a Chinese building by jumping.", "positive": "The man is prepared for his photo.", "hard_negative": "The man is dancing around the building."}
+{"query": "A couple bows their head as a man in a decorative robe reads from a scroll in Asia with a black late model station wagon in the background.", "positive": "A black late model station wagon is in the background.", "hard_negative": "A white late model station wagon is in the background."}
+{"query": "A boy looks surly as his father looks at the camera.", "positive": "a boy looks at his farther", "hard_negative": "a girl looks at her father"}
+{"query": "A boy in red slides down an inflatable ride.", "positive": "A boy is playing on an inflatable ride.", "hard_negative": "A boy pierces a knife through an inflatable ride."}
+{"query": "A man is reading a newspaper in a car dealership.", "positive": "A man is at a car dealership.", "hard_negative": "A man is reading a magazine at the hospital."}
+{"query": "A carefully balanced male stands on one foot near a clean ocean beach area.", "positive": "A man is ouside near the beach.", "hard_negative": "A man is sitting on his couch."}
+{"query": "A man wearing a white shirt is playing the drums.", "positive": "A man is playing a musical instrument.", "hard_negative": "A man is playing the trumpet with his hands tied behind his back."}
+{"query": "Three women in dress suits walk by a building.", "positive": "Three women are traveling by foot.", "hard_negative": "The woman are wearing bikinis."}
+{"query": "two people are waiting for a train at a station.", "positive": "They expect a train to arrive eventually.", "hard_negative": "They are both waiting for a bus."}
+{"query": "A man in a black shirt is smiling at a woman in a black shirt what a tattoo and a eye brow ring.", "positive": "A man is smiling at a woman.", "hard_negative": "A man is reading a book alone."}
+{"query": "A goalie in white runs for an approaching ball while the opponent in red who kicked it waits.", "positive": "A person wearing white is running towards a ball that was kicked from another person.", "hard_negative": "The goalie is sleeping at home."}
+{"query": "Two men sitting on a subway are reading, with coats and scarves on, but have seemed to have lost their pants.", "positive": "There are people on the subway.", "hard_negative": "There are women on the subway."}
+{"query": "kids drawing something on paper", "positive": "There are kids drawing.", "hard_negative": "The kids are cutting ribbons."}
+{"query": "A young woman is singing into a microphone.", "positive": "The woman is singing.", "hard_negative": "The woman playing the trumpet."}
+{"query": "Three elephants, each carrying a group of people, walking through the water.", "positive": "Three elephants carry people through the water.", "hard_negative": "The elephants are performing in a circus tent."}
+{"query": "A diver is swimming with a turtle.", "positive": "A turtle has a diver swimming with it.", "hard_negative": "A lion is eating raw meat at the zoo."}
+{"query": "A man with a beard skateboarding and a boy with a blue and black backpack riding a green bike in the background.", "positive": "There is a man and a boy outside.", "hard_negative": "There is a kid skateboarding and a bearded man on a bike."}
+{"query": "A young boy reaches for and touches the propeller of a vintage aircraft.", "positive": "A young boy and an airplane.", "hard_negative": "A young boy swims in his pool."}
+{"query": "Indian people dressed in magnificent bright colors conduct a ritual.", "positive": "Indian people having a ritual", "hard_negative": "Indian people hunting animals"}
+{"query": "Two little girls ride an inflatable dinghy down a purple water slide.", "positive": "Two girls on a water slide.", "hard_negative": "Barney Fife with his one bullet."}
+{"query": "A woman walks by a brick building that's covered with graffiti.", "positive": "A woman is outside.", "hard_negative": "The woman is in the bathroom."}
+{"query": "Young girl with dark hair facing camera and holding a paper bag while wearing an orange shirt and multicolored butterfly wings.", "positive": "A young girl faces the camera.", "hard_negative": "An old woman refuses to have her picture taken."}
+{"query": "A boy in overalls blows bubbles.", "positive": "A boy is blowing bubbles.", "hard_negative": "A man is juggling in the park."}
+{"query": "Two children playing on the floor with toy trains.", "positive": "The children played on the floor.", "hard_negative": "The girls slept on the floor next to the toys."}
+{"query": "Three men in a science lab watch one of them hold a burning object, one man on the side is reaching for the ground.", "positive": "Three men are in a laboratory doing a scientific study.", "hard_negative": "There are three men on a fishing boat trying to catch bass."}
+{"query": "A white dog is chasing a stuffed animal being pulled on a string.", "positive": "the animal is running", "hard_negative": "the animal is sleeping"}
+{"query": "Two female workers sit on some steps during work.", "positive": "Two friends sitting on step at their job.", "hard_negative": "Two women sitting at their workplace desks."}
+{"query": "A man in a blue shirt, jumping down a hill in a park.", "positive": "A man is down a park", "hard_negative": "A man is sleeping."}
+{"query": "Four girls are dancing in matching outfits at a street festival.", "positive": "The four girls are attending the street festival.", "hard_negative": "The four girls are playing card games at the table."}
+{"query": "A small group of children are standing in a classroom and one of them has a foot in a trashcan, which also has a rope leading out of it.", "positive": "There is a child with their foot in a garbage can near some other kids in a classroom.", "hard_negative": "A man looks at his watch at a bus stop."}
+{"query": "A child is looking out of a door.", "positive": "There is a door.", "hard_negative": "The child is asleep."}
+{"query": "A boy in a baseball cap jumps over a flight of stairs.", "positive": "A boy jumping through the air.", "hard_negative": "A guy swimming in the pool."}
+{"query": "A man is sitting in on the side of the street with brass pots.", "positive": "A man is sitting.", "hard_negative": "a man does not have brass pots"}
+{"query": "A man in a blue windbreaker jacket, laying face down on a park bench, with a liquor bottle nestled by one of the bench's legs.", "positive": "A man lays face down on a park bench.", "hard_negative": "A man is dancing at the club popping bottles."}
+{"query": "A woman is using clothespins to hang up laundry outside on a laundry line.", "positive": "A woman is taking care of her laundry.", "hard_negative": "A woman is folding her washed laundry."}
+{"query": "A dog reaches to catch a ball with its mouth.", "positive": "The dog is playing with a ball.", "hard_negative": "The dog is playing with a rope."}
+{"query": "A young boy is sitting in a green tunnel", "positive": "The boy is sitting", "hard_negative": "A girl is sitting"}
+{"query": "The little boy is jumping into a puddle on the street.", "positive": "The boy is outside.", "hard_negative": "The boy is walking across the field with his dog."}
+{"query": "Four young men sit on the floor close to a television that is showing Elmo from Sesame Street.", "positive": "Four males are sitting indoors.", "hard_negative": "Four males are playing out in the yard."}
+{"query": "Dinner and decisions, with the crew.", "positive": "the crew was having dinner", "hard_negative": "the crew all ate lunch alone"}
+{"query": "Woman wearing a white donkey costume while talking to a man.", "positive": "A woman is wearing strange clothing.", "hard_negative": "A woman is dancing near a fire."}
+{"query": "A boy and a girl in jackets gaze in a clothing store window.", "positive": "Two kids are looking in a store window.", "hard_negative": "Two kids are flying on a hovercraft."}
+{"query": "People dressed in costumes walking down a street.", "positive": "Humans wearing clothes on the street.", "hard_negative": "A naked man walking down the street."}
+{"query": "A person in a blue plaid shirt is writing on a chalkboard.", "positive": "The person is writing on the chalk board.", "hard_negative": "The person is reading a book."}
+{"query": "This mother and her daughter and granddaughter are having car trouble, and the poor little girl looks hot out in the heat.", "positive": "The car that belongs to the family is having issues.", "hard_negative": "The family is driving safe and sound while the little girl is asleep."}
+{"query": "A large group of people are gathered outside of a brick building lit with spotlights.", "positive": "The building is brick.", "hard_negative": "The building is made of logs."}
+{"query": "A man plays the french horn as his pianist plays the supporting melody on stage.", "positive": "Two people are playing an instruments on stage.", "hard_negative": "Three guys are playing the bongos on stage."}
+{"query": "A man with a white towel wrapped around the lower part of his face and neck.", "positive": "The man is covering his neck", "hard_negative": "The towel is pink and blue striped"}
+{"query": "Man walking with tall buildings with reflections behind him.", "positive": "The man was walking.", "hard_negative": "The man was running through the park."}
+{"query": "Excited children pass their parents on their way from the parking lot.", "positive": "Children go past their parents.", "hard_negative": "The children are watching TV at home."}
+{"query": "Two boys are holding red kites with water in the background.", "positive": "Persons are involved in outdoor recreation.", "hard_negative": "Two boys are watching television."}
+{"query": "Dog herding cows", "positive": "Animals are near each other.", "hard_negative": "Cats are sleeping inside the room."}
+{"query": "Men and women walking down a sidewalk next to a garden.", "positive": "They are walking by the garden.", "hard_negative": "The men and women are running through the forest."}
+{"query": "a man is swimming inside of a pool", "positive": "there is a man in a pool.", "hard_negative": "there is a person drowning."}
+{"query": "A hispanic fruit market with many different fruits and vegetables in view on a city street with a man passing the store dressed in dark pants and a hoodie.", "positive": "A fruit market is selling vegetables", "hard_negative": "A fish market is on the docks"}
+{"query": "A black and brown dog walks in the shallows of a large body of water.", "positive": "The dog is in the water.", "hard_negative": "The dog is wearing a clown suit."}
+{"query": "A man jumping sideways in the ocean.", "positive": "A man jumps in the ocean.", "hard_negative": "A man sits in a hotel lobby."}
+{"query": "A woman with a bright red umbrella is jumping high in the air, she has on a knit hat and black shirt and colorful boots.", "positive": "A woman in black is jumping in the air with a red umbrella.", "hard_negative": "A woman in black high heels is walking down a large staircase."}
+{"query": "A teenage girl in winter clothes slides down a decline in a red sled.", "positive": "A girl is by herself on a sled.", "hard_negative": "A girl is on a beach with a blue sled."}
+{"query": "Three men with blue jerseys try to score a goal in soccer against the other team in white jerseys and their goalie in green.", "positive": "The men are playing soccer.", "hard_negative": "Some men with jerseys are in a bar, watching a soccer match."}
+{"query": "A dog leaps into the air in a grassy field surrounded by trees.", "positive": "A dog is in a grassy field filled with trees.", "hard_negative": "A dog is sleeping in a grassy field surrounded by trees."}
+{"query": "A man with a large power drill standing next to his daughter with a vacuum cleaner hose.", "positive": "A man holding a drill stands next to a girl holding a vacuum hose.", "hard_negative": "The man and girl are painting the walls."}
+{"query": "Three girls are standing together in a room, one is listening, one is writing on a wall and the third is talking to them.", "positive": "The girls are indoors.", "hard_negative": "The girls are outdoors."}
+{"query": "Three children dressed in winter clothes are walking through the woods while pushing cargo along.", "positive": "Three children are dressed in warm winter clothes.", "hard_negative": "Three childre are dressed in summer clothes."}
+{"query": "A man is sitting outside wearing blue pants.", "positive": "There is a person wearing pants.", "hard_negative": "The person is inside."}
+{"query": "A woman is looking into a mirror, brushing her hair.", "positive": "A woman is brushing her hair.", "hard_negative": "The woman is taking a shower."}
+{"query": "Two players are on a wet field and one is on the ground.", "positive": "There are people in a field.", "hard_negative": "Both people are standing up."}
+{"query": "A little baby with dirty fingers and smudges on her face points to her blue eye.", "positive": "The baby is dirty.", "hard_negative": "A baby points at her green eye."}
+{"query": "A couple sitting in white lawn chairs are smiling at the camera.", "positive": "Two people are posing for a photograph.", "hard_negative": "A woman is standing alone."}
+{"query": "Five people are sitting on horses at a rodeo.", "positive": "A group of people are sitting on horses.", "hard_negative": "Bandits are sitting on horses as they prepare for a robbery."}
+{"query": "Nine women in white robes with hoods walk on plush, green grass.", "positive": "The women each have one head.", "hard_negative": "The woman is alone and asleep in her bedroom."}
+{"query": "A man in a blue shirt is in a lab looking into a microscope.", "positive": "A man looking into a microscope in a lab", "hard_negative": "A man is sleeping in the park bench"}
+{"query": "An indian man walks past a temple on his way to pray.", "positive": "A man is heading to his house of worship.", "hard_negative": "A man fell into the swimming pool."}
+{"query": "Masked actors perform traditional Japanese theater.", "positive": "There are multiple people present.", "hard_negative": "There is only one person present."}
+{"query": "A man in a green Celtic sleeveless jersey shirt and short stone washed jean shorts sitting and eating.", "positive": "The man is having a meal.", "hard_negative": "The man is wearing a Cowboys jersey."}
+{"query": "A middle-aged man's shaving his beard in a room with white walls which does n't look like a bathroom.", "positive": "a man is shaving", "hard_negative": "a man sleeps"}
+{"query": "Young man walking dog", "positive": "The man is with his dog.", "hard_negative": "The man is walking his cat."}
+{"query": "a large house with three stories and 3 matching balconies, with one person standing on each balcony overlooking onlookers.", "positive": "The house has balconies.", "hard_negative": "The house is single storied."}
+{"query": "One woman with a dark coat on walking by herself in a city.", "positive": "The woman is outdoors.", "hard_negative": "The woman is standing in a building."}
+{"query": "A man with a hat, boots, and brown pants, is playing the violin outside in front of a black structure.", "positive": "A man is playing the violin.", "hard_negative": "A homeless man has stolen a child's violin in order to fulfill his fantasy of joining the London Symphony Orchestra."}
+{"query": "Two kids are standing in the ocean hugging each other.", "positive": "Two kids are outdoors.", "hard_negative": "The children are playing basketball."}
+{"query": "A crowd of people are watching hot air balloons inflate.", "positive": "People watching hot air balloons inflating.", "hard_negative": "One person watching a plane prepare for a sky diving trip."}
+{"query": "A little girl with a hat sits between a woman's feet in the sand in front of a pair of colorful tents.", "positive": "The girl is wearing a hat.", "hard_negative": "The girl and woman are inside."}
+{"query": "A dog licks his nose.", "positive": "A dog is licking his nose.", "hard_negative": "A cat is licking his fur."}
+{"query": "A man and women are dancing together on the street.", "positive": "A man and woman are dancing together.", "hard_negative": "A cat is hissing at something."}
+{"query": "A brown dog is laying on his side on a beige carpet, with a green object in the foreground.", "positive": "A brown dog is laying on the carpet with a green thing next to it.", "hard_negative": "The dog is dead."}
+{"query": "A girl with brown hair and a brown shirt is building a gingerbread house.", "positive": "The girl has brown hair.", "hard_negative": "The girl has blonde hair."}
+{"query": "A black dog in front of a waterfall.", "positive": "A dog is in front of a waterfall.", "hard_negative": "A dog is dancing while it rains."}
+{"query": "A girl in a striped black and white sweater holds on to her friend who is bent over wearing a hooded black sweater and torn blue jeans.", "positive": "The girl is touching her friend.", "hard_negative": "The girl is alone in her bedroom asleep."}
+{"query": "Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.", "positive": "Two girls with long brown hair sit on the floor", "hard_negative": "Two girls with long brown hair sit on the spaceship"}
+{"query": "Man in a military outfit handing something in a plastic bag to a group of children outside near a brown building.", "positive": "A man is handing a plastic bag to a group of children.", "hard_negative": "A man in civilian clothes hands a bag to a group of children."}
+{"query": "A man and a woman sit on a deck under a blue sky that is about to be overtaken by tumultuous clouds.", "positive": "There are many clouds in the blue sky.", "hard_negative": "The man and woman are sitting at home."}
+{"query": "Two women stand on a beach and perform stretches or yoga together, facing towards the water and away from the camera.", "positive": "Two people are exercising outside.", "hard_negative": "Two people are jogging on a path through a tunnel."}
+{"query": "People in a grocery store crowd around to watch a Tv, except one man who walks toward the camera.", "positive": "There is a man walking towards a camera.", "hard_negative": "The people are crowded around a street performer."}
+{"query": "A child holds a football and runs from other children.", "positive": "There is more than one child.", "hard_negative": "The children are all sitting down."}
+{"query": "A black man, wearing a cap, is sitting in a bus.", "positive": "A man is traveling on public transportation.", "hard_negative": "A guy fastens his seatbelt before he starts his car."}
+{"query": "A man is walking away from tents with the word Camden on them.", "positive": "The man is walking.", "hard_negative": "The tents do not have anything written on them."}
+{"query": "Two women with badges are watching something.", "positive": "Two people are looking at something.", "hard_negative": "Two men are eating outside."}
+{"query": "A happy boy is jumping in front OD city fountain.", "positive": "There is a boy near a fountain.", "hard_negative": "The boy is standing still in the fountain."}
+{"query": "A boy walking away from two Camden tents with a group of people behind him.", "positive": "A person walking away from a tent", "hard_negative": "A person building a tent"}
+{"query": "A man rides a kicking bull in a bullpen.", "positive": "The man is riding a bull.", "hard_negative": "The man is riding a sheep."}
+{"query": "Two kids on a boat, one with a paddle, and the other on the edge wearing a life vest.", "positive": "A kid is wearing a life vest.", "hard_negative": "Two kids are sleeping in bed."}
+{"query": "Two basketball players in black and white outfits are standing on a basketball court, talking.", "positive": "The two basketball players are conversating.", "hard_negative": "The two basketball players are sitting on the bench."}
+{"query": "A man and a woman hug on a grassy hillside overlooking the countryside in the distance.", "positive": "The man and woman are outdoors.", "hard_negative": "The man and woman are at a skating rink."}
+{"query": "A man and a young boy are eating on a city sidewalk next to a cardboard box and a red shopping cart.", "positive": "a man eating with a young boy on a city sidewalk", "hard_negative": "father and son watching television at home"}
+{"query": "A young blond girl dressed in pink is lying on the floor next to some brown dominoes.", "positive": "a girls lays next to dominos", "hard_negative": "a bird eats a frog"}
+{"query": "A man is holding a both a sleeping toddler and a sleeping baby on his lap.", "positive": "A man holds two sleeping children.", "hard_negative": "A toddler and baby play together while their father looks on."}
+{"query": "People on a concrete area taking pictures.", "positive": "people take pictures", "hard_negative": "boy sleeps alone"}
+{"query": "A blond woman shows her profile in front of a white luxury car.", "positive": "A woman shows her profile in front of a white luxury car.", "hard_negative": "A brunette woman shows her profile in front of a white luxury car."}
+{"query": "A musical group performing on a green carpet in front of small televisions.", "positive": "A group is playing a song near some TVs.", "hard_negative": "The school band is walking to band hall."}
+{"query": "Three workers are trimming down trees.", "positive": "There are three workers", "hard_negative": "There are three business men"}
+{"query": "A young girl plays with a neon-colored Slinky in a crowd of people on a street lined with flags.", "positive": "A girl is playing with a Slinky.", "hard_negative": "The Slinky is black."}
+{"query": "A young man attempts to pole vault over a bar, barely inches away from it mid flight.", "positive": "A young man is pole vaulting.", "hard_negative": "A young man throws a shotput."}
+{"query": "People sit around a circular bar.", "positive": "people sit at a bar", "hard_negative": "people sit around a bus stop"}
+{"query": "A woman is holding a sign that says honk to indict bush.", "positive": "The woman is touching the sign.", "hard_negative": "The woman is swimming in her pool."}
+{"query": "Police officer with riot shield stands in front of crowd.", "positive": "A police officer stands in front of a crowd.", "hard_negative": "A police officer teaches two children something."}
+{"query": "A girl is using an apple laptop with her headphones in her ears.", "positive": "with headphones on the girl used a computer", "hard_negative": "Working at her Dell Window 7 computer the girl talked on speaker phone with her friend"}
+{"query": "A boy is standing at the edge of a wave with the sun setting or rising in the background.", "positive": "Child is outdoors.", "hard_negative": "A boy is school."}
+{"query": "Several men in protective suits are rolling a man on a gurnee.", "positive": "A man is on a gurney", "hard_negative": "Zombies are leaving the hospital"}
+{"query": "A construction worker is standing on a crane placing a large arm on top of a stature in progress.", "positive": "A person standing", "hard_negative": "Nobody is standing"}
+{"query": "Two Asian children, a boy and a girl, the girl looking squarely at the camera and the boy making a face.", "positive": "there are children near the camera", "hard_negative": "the children are sleeping in their rooms"}
+{"query": "A man is jumping unto his filthy bed.", "positive": "The bed is dirty.", "hard_negative": "The man is on the moon."}
+{"query": "A gentlemen dressed in a purple shirt with a red apron selling items to eat at a sport event held during the day in the summer time.", "positive": "There is a person and food.", "hard_negative": "There is a person selling food inside a fancy restaurant."}
+{"query": "Multiple women are wearing middle eastern outfits of gold, blue, yellow and red and performing a dance.", "positive": "There are at least 2 women.", "hard_negative": "The woman is alone and asleep in her canoe on the moon."}
+{"query": "a couple is walking down the sidewalk with their dog.", "positive": "A couple is outside with their dog.", "hard_negative": "A couple is walking their cat to the vet."}
+{"query": "Sidewalk vendor dressed in white shirt brown pants sells grilled corn.", "positive": "There is a person in this picture", "hard_negative": "The corn is chasing the rainbow"}
+{"query": "Taller runner in orange and smaller one in blue run side by side around track in crowded stadium.", "positive": "Two people are running together in the stadium.", "hard_negative": "The people are laying in the grass at the park."}
+{"query": "man grilling fish on barbecue", "positive": "The man is cooking fish.", "hard_negative": "The man is sailing a boat."}
+{"query": "The quarterback of the UTEP football team is about to be tackled by a member of the Wisconsin defensive team.", "positive": "The quarterback is about to be tackled by the opposing team.", "hard_negative": "The quarterback is a taking photos of the defensive team."}
+{"query": "A kid in a red and black coat is laying on his back in the snow with his arm in the air and a red sled is next to him.", "positive": "It is a cold day.", "hard_negative": "The sled is blue."}
+{"query": "A cyclist in neon yellow uniform rides past spectators behind a yellow banner reading \"Lotos.\"", "positive": "A cyclist is biking past spectators.", "hard_negative": "A cyclist is taking a water break."}
+{"query": "Young man running towards a tennis court while another is waiting in the other side of the net.", "positive": "A young man is running.", "hard_negative": "A young girl is running to a soccer field."}
+{"query": "A white-haired man in a white shirt looks at information in an orange-red binder.", "positive": "The man looks at a binder.", "hard_negative": "A man is a secret agent orange peeler."}
+{"query": "A group of people standing in the snow with a mountain in the background.", "positive": "People are outside.", "hard_negative": "People are lounging outside on the scalding beach."}
+{"query": "A young woman seated at a table on what appears to be a backyard deck holds a toddler, giving him a toy or bottle of some sort, while smiling into the camera.", "positive": "A woman is playing with a toddler.", "hard_negative": "The woman is changing the boy's diaper."}
+{"query": "Three men look on as two other men carve up a freshly barbecued hog in the backyard.", "positive": "There are men watching others prepare food", "hard_negative": "Other look while a man carves beef"}
+{"query": "A group is gathered outside holding flowers.", "positive": "Their hands are holding something", "hard_negative": "They throw the cannonballs away"}
+{"query": "A woman is standing near the water, looks to be throwing something.", "positive": "A woman is close to the water.", "hard_negative": "The man is standing near the water."}
+{"query": "A little boy bowls in a carpeted hallway.", "positive": "A boy is bowling.", "hard_negative": "A boy is skipping rope."}
+{"query": "A young blond woman with braided pigtails and wearing blue biking gear is bicycle racing along a dirt track.", "positive": "A young blond girl is riding a bike.", "hard_negative": "A young blond girl is laying in bed."}
+{"query": "A little boy wearing a blue stiped shirt has a party hat on his head and is playing in a puddle.", "positive": "The party boy is playing in a puddle.", "hard_negative": "The little boy is taking the bus to school."}
+{"query": "A girl in red dividing colored tabs.", "positive": "Girl in red dividing colored tabs.", "hard_negative": "Girl in blue chewing on paper."}
+{"query": "A young girl kisses a ring-bearing boy at a wedding.", "positive": "Two kids are dressed for a wedding.", "hard_negative": "Two kids are playing tag."}
+{"query": "A man with black pants on walks by a wall with unique art painted on it.", "positive": "A man is near a structure.", "hard_negative": "A man is in outer space."}
+{"query": "A woman is riding a blue bicycle in a park.", "positive": "A woman cycling around in the park", "hard_negative": "A woman jogging around the park"}
+{"query": "A well built black man stands in the subway, listening to headphones.", "positive": "A man with headphones on is standing in a subway.", "hard_negative": "A man is dancing for tips on the street."}
+{"query": "A woman is holding a baby by a window.", "positive": "There is a baby in the picture.", "hard_negative": "The woman's hands are empty."}
+{"query": "A man and woman are sitting at a table in front of a sign that reads IL PORTO and two wine bottles and two wineglasses are on the table.", "positive": "Two people are ingesting alcohol.", "hard_negative": "Two teetotalers prepare for dinner."}
+{"query": "Two men wrestle on the floor in front of an group of young men.", "positive": "Two men are wrestling on the floor.", "hard_negative": "Two men walk to their favorite casino."}
+{"query": "Rugby player lifted to attempt a score against a red team defending.", "positive": "sports team attempts to score", "hard_negative": "chess match turns violent"}
+{"query": "A woman wearing a white baseball cap purple coat holding a poster.", "positive": "A woman with a hat holding a poster.", "hard_negative": "A woman with no hat sits in the stands."}
+{"query": "A little girl in a red flowered dress with a tennis racket.", "positive": "A little girl in red.", "hard_negative": "A man in red."}
+{"query": "A boy rides on a camel in a crowded area while talking on his cellphone.", "positive": "A boy is riding an animal.", "hard_negative": "A boy is riding on an elephant through the streets."}
+{"query": "There are three men in this picture, two are on motorbikes, one of the men has a large piece of furniture on the back of his bike, the other is about to be handed a piece of paper by a man in a white shirt.", "positive": "A man is receiving a piece of paper.", "hard_negative": "Three men are on motorcycles."}
+{"query": "Two black dogs are frolicking around the grass together.", "positive": "Two dogs play in the grass.", "hard_negative": "Two dogs swim in the lake."}
+{"query": "A young girl wearing a pink coat plays with a yellow toy golf club.", "positive": "A girl is playing.", "hard_negative": "A girl is wearing a blue jacket."}
+{"query": "A man wearing a yellow striped shirt laughs while seated next to another man who is wearing a light blue shirt and clasping his hands together.", "positive": "Two men sitting together.", "hard_negative": "Two mimes sit in complete silence."}
+{"query": "Two men dressed in black practicing martial arts on a gym floor.", "positive": "Two men are doing martial arts.", "hard_negative": "Two men are dancing."}
+{"query": "A young man in a white and pink striped shirt is riding in a horse and buggy down a paved road.", "positive": "A man is riding a horse", "hard_negative": "A woman is riding a car"}
+{"query": "The woman is holding up the line with the fish that she caught in the lake with her bamboo fishing pole.", "positive": "The woman is fishing.", "hard_negative": "The woman is hunting for elk."}
+{"query": "A woman wearing gray pants, a white blouse and a black vest is jumping with one hand in the air as she goes through an indoor stadium.", "positive": "The jumping lady in slacks also has her hand raised.", "hard_negative": "The girl wearing a dress skips down the sidewalk."}
+{"query": "A shirtless man wearing a black hat and a scarf works on an anvil.", "positive": "A man works with an anvil.", "hard_negative": "A woman falls over an anvil."}
+{"query": "A brunette woman in a multicolored floral outfit and a pearl necklace is talking while holding a wineglass.", "positive": "a woman holds a glass", "hard_negative": "a woman is sleeping"}
+{"query": "A soldier is handing a picture to a woman holding a Donald Duck bag.", "positive": "A soldier hands a woman a picture.", "hard_negative": "A man loads a gun."}
+{"query": "A young boy in a gray and white striped shirt is playing guitar.", "positive": "A kid is playing the guitar.", "hard_negative": "A boy is talking on the phone."}
+{"query": "Professional women at the registration table of an event while men in suits look on.", "positive": "People gather for an event.", "hard_negative": "People are partying."}
+{"query": "A male soccer player has his foot extended as if he has just kicked the soccer ball while the ball flies through the air.", "positive": "The man is outside.", "hard_negative": "The man is laying on the couch."}
+{"query": "A man and a girl are both looking at something of interest.", "positive": "Something catches the eye of a man and girl", "hard_negative": "A girl sleeps in her moms lap"}
+{"query": "A woman walks on a sidewalk wearing a white dress with a blue plaid pattern.", "positive": "The woman is walking outside.", "hard_negative": "The woman is wearing jeans."}
+{"query": "A man doing maintenance on the railroad tracks", "positive": "There is a man working on the railroad tracks.", "hard_negative": "There is a woman doing work on the railroad tracks."}
+{"query": "Dog standing in grassy sand dune.", "positive": "A dog stands in sand near grass.", "hard_negative": "A basset hound runs by a park bench."}
+{"query": "People protesting ICE raids in front of a school.", "positive": "A group of people are participating in a protest.", "hard_negative": "Some men are helping a woman fix her car."}
+{"query": "Two people work construction on the inside of a house.", "positive": "Two people work inside.", "hard_negative": "The people are outside"}
+{"query": "There is a large group of people in front of Papa John's restaurant.", "positive": "The people are outside of the restaurant.", "hard_negative": "The group of friends are sitting inside the restaurant."}
+{"query": "A crowd watches a group of people dressed in yellow shirts perform.", "positive": "Spectators watching a performance.", "hard_negative": "Spectators watching a group of dolphins perform."}
+{"query": "A woman in black clothing runs down the street barefoot next to two people on bicycles and a female runner.", "positive": "The woman is outdoors.", "hard_negative": "The woman is walking down the street with high heels."}
+{"query": "A man in a Santa Claus costume is sitting on a wooden chair holding a microphone and a stringed instrument.", "positive": "The man is wearing a costume.", "hard_negative": "The man is swimming at the beach."}
+{"query": "A person dressed in red and black outside a cracked wall.", "positive": "A person in red and black near a wall.", "hard_negative": "A person in red and black falling through the ionosphere."}
+{"query": "Two brown-haired men wearing short-sleeved shirts and shorts are climbing stairs.", "positive": "The men are together.", "hard_negative": "The men have blonde hair."}
+{"query": "A young couple sit on the couch, the woman wearing a blue work shirt, her eyes half closed, while the man sits with his arm around her, looking towards the camera, in a gray shirt.", "positive": "A couple sit on the couch", "hard_negative": "Two brothers sit on the couch"}
+{"query": "A medium sized brown dog jumping", "positive": "The brown dog jumps up and down.", "hard_negative": "A small dog crouches under a porch."}
+{"query": "A man in a white button up shirt, and a man in a brown button up shirt discussing something over a table of food.", "positive": "Two guys having a conversation.", "hard_negative": "Two men playing a game of darts at a bar."}
+{"query": "Woman being photographed near a bicycle.", "positive": "Someone is shooting a photo.", "hard_negative": "Three people are riding bicycles down a lane."}
+{"query": "On the sidewalk, near the store's entrance, a local entertains all, by playing the accordion.", "positive": "A local is playing an accordion.", "hard_negative": "The man is playing a guitar."}
+{"query": "Several bicycles parked and a couple walking together.", "positive": "Two people are near some bicycles.", "hard_negative": "Several bicycles lie smashed on the ground and a couple stands holding sledgehammers."}
+{"query": "A man is on the ground taking his shirt off as a crowd watches.", "positive": "The crowd watches a person take off his shirt.", "hard_negative": "The crowd watches a gymnast on the uneven bars."}
+{"query": "A black dog is drinking next to a brown and white dog that is looking at an orange ball in the lake, whilst a horse and rider passes behind.", "positive": "Two dogs near a lake, while a person rides by on a horse.", "hard_negative": "Two dogs run together through a park, chasing toys as they are thrown."}
+{"query": "A young man in black pants and a gray shirt holds a skateboard with colorful decals upright while sitting on a gray stone block.", "positive": "The person is seated on a rock.", "hard_negative": "The person is walking through a crowd."}
+{"query": "A toddler dressed only in a pamper is sitting on the floor playing with 4 \"car\" pieces to a train set.", "positive": "A child plays with a train set.", "hard_negative": "People look for a lost dog."}
+{"query": "Two teams of children, one green the other red, play each other in a game of Rugby while it rains.", "positive": "The childrens rugby teams, red versus green are playing in the rain.", "hard_negative": "The children are wearing red and green to practice thier Christmas show."}
+{"query": "Five Women, wearing beautiful, colorful saris, in a circle, dancing with their hands raised and touching.", "positive": "There are five women close to each other.", "hard_negative": "The women have their hands by their side."}
+{"query": "Five little boys are playing baseball.", "positive": "A few little boys playing baseball outside.", "hard_negative": "A group of boys playing basketball."}
+{"query": "A man in yellow, white, and blue bicycle clothing and helmet grimaces as he rides his bicycle.", "positive": "A man is riding a bicycle.", "hard_negative": "A girl is riding a roller coaster."}
+{"query": "Two older men standing in front of a store of sorts.", "positive": "two older men stand", "hard_negative": "two young men play baseball"}
+{"query": "Two women playing field hockey on AstroTurf.", "positive": "Women playing a game of field hockey.", "hard_negative": "Women re-sod a field hockey field."}
+{"query": "A goalie tries to catch a ball during a soccer game.", "positive": "a goalie is doing his job as a goalie.", "hard_negative": "the goalie quit during the game."}
+{"query": "A woman wearing a red dress and head covering is standing outside of a building.", "positive": "A woman is outside.", "hard_negative": "A woman is in an airport."}
+{"query": "A man in his own world of him and his music just entertaining on the street corner.", "positive": "A man is on a street corner.", "hard_negative": "A man is eating at a local diner."}
+{"query": "A man in an orange vest is on the sidewalk playing a guitar and singing while others are walking down the sidewalk.", "positive": "A man is playing a guitar on the sidewalk and singing.", "hard_negative": "A man is in a purple bathrobe is inside his home cooking breakfast."}
+{"query": "a man doing tricks on a motorcycle", "positive": "A guy does stunts on a motorbike.", "hard_negative": "A man drives a speedboat."}
+{"query": "A man in a bar drinks from a pitcher while a man in a green hat looks on and a woman in a black shirt drink from a glass.", "positive": "A women in black drinks.", "hard_negative": "A child is sitting on a bar stool."}
+{"query": "A group of children playing and having a good time.", "positive": "The kids are together.", "hard_negative": "The children are reading books."}
+{"query": "Inside the igloo, the young man gets ready for his overnight stay.", "positive": "The young man gets ready for his overnight stay.", "hard_negative": "The young man gets ready to leave."}
+{"query": "Two female basketball teams watch suspenseful as the basketball nears the basket.", "positive": "Two teams are following the movement of a basketball.", "hard_negative": "Two female teams are leaving the court after a basketball game."}
+{"query": "A group of girls ride an ATV.", "positive": "Girls ride ATVs.", "hard_negative": "Girls ride their skateboards to the store."}
+{"query": "Man in brown and red checkered button up shirt and blue jeans makes a male and female laugh.", "positive": "A person in casual clothing is causing two others to be merry.", "hard_negative": "A flight attendant is demonstrating airplane safety but no one is paying attention."}
+{"query": "A girl with a purple sweater and a green headband is doing classwork in a classroom.", "positive": "A girl is doing work in a classroom.", "hard_negative": "A boy is scratching his name into his desk."}
+{"query": "A young boy is looking into a silver cellphone while resting his light brown-haired head on top of a resting blond dog's head.", "positive": "A person looking", "hard_negative": "Nobody is looking"}
+{"query": "The man is walking the bride down the aisle.", "positive": "A guy is participating in a wedding.", "hard_negative": "A man is hitting his wife."}
+{"query": "Three people are kayaking in dark waters.", "positive": "Three people are in a boat.", "hard_negative": "Three people are learning to use pogo sticks."}
+{"query": "Two children standing in the grass being sprayed by a hose.", "positive": "Children are getting hosed down on the grass", "hard_negative": "Children are playing tag in the grass"}
+{"query": "A crowd on a city street watches a man flipping in the air.", "positive": "The man is doing tricks.", "hard_negative": "The man is doing stunts in the countryside for farmers."}
+{"query": "Two brown dogs with green harnesses play tug-of-war.", "positive": "There are dogs playing together", "hard_negative": "Some dogs are swimming in a river"}
+{"query": "Guy in a dark suit, with a cigarette in his right hand while talking on the phone.", "positive": "The guy has on a suit smoking a cig and talking on the phone.", "hard_negative": "A women in a bright suite with a cig is talking on the phone."}
+{"query": "There are two people running around a track in lane three and the one wearing a blue shirt with a green thing over the eyes is just barely ahead of the guy wearing an orange shirt and sunglasses.", "positive": "Two people run around a track.", "hard_negative": "Two people drive around a track."}
+{"query": "A young adolescent is jumping into a pool.", "positive": "The child is diving in the pool.", "hard_negative": "The child is scared to jump in the water."}
+{"query": "A young man and young woman wearing backpacks are placing or removing an item from an old white tree snag, with other people standing or sitting in the background.", "positive": "a man and woman with backpacks", "hard_negative": "an eagle flies"}
+{"query": "A woman stands at a podium with a slide show behind her.", "positive": "A woman is standing at a podium.", "hard_negative": "A girl is eating at the cafeteria."}
+{"query": "A surfer is surfing catches a wave.", "positive": "A surfer catches a wave.", "hard_negative": "A surfer walks to the hot dog truck."}
+{"query": "A man sleeping on the ground in a subway.", "positive": "There is a man on the ground.", "hard_negative": "The man is sitting in his warm house."}
+{"query": "Two girls play with origami.", "positive": "The girls hold paper", "hard_negative": "The girls eat the paper"}
+{"query": "A photographer snaps a midair action shot of a snowboarder.", "positive": "The photographer has a camera.", "hard_negative": "The midair shot snaps at a boarder of snow."}
+{"query": "A man standing in front of a brick building.", "positive": "A man is outside.", "hard_negative": "The man pushes a women on the ground."}
+{"query": "An adult ballerina shows you children how to dance.", "positive": "A ballerina is teaching kids ballet.", "hard_negative": "The ballerina is sitting down judging the children's dancing."}
+{"query": "People in orange robes line up behind a man wearing sunglasses.", "positive": "People line up behind a one other person.", "hard_negative": "People are playing basketball."}
+{"query": "Two Children playing baseball at the park.", "positive": "Children playing baseball.", "hard_negative": "Two children lighting matches in their room."}
+{"query": "Two people are sitting next to a wood-stacked campfire at night.", "positive": "People are sitting outside at night.", "hard_negative": "The sun is shining brightly on the people."}
+{"query": "A young girl in a white summer dress walks the outer edges of a large park fountain.", "positive": "The girl is wearing a white dress.", "hard_negative": "The girl is sitting by the fountain."}
+{"query": "An older man sitting on a stool on the sidewalk playing a violin.", "positive": "An old man plays the violin on the sidewalk.", "hard_negative": "A woman performs a comedy routine in a club."}
+{"query": "2 woman walking down the street next to graffiti", "positive": "The woman are by grafitti.", "hard_negative": "The 2 woman are running."}
+{"query": "An older man is standing outside in front of a truck.", "positive": "A man is on his feet.", "hard_negative": "A disabled man is in a wheelchair."}
+{"query": "A guy singing on stage with a cool black shirt, while turning his microphone to the audience so they can sing along.", "positive": "A guy is singing on stage along with the audience.", "hard_negative": "A guy is telling a joke on stage."}
+{"query": "A hot-air balloon getting filled.", "positive": "A hot-air balloon is being operated on.", "hard_negative": "A hot-air balloon is flying over a mountain range."}
+{"query": "This crib contains a baby, stuffed animals, a box of matches, a cordless drill, a paperback novel, and a blanket.", "positive": "The baby is in the crib.", "hard_negative": "The boy is napping in the highchair."}
+{"query": "A man in a yellow shirt does East Asian calligraphy.", "positive": "A man does calligraphy.", "hard_negative": "A man does graffiti."}
+{"query": "Two girls talk at an ice skating rink.", "positive": "Two girls are near the ice.", "hard_negative": "Two women compete in a speed skating race."}
+{"query": "A group of people standing in front of a club.", "positive": "A group of people in front of a club.", "hard_negative": "There are seven people leaving the club."}
+{"query": "Balding man in gray sweater plays with his dog.", "positive": "A man is with an animal.", "hard_negative": "A man puts the sweater he knitted on a dog."}
+{"query": "The small girl is sitting in a harness, strapped to a tether, while others watch.", "positive": "There is a girl in a harness.", "hard_negative": "A little girl is riding a bicycle on a tightrope."}
+{"query": "A black dog runs with a deflated ball and a tiny tire.", "positive": "A dog with a ball.", "hard_negative": "A cat eats tuna."}
+{"query": "People are walking along the street.", "positive": "Humans beings are ambling down a road.", "hard_negative": "People are skipping down a street."}
+{"query": "A man is sitting in a chair and looking at something that he is holding.", "positive": "A man is sitting down looking at something.", "hard_negative": "A man is sleeping."}
+{"query": "An old women in a purple skirt is gardening with a old tool.", "positive": "There is a woman wearing purple outside.", "hard_negative": "A woman is cooking in the kitchen."}
+{"query": "Two girls are on a street sidewalk and one is sitting.", "positive": "girls are on the sidewalk", "hard_negative": "the street is empty"}
+{"query": "Women are standing outside", "positive": "There are muliple women outdoors.", "hard_negative": "The women are seated in a bistro eating lunch."}
+{"query": "The man in black has a condom on his head.", "positive": "The man is wearing a prophylactic on his head.", "hard_negative": "The man is wearing the condom on his foot."}
+{"query": "A woman is holding one young children with another standing next to her while a man is sitting by a small campfire.", "positive": "A woman is holding one young children with another standing next to her", "hard_negative": "A woman is holding one young chimp with another standing next to her"}
+{"query": "A distant person is climbing up a very sheer mountain.", "positive": "People are outside climbing.", "hard_negative": "The mountain is unclimbable for humans."}
+{"query": "Two girls and a guy are involved in a pie eating contest.", "positive": "Three people are stuffing their faces.", "hard_negative": "Three people are drinking beer on a boat."}
+{"query": "A couple in bathing suits walk on a beach.", "positive": "there is a couple", "hard_negative": "the couple are sitting inside"}
+{"query": "A basset hound is tied to a doorway in an alley in front of a man and woman.", "positive": "The dog is outside.", "hard_negative": "The dog is on the moon."}
+{"query": "A man in a plaid shirt and brown pants walking around town with one hand in his pocket.", "positive": "The man is going for a walk.", "hard_negative": "The man has a white dress shirt on."}
+{"query": "A young man plays a racing video game.", "positive": "a young man is staring at a screen", "hard_negative": "a young man is running outside"}
+{"query": "A man napping on the ground with a shirt over his eyes with a person standing beside him.", "positive": "A sleeping man.", "hard_negative": "Two people engaged in conversation."}
+{"query": "A woman in a green skirt and white tank top singing into a microphone.", "positive": "A woman sings.", "hard_negative": "A man sings."}
+{"query": "A man wearing blue jeans and a black shirt is talking to a man wearing white shorts while they are sitting outside in folding chairs on a patio.", "positive": "a man wearing jeans", "hard_negative": "the men are inside the church"}
+{"query": "A man with a gray shirt is rehearsing in front of a empty drum set.", "positive": "A man practices in front of a drum set.", "hard_negative": "A man drinks bleach."}
+{"query": "A mom and son enjoying a day in the park.", "positive": "A mom and son enjoying a day", "hard_negative": "A mom and son enjoying a day on mars"}
+{"query": "A soccer game in a large area with 8 yellow players and 4 black players.", "positive": "There is a soccer game with 12 players.", "hard_negative": "There is a basketball game in a cramped space."}
+{"query": "A child in shorts throws a snowball at a mountain.", "positive": "The kid is playing outside", "hard_negative": "The kid is sleeping"}
+{"query": "Four children are dressed as clowns and dancers on a stage while another two children dressed as clowns are suspended from ropes.", "positive": "Six children are putting on a clown show.", "hard_negative": "Six children are eating a Thanksgiving meal."}
+{"query": "People are getting money our of an ATM.", "positive": "People are getting money from an ATM.", "hard_negative": "People are in the check out line."}
+{"query": "Here is a picture of someone doing diagnostics on a vehicle in the dark.", "positive": "Someone is looking at a vehicle.", "hard_negative": "They are driving the vehicle over a bridge."}
+{"query": "Young children and parents splashing around a public fountain.", "positive": "There are families playing in a fountain", "hard_negative": "There are families eating lunch"}
+{"query": "A guy on a skateboard, jumping off some steps.", "positive": "a guy with a skateboard making a jump", "hard_negative": "a guy on a bike"}
+{"query": "A little girl in a purple cap blows soap bubbles.", "positive": "There are soap bubbles being blown.", "hard_negative": "The brown cap flew off the head of the girl while she was jumping rope."}
+{"query": "A man and a woman is walking with a dog across a beach", "positive": "The dog is walking.", "hard_negative": "The man and woman are alone."}
+{"query": "A woman in a long-sleeved shirt checks her phone as a man in a leather jacket passes behind her.", "positive": "She checks her phone.", "hard_negative": "A woman in a short-sleeved shirt."}
+{"query": "Two little girls play in a fountain.", "positive": "There are girls outdoors", "hard_negative": "The girls are watching tv"}
+{"query": "A boy is posing next to his scooter.", "positive": "A boy is next to a scooter.", "hard_negative": "A boy is dancing with his friend."}
+{"query": "Closeup of an elderly woman walking across a street with her male companion.", "positive": "People are outside.", "hard_negative": "People are walking along the beach."}
+{"query": "Two men wearing brown hats are doing work on a yellow house.", "positive": "Two guys are doing work on a dwelling.", "hard_negative": "Two men are hitchhiking to New York."}
+{"query": "A man and woman and two small children are sitting in the floor with wrapped Christmas presents.", "positive": "A man and woman are sitting around Christmas presents.", "hard_negative": "The presents have all been opened."}
+{"query": "A dog catching a Frisbee.", "positive": "A dog playing with a toy.", "hard_negative": "A dog eating food."}
+{"query": "A football coach guiding one of his players on what he should do.", "positive": "The coach knows how to play football.", "hard_negative": "The player already knew what he was doing."}
+{"query": "Man donned in jeans and football jersey prepares a meal complete with mean and beer, at his kitchen counter as the sunlight pours in from the kitchen window.", "positive": "A person is prepaing a meal during the day.", "hard_negative": "A man is taking a nap on the couch."}
+{"query": "A group of young women wearing black dresses stand in a row with three of them holding bouquets.", "positive": "A group of women with flowers.", "hard_negative": "A group of women with flowers standing in a circle."}
+{"query": "A girl in a red dress and white sneakers bouncing a tennis ball with a tennis racket.", "positive": "A girl is playing tennis.", "hard_negative": "A boy is playing tennis."}
+{"query": "A waitress is serving customers at a restaurant.", "positive": "A waitress is doing her job at the restaurant.", "hard_negative": "The waitress is sitting in a chair ignoring the customers around her."}
+{"query": "A man and woman are pictured from behind sitting close together on a couch while they play Nintendo DS", "positive": "A pair of people play video games together on a couch.", "hard_negative": "A pair of people walk the dog on the sidewalk."}
+{"query": "2 people in blue and purple costumes are looking at each other with a hill in the background.", "positive": "2 people looking at one another", "hard_negative": "2 men drive a golf cart"}
+{"query": "A group of six people, men and women, hold up a pole in the middle of a forest while another woman monitors this action.", "positive": "The group of people hold up a pole.", "hard_negative": "The group of people hold up a tire."}
+{"query": "A man and his two sons purchase food.", "positive": "They are shopping.", "hard_negative": "They are playing basketball."}
+{"query": "A man is navigating a boat.", "positive": "A man is on a water vehicle.", "hard_negative": "A man is steering his car down the highway."}
+{"query": "Several people are walking on a street and there is a large, blue crane towering and leaning against a building.", "positive": "Several people are walking on a street.", "hard_negative": "Several people are sitting on the grass, watching a crane move heavy blocks."}
+{"query": "A man in a hard hat and orange safety vest works on a machine in smoky air.", "positive": "A man is working on a machine.", "hard_negative": "Two dogs are fighting."}
+{"query": "A young boy slides into home plate while playing little league baseball.", "positive": "Boy playing baseball.", "hard_negative": "Children at waterpark splashing on hot day."}
+{"query": "A girl is sitting in a chair blowing up a large yellow party balloon.", "positive": "A child blows up balloons.", "hard_negative": "Seven men sit in meditation in a Buddhist temple."}
+{"query": "Three men gathered around a table of pink fish.", "positive": "A bunch of people are gathered around a piece of furniture.", "hard_negative": "Three men are gathered in the living room on the couch."}
+{"query": "The tiny girl dressed in a butterfly ballet costume, waves her wand near a nutcracker statue.", "positive": "A small girl dances ballet.", "hard_negative": "A young boy plays baseball."}
+{"query": "A young girl performing the nutcracker.", "positive": "a child was there", "hard_negative": "the child is sleep"}
+{"query": "Male crowd surfing at a concert.", "positive": "A man is at a concert.", "hard_negative": "A man is at a football game."}
+{"query": "Blue bus parked with back door opened as man in white shirt walk by it.", "positive": "Guy walks by bus.", "hard_negative": "A guy rides in his car to work."}
+{"query": "Someone holding a bag of oranges walking outside.", "positive": "Someone is holding oranges and walking", "hard_negative": "Someone is juggling oranges"}
+{"query": "A dog plays with a ball at the beach.", "positive": "A dog plays ball.", "hard_negative": "A cat plays with a ball of string."}
+{"query": "This is a picture of three young men, dressed in suits with one on a bike, and of a young lady wearing a white dress.", "positive": "three guys in suits", "hard_negative": "a dog sleeps"}
+{"query": "A girl and boy are smiling in a green hallway.", "positive": "People are standing in a hallway.", "hard_negative": "A girl and boy are wrestling on the front porch."}
+{"query": "A female dancer works on striking a pose.", "positive": "The woman is practicing modeling.", "hard_negative": "The woman is in the bathroom."}
+{"query": "A young girl sitting on a white comforter on a bed covered with clothing, holding a yellow stuffed duck.", "positive": "A yellow duck being held by a girl.", "hard_negative": "The young girls plays with her cell phone."}
+{"query": "Three people are wading in shallow water near a stone path and spraying fountains.", "positive": "Three people are wading in the water by the fountains.", "hard_negative": "Five men are swimming in the deep water."}
+{"query": "A baby smiles while swinging in a blue infant swing.", "positive": "a baby smiling", "hard_negative": "the baby is asleep"}
+{"query": "a girl at a wedding holding some orange flowers", "positive": "A girl is holding some orange flowers at a wedding.", "hard_negative": "A man is painting a house blue."}
+{"query": "There are three policemen on bikes making sure that the streets are cleared for the president.", "positive": "Three policeman ride on bikes", "hard_negative": "Three girls sit on bikes"}
+{"query": "The wrestler in white shorts is preparing to body slam his opponent in black shorts while the referee prepares to jump in.", "positive": "The athletes are wrestling.", "hard_negative": "The boxers are pounding on each other as the ref watches."}
+{"query": "The surfer crouches low and rides the wave.", "positive": "A person surfs.", "hard_negative": "The surfer stands tall and does a flip."}
+{"query": "Two people are walking down an isolated road.", "positive": "People are walking outside.", "hard_negative": "Two people are jumping on a trampoline on a isolated road."}
+{"query": "Person with a black helmet and vest, with a white undershirt, riding on a motorcycle on the street.", "positive": "A person rides a motorcycle on the street.", "hard_negative": "A man drives his car to the fair."}
+{"query": "A brown kid wearing jeans and no shirt is weaving a straw rug.", "positive": "The boy is using his hands to weave a rug.", "hard_negative": "The boy is sleeping."}
+{"query": "A small child sits in the water, holding on to a bit of wood while smiling for a picture.", "positive": "There is a child smiling for a picture.", "hard_negative": "A young child frowns at the camera."}
+{"query": "Three women, two wearing red shirts and one wearing a purple shirt, and a man, wearing a light blue shirt, jump on a basketball court with balls in their hands.", "positive": "Some people's are playing basketball in basketball court", "hard_negative": "Three people's are eating in hotel."}
+{"query": "A young girl has her hands in a tub of water with leaves in it.", "positive": "A girl with her hands in a tub.", "hard_negative": "A girl washes toys outside."}
+{"query": "Two toddler girls appear to enjoy basking on a pile of leaves as they smile for the camera.", "positive": "Two toddlers play on a pile of leaves.", "hard_negative": "Two toddlers are fast asleep in their cribs."}
+{"query": "A man in a red shirt is sitting at his desk with one leg on the desk, using a computer with two screens set up side by side.", "positive": "A male is not sitting outside.", "hard_negative": "A female is walking to the park."}
+{"query": "A dirt bike rider riding through the woods over logs.", "positive": "The dirt bike rider is riding a dirt bike.", "hard_negative": "The dirt bike rider is on the beach."}
+{"query": "A girl is posing outside.", "positive": "A girl is outside.", "hard_negative": "A girl is inside taking a picture."}
+{"query": "There is a room full of pictures all in the wall and a woman in a coat is looking back over her shoulders strangely.", "positive": "a room with pictures", "hard_negative": "the room is empty"}
+{"query": "A girl is feeding a goat.", "positive": "They are outside.", "hard_negative": "The goat is really a spy."}
+{"query": "Blurry people walking in the city at night.", "positive": "People walking in the city", "hard_negative": "Seven people dancing in a nightclub."}
+{"query": "A woman with short blond-hair smiling and singing into a microphone while a man in a striped shirt, further back, plays an acoustic guitar.", "positive": "Two people are performing.", "hard_negative": "The cow jumped over the couch"}
+{"query": "A group of people looking at menus in a white restaurant.", "positive": "The people are inside.", "hard_negative": "The people are sleeping in their beds."}
+{"query": "A woman sits in a chair under a tree and plays an acoustic guitar.", "positive": "A woman plays an acoustic guitar under a tree.", "hard_negative": "A woman is climbing a tree."}
+{"query": "A person is climbing and has nearly reached the sign at the top", "positive": "a person outside", "hard_negative": "a man fishing"}
+{"query": "Man juggling apples while sitting on a couch with another man on one side and a woman on the other.", "positive": "Two men sitting near a woman.", "hard_negative": "Two men drop off their friend at her house."}
+{"query": "Two little girls and one little boy are running on the grass.", "positive": "Three kids are running.", "hard_negative": "The kids are sitting down."}
+{"query": "A person crouches under a yellow umbrella on the beach.", "positive": "There is an umbrella and a person on a beach.", "hard_negative": "There is a person sitting under a large tree."}
+{"query": "A boat docked on a river.", "positive": "There's a dock", "hard_negative": "The boat is sinking"}
+{"query": "Man with black and white hair wearing a white shirt and long boots sweeps outside.", "positive": "A man has black and white hair", "hard_negative": "The man is bald"}
+{"query": "A group of young Asian men who are sans shirts and wearing identical black and white plaid pants with red belts are dancing and waving their arms in the air around a fire.", "positive": "The men are close to fire.", "hard_negative": "The men are underwater."}
+{"query": "A woman with blond-hair is sitting at a table and talking to a man with glasses.", "positive": "Two people converse at a table.", "hard_negative": "Two men read the paper at a cafe."}
+{"query": "Two people, one in light jeans and a striped shirt, are playing pool.", "positive": "The people play pool", "hard_negative": "the people are running"}
+{"query": "A man is creating a sand painting on the floor.", "positive": "A man is making art.", "hard_negative": "A woman destroys a sand painting."}
+{"query": "Football players on a field in front of a crowd.", "positive": "There is a crowd", "hard_negative": "There are people watching football on tv"}
+{"query": "A man plays mini-gold on the SportsCenter set while two others observe.", "positive": "The man is being watched.", "hard_negative": "Two goldfish are riding bikes in a giant pile of mashed potatoes."}
+{"query": "Two dancers in azure appear to be performing in an alleyway.", "positive": "A pair of people are in the alleyway.", "hard_negative": "A pair of dancers are sleeping on the sidewalk."}
+{"query": "A well safety equipment biker racing on the trail in a wooded area with number 569 on his bike", "positive": "A biker races on the trail", "hard_negative": "A snowboarder falls"}
+{"query": "Two monks are visiting a big city.", "positive": "The monks are dressed in their robes enjoying the big city.", "hard_negative": "The monks are running down the dirt trail."}
+{"query": "A young girl in red pants looks at a window mannequin as people walk past.", "positive": "A girl is in front of a window.", "hard_negative": "The girl is blind."}
+{"query": "A man curls up in an orange blanket on the street.", "positive": "A man is holding a blanket outdoors.", "hard_negative": "A man is folding his blanket inside."}
+{"query": "Men playing football.", "positive": "Some men are playing a game.", "hard_negative": "Some men sleep."}
+{"query": "An African-American football player, wearing jersey number 12 for the University of Oklahoma, throws a football to his left.", "positive": "A man throws a football.", "hard_negative": "The player throws the baseball to the umpire."}
+{"query": "Man wearing a mask of an old man.", "positive": "A man wears a mask.", "hard_negative": "A man wears a green mask that turns him into a superhero."}
+{"query": "A band is playing on a stage while a lady sings.", "positive": "A woman sings.", "hard_negative": "A woman fires a gun."}
+{"query": "A woman walks down the road in all black as she holds a red umbrella over her head in the rain.", "positive": "The woman in black is walking through a rainstorm with her umbrella.", "hard_negative": "The woman in black is dancing in the rain without an umbrella."}
+{"query": "A light brown dog with his tail in the air jumps of a pontoon toward the water.", "positive": "A dog jumps toward the water.", "hard_negative": "A cat is jumping in the air."}
+{"query": "An older couple is resting on a bench.", "positive": "Two people are sitting next to each other.", "hard_negative": "A couple is walking in the park."}
+{"query": "A group of people in white uniforms doing a show in the middle of the street.", "positive": "People are wearing white uniforms.", "hard_negative": "Dogs in costumes are juggling in the street."}
+{"query": "Man in leather jacket reading a book.", "positive": "A man is reading", "hard_negative": "The jacket is fleece"}
+{"query": "Three men converse in a crowd.", "positive": "Three men are in a crowd", "hard_negative": "Three men talk while laying down"}
+{"query": "Two men one in orange shirt, who is ahead, and one in green shirt running a race.", "positive": "Two men running in a race.", "hard_negative": "Two men playing soccer in the park."}
+{"query": "A person wearing a robe and a pointed hat is holding a basket of bananas.", "positive": "A person has some fruit.", "hard_negative": "A person is wearing a flat hat."}
+{"query": "children are playing with a mortar and pistil", "positive": "THe children are playing.", "hard_negative": "The kids are playing football"}
+{"query": "A crowd gathers along the handrail of a boardwalk to watch young men leap into the air on the beach sand.", "positive": "A number of boys are airborne at the beach.", "hard_negative": "A group of young men lay on their bellies at the beach."}
+{"query": "older men talking and standing around.", "positive": "The older men are visiting with each other.", "hard_negative": "The men are walking to their cars in silence."}
+{"query": "A man with white tennis shoes and an orange jacket, is sitting in a lawn chair.", "positive": "a man is sitting in a lawn chair", "hard_negative": "a woman is sitting in a lawn chair"}
+{"query": "Three women in festive dresses are dancing in a large city street while a large crowd is behind them holding up a banner.", "positive": "Three women dance in front of a large crowd", "hard_negative": "Three men tapdance in front of people"}
+{"query": "A woman in a blue tank-top rides a blue bicycle in front of a crowd of meandering pedestrians.", "positive": "A woman rides a bike in front of a crowd", "hard_negative": "A man rides a bike in front of a crowd"}
+{"query": "A crowd of people walking on a pavement at night.", "positive": "It is the evening.", "hard_negative": "The crowd of people are running."}
+{"query": "A couple is a standing together the woman is adjusting a flower on the man's lapel and they are dressed in wedding apparel.", "positive": "People are going to a wedding.", "hard_negative": "People are naked."}
+{"query": "a woman applies makeup to a woman in black.", "positive": "The woman is putting makeup on the woman in black.", "hard_negative": "The woman is putting tanner on herself."}
+{"query": "At a convention, a man takes a phone call behind the booth where he is selling things while others examine his merchandise.", "positive": "A man is at a booth.", "hard_negative": "The man is walking outside."}
+{"query": "One man dressed in a martial arts uniform kicks another man dressed the same way in the groin while an umpire and audience looks on.", "positive": "One man kicks another in the groin.", "hard_negative": "The man kicks the umpire."}
+{"query": "A young boy in a Cookie Monster t-shirt sits on the ground on a fall day, holding a fallen leaf in his hand as an expression of joy lights up on his face.", "positive": "A young boy is sitting outdoors.", "hard_negative": "A young boy is standing indoors."}
+{"query": "A shirtless man is sitting on a chair on the sidewalk reading a book.", "positive": "A man is reading outdoors.", "hard_negative": "A man is ice skating."}
+{"query": "A man in a beige trench coat is walking in the rain.", "positive": "A gentleman wearing a beige trench coat is walking in the rain.", "hard_negative": "A man in a blue shirt is sitting in the rain."}
+{"query": "A man and a woman are walking next to a flower display case and an escalator.", "positive": "Two people are walking.", "hard_negative": "Two women are standing still talking."}
+{"query": "A young female student, wearing an owl t-shirt, works on an experiment by filling her test tubes.", "positive": "The female student worked on the experiment.", "hard_negative": "The student was wearing a wolf t-shirt."}
+{"query": "An old man and a child walk together along a pathway near a building.", "positive": "Two people are walking together.", "hard_negative": "There are no people walking."}
+{"query": "A woman prays while a young girl lights a fire", "positive": "The woman is praying.", "hard_negative": "The woman and girl are sleeping."}
+{"query": "Two men pause on a rock while hiking in barren terrain.", "positive": "Two men are hiking outdoors.", "hard_negative": "Two men are in a kayak."}
+{"query": "A young dark-haired woman crouches on the banks of a river while washing dishes.", "positive": "A woman washes dishes.", "hard_negative": "A man cuts his hair."}
+{"query": "A man and woman are drinking at a bar.", "positive": "Two people are having drinks", "hard_negative": "Two people are slapping each other"}
+{"query": "Three sisters, barefoot in pink dresses and who range in age from preschool to teenager are pictured on a beach as they look out at the Ocean.", "positive": "Three sisters, barefoot in pretty pink dresses and who range in age from preschool to teenager", "hard_negative": "Three sisters, barefoot in pink dresses and who range in age from preschool to 90"}
+{"query": "A woman in a yellow dress transporting picked food from the fields to wherever it may need to go.", "positive": "A woman transports her crops from the fields", "hard_negative": "A man transports his crops from the field"}
+{"query": "A reson is in a blue canoe in front of some plants.", "positive": "a blue canoe in front of some plants", "hard_negative": "a blue canoe inside of some plants"}
+{"query": "Five people in cowboy hats are on horses at a rodeo show.", "positive": "People are riding horses.", "hard_negative": "The horses are running off without riders."}
+{"query": "Four females wearing helments are riding on an ATV.", "positive": "Four women are driving an all terrain vehicle.", "hard_negative": "Three men are driving motor scooters."}
+{"query": "A race dog numbered six is midair.", "positive": "The dog is in midair", "hard_negative": "A cat is numbered six"}
+{"query": "A young man is riding a dirt bike while standing up.", "positive": "The young man stands on the pedals of his dirt bike.", "hard_negative": "A young man takes a helicopter to work."}
+{"query": "A man and three kids walk up a paved hill.", "positive": "People are walking outside.", "hard_negative": "A woman walks her children home from school."}
+{"query": "A little girl in brown is playing with two hula-hoops.", "positive": "The girl has several toys.", "hard_negative": "The person playing with hula-hoops is male."}
+{"query": "A man walking in a crowd, draped in a Canadian flag.", "positive": "A man is wearing a Canadian flag in the crowd.", "hard_negative": "A girl in a long dress is walking through the crowd."}
+{"query": "Man with mustache plays violin.", "positive": "The man is playing an instrument.", "hard_negative": "The man is playing the tuba."}
+{"query": "A woman in a yellow shirt seated at a table.", "positive": "A person is waiting at a table.", "hard_negative": "A woman is standing on top of the table dancing around."}
+{"query": "Two black dogs on a snow covered ground, the ground appears blue in the background, one dog is jumping with feet off the ground.", "positive": "The dogs are black.", "hard_negative": "The dogs are resting indoors."}
+{"query": "A man punting a football as fans from the opposing team watch in the background", "positive": "A man punts a football", "hard_negative": "A man catches a football"}
+{"query": "Little girl eating cake outside.", "positive": "A Little girl is enjoying cake outside.", "hard_negative": "A little girl is playing in the basement."}
+{"query": "Two cyclist a man and a woman enjoy a leisurely bike ride on the cobblestone path.", "positive": "The two cyclists are outdoors.", "hard_negative": "The two people are taking a stroll through a museum."}
+{"query": "Several men are sitting around a parking lot.", "positive": "There is people outside.", "hard_negative": "The people are standing up."}
+{"query": "A woman in a blue jacket is drinking tea from a cup.", "positive": "A woman wearing a blue jacket is drinking tea.", "hard_negative": "A woman is eating a donut."}
+{"query": "People working digging a hole.", "positive": "People are outside digging a hole.", "hard_negative": "There are people covering up a hole that someone is stuck inside of."}
+{"query": "A man is looking affected by results from his poker game.", "positive": "The man plays poker", "hard_negative": "The man swimming"}
+{"query": "Three young women pose for the camera at a parade.", "positive": "A trio of women get their picture taken.", "hard_negative": "The women went to the parade but no one took their picture."}
+{"query": "Four young people stand in a circle conversing, while a man in white button-down shirt, coral colored pants and green hand bandage stands to the side.", "positive": "The man is excluded from the conversation", "hard_negative": "The four old men talk about grapes"}
+{"query": "Two men play basketball.", "positive": "Men are playing a sport together.", "hard_negative": "Two men are playing dodge ball."}
+{"query": "A hiker pokes his head out of a tent high in the mountains.", "positive": "The hiker is outside.", "hard_negative": "The hiker is swimming in a pool."}
+{"query": "A middle-aged woman pretends to be a DJ as younger people point.", "positive": "People are pointing at a Middle-aged woman.", "hard_negative": "A woman is a DJ for a party in a submarine."}
+{"query": "A young child wearing a pink top is with a female adult.", "positive": "A kid is with a woman.", "hard_negative": "A kid is alone."}
+{"query": "A young woman wearing a black shirt and black shorts jumps in the air at the beach.", "positive": "A women in black at the beach.", "hard_negative": "A women taking a nap at the lake."}
+{"query": "A woman building herself a sand castle.", "positive": "a women is making a sand castle", "hard_negative": "the women is playing in the snow"}
+{"query": "The elderly bus driver opening the door for a passenger who needs to get off.", "positive": "The elderly driver opens the bus doors.", "hard_negative": "The bus driver is fast asleep behind the wheel."}
+{"query": "Outdoors in front of a crowd, a man plays an instrument by blowing into pipes he holds up to his face.", "positive": "A person playing an instrument outside.", "hard_negative": "A man sitting on the couch reading a book."}
+{"query": "A man performs in an outdoor space, with a lot of onlookers.", "positive": "The man is performing.", "hard_negative": "There is no one watching the man."}
+{"query": "A Person in a dark shirt and shorts and a white helmet is jumping a bicycle over a mound of dirt.", "positive": "Someone rides a bicycle while wearing a helmet.", "hard_negative": "A person rides a bike on a sidewalk without a helmet."}
+{"query": "A man on a scenic canoe trip.", "positive": "A man is on a canoe.", "hard_negative": "No one is on a canoe."}
+{"query": "Several toddlers in a room with many toys, a yellow lamp, a window, gray carpeting and paintings.", "positive": "Toddlers are in the room with toys.", "hard_negative": "Two giraffes sing a song together."}
+{"query": "Two race car drivers smile on a stage next to a female spokes model wearing a white dress and white and blue boots.", "positive": "Two race car drivers are on stage", "hard_negative": "Two race car drivers are swimming on a beach"}
+{"query": "A man is leaning out of a window to paint some decorative iron white.", "positive": "A man is painting.", "hard_negative": "A woman paints."}
+{"query": "Two people sit facing away in a downtown scene with a motorcycle parked in front of a pool", "positive": "There are 2 people in this picture, as well as a two-wheeled vehicle.", "hard_negative": "The two people run as quickly as they can for shelter as the storm picks up and begins swirling all around them."}
+{"query": "A fisherman with his friend is setting up his pole.", "positive": "Two guys get ready to fish.", "hard_negative": "A woman makes a low country boil."}
+{"query": "A US Air-force member is handing off a little girl and her toy unicorn to a local citizen.", "positive": "A person is taking a little girl with a toy from an Airman.", "hard_negative": "A marine is dancing with kids and their toys."}
+{"query": "A cyclist is performing a jump next to a black advertising banner.", "positive": "Someone performing a jump with a bicycle.", "hard_negative": "A person is sleeping in a hammock."}
+{"query": "Reflections of people walking in a big city.", "positive": "Several folks stroll through the city.", "hard_negative": "Musicians play a concert on a busy street."}
+{"query": "A young child is washing his hands with soap in the kitchen.", "positive": "The child uses soap to wash his hands.", "hard_negative": "The young child makes faces at his teacher."}
+{"query": "A man is on the side of a mountain and hiking around huge rocks.", "positive": "A man is outdoors hiking.", "hard_negative": "The man takes a nap while hiking."}
+{"query": "A little girl in a blue dress and white shoes is sitting on her red toy tractor, in a dirt road near a fence.", "positive": "The dress is blue.", "hard_negative": "The girl is standing."}
+{"query": "A little girl in a blue dress is sitting on a red you tractor.", "positive": "A girl sits on a vehicle.", "hard_negative": "The girl is riding on a truck."}
+{"query": "a blue and gray race car driving on a dirt track.", "positive": "A race car is driving on a dirt track.", "hard_negative": "A race car is is driving on a paved road."}
+{"query": "A bride wearing her bridal gown is taking pictures with her colorful wedding bouquet in front of cows.", "positive": "A bride is taking wedding pictures.", "hard_negative": "A groom is riding a horse."}
+{"query": "A man smiles while he holds a newborn in a church pew.", "positive": "Someone holding their baby is smiling while sitting down.", "hard_negative": "A woman sitting at church and holding a baby."}
+{"query": "A brown dog is trying to retrive his orange ball that has fallen in a dirt hole.", "positive": "A dog is trying to get his toy back.", "hard_negative": "A brown dog is eating meow mix from a hole."}
+{"query": "A man in a white button-up shirt looks to the side while sitting at a table by the street.", "positive": "The man is sitting at the table.", "hard_negative": "A man is standing by himself outside of an office building."}
+{"query": "A young girl in a pretty pink and white blouse and shorts is participating in a soccer game with other children.", "positive": "Kids are playing a soccer game.", "hard_negative": "A man is making a candy sculpture out of peppermints."}
+{"query": "A man is signing a guitar, whose owner is smiling and has a hat with lights attached to it.", "positive": "Two people are next to a guitar.", "hard_negative": "A man is signing a book for a fan."}
+{"query": "A young man is pushing a lawn mower to mow the grass.", "positive": "A guy pushes a machine through the grass.", "hard_negative": "A guy rides a lawn mower in the grass."}
+{"query": "The kid is wearing a blue jacket and standing in shallow beach water.", "positive": "The kid is at the beach.", "hard_negative": "The kid is swimming in the deep ocean."}
+{"query": "Six children at a table with a green tablecloth, five female, one male, looking at the camera, plates and condiments at the table, two empty chairs, and red roses in the background", "positive": "Kids are sitting in six of the eight chairs.", "hard_negative": "Half of the children are male."}
+{"query": "A woman in a white hat and red dress holding hands with a man in a black jacket with a flower in his upper pocket.", "positive": "A woman is touching the man.", "hard_negative": "The woman is alone and asleep in the car on the moon."}
+{"query": "A group of woman wearing scarves on their heads crowd together next to a building.", "positive": "A group of humans standing outside", "hard_negative": "A group of bald men outside"}
+{"query": "A little girl planting her first flower in the sand.", "positive": "The little girl is planting her first flower.", "hard_negative": "The little boy is planting his first worm."}
+{"query": "A girl in blue rides a horse over a tall jump.", "positive": "A girl is riding a horse.", "hard_negative": "A girl is walking her dog down the street."}
+{"query": "A horse and rider are in midair as they leap over an obstacle in a wooded area with another photographer snapping pictures.", "positive": "A person is riding a horse.", "hard_negative": "A person is riding a donkey through the sands of the desert."}
+{"query": "Two girls riding on an amusement part ride.", "positive": "The girls are outdoors.", "hard_negative": "The girls are at school."}
+{"query": "Two girls on an amusement park ride smiling and laughing.", "positive": "The two girls were happy at the amusement park", "hard_negative": "The two girls were home watching television and feeling sad"}
+{"query": "A man and women walk atop a hill.", "positive": "A man and woman are walking.", "hard_negative": "The man and woman are sitting."}
+{"query": "At a little league baseball game, an umpire calls \"safe\" as a player crosses home.", "positive": "A player crosses home at a little league baseball game.", "hard_negative": "A football player scores a touchdown."}
+{"query": "An old dusty car is half way in the brown water.", "positive": "A car partially sticking out of water.", "hard_negative": "A man drives his car."}
+{"query": "A long-haired brown and white dog carries a snowball in his mouth.", "positive": "A dog carries a snowball.", "hard_negative": "A dog carries a bone."}
+{"query": "A young man in jogging slacks is checking information on his mobile devise while listening to something on a crowded commuter rail car.", "positive": "The young man is looking at his mobile device.", "hard_negative": "a man on a boat"}
+{"query": "A young man in jogging slacks is checking information on his mobile devise while listening to something on a crowded commuter rail car.", "positive": "a man in jogging pants checks his device", "hard_negative": "The young man is playing basketball."}
+{"query": "An african american woman with 2 young girls.", "positive": "There is a woman with two girls.", "hard_negative": "There is a man with his daughters."}
+{"query": "Several people wait to checkout inside a store with a warehouse looking ceiling.", "positive": "many people are waiting in a store", "hard_negative": "an elevator being serviced"}
+{"query": "Three people and a white dog are sitting in the sand on a beach.", "positive": "People sitting on the beach.", "hard_negative": "Three dogs and a person are sitting in the snow."}
+{"query": "Young boy with tongue out hula hooping with two hula hoops in a crowded area, man in blue shirt stands behind him.", "positive": "A boy is hula hooping while a man is behind him.", "hard_negative": "A boy is playing a clarinet."}
+{"query": "A group of women wearing bikinis are playing beach volleyball.", "positive": "Women play volleyball.", "hard_negative": "Women play volleyball fully covered."}
+{"query": "A man sweeping in the street.", "positive": "A man is cleaning the street.", "hard_negative": "A man is using his vaccuum to clean the street."}
+{"query": "Male in brown leather jacket and black slacks, looking down at his phone, leaning against a brown painted box.", "positive": "Male in brown leather jacket and black slacks, looking down at his phone", "hard_negative": "Male in brown leather jacket and black slacks, looking down at his giraffe"}
+{"query": "A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.", "positive": "Somebody who is depicted is wearing a costume from a movie.", "hard_negative": "Everybody that is visible is the exact same age."}
+{"query": "A woman is eating what appears to be a mussel.", "positive": "The woman is about to ingest food", "hard_negative": "The woman is running in a marathon"}
+{"query": "Two kids begin to make a snowman on a sunny winter day.", "positive": "Two kids making a snowman.", "hard_negative": "Two penguins making a snowman."}
+{"query": "A man in a green shirt is singing karaoke while a young woman with long brownish hair stands by and listens.", "positive": "A man is singing a song.", "hard_negative": "A man playing a guitar for a small crowd."}
+{"query": "Excavation of the ruins of a ancient temple.", "positive": "A ancient temple is evacuated.", "hard_negative": "People line up at the temple."}
+{"query": "A dog with big ears holds a ball in his mouth.", "positive": "The dog has big ears.", "hard_negative": "The dog has small ears."}
+{"query": "A man riding a red motorbike near a large crowd of people by some tents.", "positive": "A man is on a motorbike.", "hard_negative": "A man is on a skateboard."}
+{"query": "A woman in a wheelchair is talking to her friend while surrounded by other people walking in the park.", "positive": "The woman is outdoors.", "hard_negative": "The woman is eating a hotdog in the middle of her bedroom."}
+{"query": "Old man with gray blanket on squatting against a wall", "positive": "Old man squats against a wall.", "hard_negative": "Old man stands with a blanket on his shoulder."}
+{"query": "A black dog holding an orange object in the water.", "positive": "A dog holds an object in the water.", "hard_negative": "A dog is trying to peel an orange in the water."}
+{"query": "A youth is kicking a soccer ball in an empty brick area.", "positive": "A human kicking.", "hard_negative": "Nobody is kicking."}
+{"query": "Four men in red vests with crosses on them ski on a mountain.", "positive": "Four people are skiing", "hard_negative": "The friends are sitting in a coffee shop."}
+{"query": "Three young girls in uniforms stand in front of a whiteboard looking at one another with one girl holding her arm out to another girl while another girl sits in her uniform in front of classroom posters and maps.", "positive": "Girls standing at a whiteboard in front of class.", "hard_negative": "Girls in line for the bathroom."}
+{"query": "A woman wearing a hat and a man covering his eyes sit on benches on a boat.", "positive": "A women and a man are sitting on a boat", "hard_negative": "A women and a man are dancing on the boat together."}
+{"query": "A man in a pink shirt is stealing an old couples bike, the possibility he is a loan shark collecting his dues are high.", "positive": "A couple is having there bike stolen.", "hard_negative": "A couple is giving a man a bike as a gift."}
+{"query": "A girl in a green knit cap stands ready to push a sled, with a little boy behind her.", "positive": "A person in a green knit cap stands ready to push a sled, with a little boy behind her.", "hard_negative": "A boy in a green knit cap stands ready to push a sled, with a little boy behind him."}
+{"query": "A street vendor selling his art.", "positive": "A man is selling things on the street.", "hard_negative": "A man is hanging artwork inside a museum."}
+{"query": "A person on a bike is midair, twisting his body around the handlebars, with graffiti behind him.", "positive": "A person is riding a vehicle.", "hard_negative": "A person is eating a cheeseburger on a bike."}
+{"query": "A man with shoulder length dark hair sits near the rocks of a waterfront while holding a cigarette in his right hand.", "positive": "A man holding a cigarette.", "hard_negative": "A bald man holds a cigarette."}
+{"query": "A boy cooking on a grill.", "positive": "A grill which a boy is cooking on.", "hard_negative": "A boy sleeping under a tree."}
+{"query": "Two commandos with gun by a staircase and an old man holding a hat is sitting on the stairs.", "positive": "Two soldiers carry weapons.", "hard_negative": "Two unarmed men are held hostage by an empty handed old man."}
+{"query": "A brown-haired lady dressed all in blue denim sits in a group of pigeons.", "positive": "A lady in blue has birds around her.", "hard_negative": "A  brown-haired lady is riding a horse."}
+{"query": "An old woman in a sunlit room winds rough yarn into balls, the finished yarn balls placed in a pile to her right.", "positive": "A woman winds yarn into a balls next to a pile of balls", "hard_negative": "A man winds yarn into balls"}
+{"query": "A group of girls in matching brown dresses and sandals dance in unison.", "positive": "Girls dance together.", "hard_negative": "The girls sleep."}
+{"query": "A smiling woman is playing the violin in front of a turquoise background.", "positive": "A woman is sitting and playing the violin.", "hard_negative": "a woman is playing a piano."}
+{"query": "Two men, both have glasses, are wearing striped shirts are in the kitchen preparing a meal and washing up.", "positive": "Two guys are fixing a meal in the kitchen.", "hard_negative": "Two men are talking as their wives make dinner in the kitchen."}
+{"query": "A man wearing shorts is playing an acoustic guitar while a person in the background looks the other way.", "positive": "a guy plays music while others look away", "hard_negative": "two women sing opera"}
+{"query": "Many people are listening to a concert, and TV crew is recording the audience reaction.", "positive": "People are listening to a concert.", "hard_negative": "A band is practicing in front of an empty room."}
+{"query": "A man in a park holding a ball.", "positive": "A man is outdoors.", "hard_negative": "A man is taking a nap in bed."}
+{"query": "A sports match is taking place between one team wearing the colors red and white and another team sporting the colors black and blue.", "positive": "The two teams are wearing different colors.", "hard_negative": "Two teams are refusing to play each other naked."}
+{"query": "An older man with large patches on his jeans looks on as a young man swings an axe downward toward a tree stump.", "positive": "Two men are outside.", "hard_negative": "Two men are indoors playing checkers."}
+{"query": "Three ladies wearing dresses are bent down in a muddy creek gathering green plants.", "positive": "Three women are outdoors.", "hard_negative": "Three females are on an airplane."}
+{"query": "a surfer is riding the waves whilst another surfer sits on his board waiting.", "positive": "There are people surfing.", "hard_negative": "A surfer watches as his friend is eaten by a large shark."}
+{"query": "A middle-aged man works under the engine of a train on rail tracks.", "positive": "A guy is working on a train.", "hard_negative": "A guy is driving to work."}
+{"query": "A man standing at the front of the room is pointing up while several people who are seated look towards him.", "positive": "A man standing in a room is pointing up.", "hard_negative": "A man is sitting outside."}
+{"query": "A construction worker peeking out of a manhole while his coworker sits on the sidewalk smiling.", "positive": "A worker is looking out of a manhole.", "hard_negative": "The workers are both inside the manhole."}
+{"query": "A group of children walking on a trail.", "positive": "Children are walking.", "hard_negative": "The people are adults."}
+{"query": "A boy in a colorful hat and red shirt holding a green seed at the beach.", "positive": "A boy is outdoors.", "hard_negative": "A boy is sitting on a sofa at home."}
+{"query": "A young women, in a black shirt, is holding a bike, while a young boy is holding a skateboard.", "positive": "A young woman is holding a bike while a young man is holding a skateboard.", "hard_negative": "A young woman and young boy are holding hands."}
+{"query": "A white dog, a brown dog, and a black dog frolicking in a grassy field.", "positive": "Several dogs are playing outdoors.", "hard_negative": "The dogs are eating their dinner in the kitchen."}
+{"query": "Two men sleeping on a park bench, slumped over each other.", "positive": "Two men are sleeping.", "hard_negative": "Two women are sleeping."}
+{"query": "Two men are listening to music through headphones.", "positive": "Two men listen to music.", "hard_negative": "Two men play with yo-yos."}
+{"query": "A woman is smiling at a baby in a stroller in a meadow.", "positive": "A woman is outdoors.", "hard_negative": "A woman is angry at the baby."}
+{"query": "A woman carrying a shopping bag in front of Fisher's Popcorn.", "positive": "a woman is shopping by fisher's popcorn", "hard_negative": "a woman is sitting in a cafe"}
+{"query": "A young boy chases away two Canadian geese.", "positive": "The young boy is outdoors.", "hard_negative": "The young boy is watching TV."}
+{"query": "A person is standing on top of a snow covered mountain.", "positive": "A person stands on a mountain.", "hard_negative": "A person stands on a beach in Hawaii"}
+{"query": "A well dressed man and woman wearing floral dress dancing.", "positive": "the man is well dressed.", "hard_negative": "the man is actually a woman."}
+{"query": "Two men pull a fishing net up into their red boat.", "positive": "Two men are fishing.", "hard_negative": "Two men are hunting deer."}
+{"query": "A man is wearing a hard hat and orange jacket standing in front of a red ladder.", "positive": "A man stands in front of a ladder.", "hard_negative": "A man floats up a ladder."}
+{"query": "Woman reading a book in a laundry room", "positive": "A woman is reading a book.", "hard_negative": "The woman is singing."}
+{"query": "Photographed from below, a somewhat husky man wearing a white and black windowpane-plaid shirt and dark trousers is holding a little boy who is wearing orange pants and a navy-blue shirt.", "positive": "The man is kinda husky.", "hard_negative": "The man is holding his daughter."}
+{"query": "Indian women playing musical chairs with white woman.", "positive": "indian women playing musical chairs with white woman in out door", "hard_negative": "indain woman playing cricket with white woman"}
+{"query": "women in a hat a making selling goods.", "positive": "A woman is selling goods while wearing a hat.", "hard_negative": "A woman is in a bar drinking beer."}
+{"query": "A festival displays two men dressed in red makeup and costume, while an older man has cream on his face.", "positive": "A festival displays two men dressed up in red makeup and costume, while an older man has some cream on his face.", "hard_negative": "The couple just filed for divorce."}
+{"query": "Two boys sitting and eating ice cream.", "positive": "The boys are eating.", "hard_negative": "The boys are asleep in their beds."}
+{"query": "Three children play on the grass under a multicolored umbrella and wearing rainbow colored outfits.", "positive": "Children play on the grass surrounded by bright colors.", "hard_negative": "Children sit inside on a rainy day."}
+{"query": "A group of people on the street dancing to a four men playing various conga drums.", "positive": "People are dancing in the street.", "hard_negative": "A cat is sleeping in a tree."}
+{"query": "well dressed man and woman dancing in the street", "positive": "A couple is dancing on the street.", "hard_negative": "Two man is dancing on the street."}
+{"query": "A woman in sunglasses making a pouting face while eating seafood.", "positive": "A woman is eating seafood.", "hard_negative": "A woman in sunglasses is taking a stroll in the park."}
+{"query": "A woman in white and a man in black, with an earring, are kissing.", "positive": "Two people kissing.", "hard_negative": "A man brushes his teeth."}
+{"query": "Two young girls looking at Barbie dolls.", "positive": "Two girls are watching dolls.", "hard_negative": "A girl and a boy are running with toys."}
+{"query": "A child in winter gear is hiding inside a cave made of snow while it is snowing.", "positive": "A kid is playing in the snow.", "hard_negative": "A child in shorts is playing with stones."}
+{"query": "A dark-haired girl in a spotted shirt is pointing at a picture while sitting next to a boy in a purple shirt and jeans.", "positive": "A girl is pointing at the picture.", "hard_negative": "The guy broke his keyboard."}
+{"query": "two young children on a skateboard going across a sidewalk", "positive": "Two kids are playing outside.", "hard_negative": "Two young children riding on a bike."}
+{"query": "Two fencers dressed in the sport's traditional white suit and protective mask, practice their dueling.", "positive": "a pair of fencers practice together", "hard_negative": "two women play water polo"}
+{"query": "People running down a two lane road.", "positive": "Humans are moving fast.", "hard_negative": "People are sleeping in bed."}
+{"query": "The guys in white shirts horse around near a park.", "positive": "Guys wearing white shirts play around by the park.", "hard_negative": "The girls eat their lunch at the park."}
+{"query": "A man is on the back of his friend.", "positive": "A man is holding his friend.", "hard_negative": "A woman carries her young son on her back."}
+{"query": "Two women in bathing suits climb rock piles by the ocean.", "positive": "Women in bathing suits climb rock piles.", "hard_negative": "Women in dresses climb lobster piles."}
+{"query": "Two women in bathing suit on large rocks at the ocean.", "positive": "two women are outside", "hard_negative": "two women sit on a mountaintop"}
+{"query": "Someone is taking a brown canoe down to the lake.", "positive": "A person is carrying a canoe.", "hard_negative": "A person is in the hospital."}
+{"query": "Man laying on a platform outside on some rocks.", "positive": "Man lays on something.", "hard_negative": "Man takes a nap on his couch."}
+{"query": "A woman is sitting in a man's lap in a brown armchair.", "positive": "The woman and man are resting together in an armchair.", "hard_negative": "The man and woman are seated separately, facing each other."}
+{"query": "A golfer has just finished swinging his club.", "positive": "a human outside", "hard_negative": "a man shoveling snow"}
+{"query": "A motorcycle rider is making a sharp turn.", "positive": "The motorcyclist is turning.", "hard_negative": "The motorcycle ride is on a straight road."}
+{"query": "A child turning a crank with benches behind him.", "positive": "The child is in front of benches.", "hard_negative": "The person is sleeping."}
+{"query": "A young woman sits crosslegged beside her purse on the grass among a crowd of dogs.", "positive": "The dogs are standing around a crosslegged woman on the grass.", "hard_negative": "The woman is on the couch with the dogs."}
+{"query": "A woman in a red shirt and blue jeans is walking outside while a man in a khaki jacket is right behind her.", "positive": "A man and a woman are walking outside.", "hard_negative": "A man in an army jacket is  following a woman in a pink dress."}
+{"query": "A football player in a blue and yellow uniform is tackling another player in a white and gold uniform.", "positive": "A football player is wearing blue and yellow.", "hard_negative": "The football player is drinking water on the bench."}
+{"query": "A man with a dark shirt and light shorts is standing next to a person wearing a light shirt on a sidewalk.", "positive": "two people stand together outside", "hard_negative": "two men stand inside a cafe"}
+{"query": "A surfer wearing a red shirt takes on a huge blue wave.", "positive": "Surfer in red catches a wave.", "hard_negative": "Surfer wipes out on large wave."}
+{"query": "A person is surfing on a large wave.", "positive": "A person is surfing.", "hard_negative": "The dog is surfing on the wave."}
+{"query": "Ample dark-skinned man looks back at camera from behind buffet.", "positive": "A man looks from behind a buffet.", "hard_negative": "A thin woman glares at you over her salad."}
+{"query": "A black dog runs along the green grass carrying a toy in its mouth.", "positive": "A black dog runs through the grass carrying its toy.", "hard_negative": "A white dog is sitting under a tree."}
+{"query": "Man relaxing on a bench at the bus stop.", "positive": "The man relaxes on a bench.", "hard_negative": "The man stood next to the bench."}
+{"query": "An outside wedding ceremony for an asian couple under an umbrella, shielded from the blaring sun.", "positive": "There are asian people outside.", "hard_negative": "Two old ladies reading the newspaper."}
+{"query": "A man in a yellow excavator on a construction site.", "positive": "the guy is on the excavator", "hard_negative": "the orange is being peeled"}
+{"query": "Four people dine at a restaurant.", "positive": "four people dining", "hard_negative": "the people are at the motel sleeping"}
+{"query": "A young child with dark shoulder length hair, in a yellow shirt and pink pants, is walking eating cheerios out of a ziplock bag.", "positive": "a child eats cheerios", "hard_negative": "a child sits in a chair"}
+{"query": "A group of people are gathered in the woods around trees and a ladder.", "positive": "People gathered in woods.", "hard_negative": "Miners work hard at gathering coal."}
+{"query": "A volleyball player hitting a ball on the beach.", "positive": "A volleyball player is hitting a ball.", "hard_negative": "A soccer player is kicking a ball."}
+{"query": "A man in hat and apron flipping over his pancake by tossing it in the air back to the pan.", "positive": "The male is cooking food.", "hard_negative": "The male is surfing on his day off."}
+{"query": "A young child is enjoying the water and rock scenery with their dog.", "positive": "The child and dog are enjoying some fresh air.", "hard_negative": "The teenage boy is taking his cat for a walk beside the water."}
+{"query": "A man standing up in a rowboat with a bird perched on the boat.", "positive": "A rowboat is out on the water with a man standing in it.", "hard_negative": "The man is pedaling a bicycle along the pier."}
+{"query": "Two dogs run around inside a fence.", "positive": "Two dogs are inside a fence.", "hard_negative": "Two dogs sleep inside a fence."}
+{"query": "A man is cooking pies in the oven.", "positive": "The oven has pies in it.", "hard_negative": "The oven has turkeys in it."}
+{"query": "A woman with blond-hair and blue boots walks among a crowd of other pedestrians on a city street, looking up at something.", "positive": "A woman is walking outside.", "hard_negative": "A woman is sitting in a cafe eating lunch."}
+{"query": "A golden-colored dog, with his eyes alert, holds a brightly colored tennis ball in his mouth.", "positive": "The dog is light colored", "hard_negative": "the Dog is black"}
+{"query": "A baby crying about getting their diaper changed.", "positive": "a baby cries while getting their diaper changed", "hard_negative": "the baby is eating"}
+{"query": "A woman is tugging on a white sheet and laughing", "positive": "The person is amused.", "hard_negative": "The woman is trying on a new dress."}
+{"query": "The young girl cools off by sliding on the water slide.", "positive": "The girl goes down a water slide.", "hard_negative": "No one is sliding down a water slide."}
+{"query": "Older Asian man, wearing orange robes in urban area.", "positive": "The man is in a city.", "hard_negative": "The man is in a baseball uniform."}
+{"query": "People shopping at the marketplace.", "positive": "People are shopping.", "hard_negative": "A woman is swimming in the ocean."}
+{"query": "Two people are sitting in a station.", "positive": "A couple of people are inside and not standing.", "hard_negative": "A jazz trio is giving a performance in the White House."}
+{"query": "Two boys are swimming underwater in a pool and a girl is swimming in the background.", "positive": "There are some kids in this picture", "hard_negative": "They are playing in a sand box"}
+{"query": "these two ladies are reading a sign while shading themselves from the sun with their umbrellas.", "positive": "Two ladies out in the daytime", "hard_negative": "Two women use umbrellas keep themselves dry from the rain"}
+{"query": "A woman, viewed through a window, sits at a restaurant table and puts down a red shopping bag.", "positive": "A woman in a restaurant.", "hard_negative": "A woman trying on a pair of black knee high stiletto boots."}
+{"query": "There is not an image here.", "positive": "No image can be seen.", "hard_negative": "There is an image here."}
+{"query": "A bundled boy sleds down the slope.", "positive": "A boy is sledding", "hard_negative": "A boy is surfing"}
+{"query": "Two men in uniforms are in soccer field behind a line waiting to play.", "positive": "two men waiting to play soccer", "hard_negative": "two men waiting for the bus"}
+{"query": "A woman playing with her cats while taking pictures.", "positive": "A woman is spending time with her cats.", "hard_negative": "A woman is playing with her dolls."}
+{"query": "A young woman dressed as a princess is waving to others from inside a ride where the carriage is a large replica of the Disney character, Dumbo.", "positive": "A female with clothes on is on a moving vehicle, waving her hands left to right in the air.", "hard_negative": "The young woman is sleeping in bed."}
+{"query": "A young woman holding a newborn in her arms while still wearing her hospital bracelet laying on a hospital bed.", "positive": "A young woman is holding a newborn.", "hard_negative": "A young woman is holding a gun."}
+{"query": "Three young men are watching a tennis match on a large screen outdoors.", "positive": "Young men watch a tennis match on a screen outdoors.", "hard_negative": "Three men enjoy a football game on a plasma indoors."}
+{"query": "A large amount of persons flying kites in a park.", "positive": "a lot of people are flying kites.", "hard_negative": "one person is flying his kite."}
+{"query": "A man is taking pictures hanging outside of a red rally car.", "positive": "The man is near the car.", "hard_negative": "The man is alone in the bathroom."}
+{"query": "A man in a yellow outfit, fixing something on the corner of a house.", "positive": "A man wearing a yellow outfit was repairing something on the corner of the house.", "hard_negative": "The man is breaking into the house."}
+{"query": "A happy little girl rides on the merry-go-round.", "positive": "a little girl rides on the merry-go-round", "hard_negative": "the girl was completely lost"}
+{"query": "The woman in the blue skirt is sleeping on a cardboard box under a picture of Mary and baby Jesus.", "positive": "A homeless woman sleeps under the protective gaze of the Blessed Mother.", "hard_negative": "A homeless man suffering from hypothermia in the ruins of a burned building."}
+{"query": "Two men with fake mustaches are dressed like archaeologist explorers.", "positive": "People are wearing disguises.", "hard_negative": "Clean shaven youths are wearing formal prom attire."}
+{"query": "A blond woman is holding 2 golf balls while reaching down into a golf hole.", "positive": "A blonde female is reaching into a golf hole while holding two golf balls.", "hard_negative": "THe blond woman is sitting down."}
+{"query": "Two horse riders and three walkers are going down a dusty path.", "positive": "Five people on a path", "hard_negative": "Five people are seated"}
+{"query": "A group of people dressed as a wizard, queen, and possibly a lobster smiling and looking at the camera.", "positive": "people are dressed in costume", "hard_negative": "a man in a suit sits alone"}
+{"query": "Two dogs shaking themselves dry on the sand.", "positive": "Two dogs shake off water to get dry.", "hard_negative": "Dogs swim in the ocean."}
+{"query": "The skier is doing a flip through some trees", "positive": "A skier is doing tricks.", "hard_negative": "The man is water skiing."}
+{"query": "A man reading the paper at a cafe.", "positive": "A man reading the paper while drinking cafe.", "hard_negative": "A man playing ice hockey."}
+{"query": "A young indian boy sitting down thinking about his future.", "positive": "A boy thinks.", "hard_negative": "A man teaches his daughter to ride a horse."}
+{"query": "Snowboarder sails in the air.", "positive": "A snowboarder is out snowboarding.", "hard_negative": "A young snowboarder sips hot chocolate in the cabin."}
+{"query": "A brown dog with a blue muzzle is running on green grass.", "positive": "A brown dog is wearing a muzzle.", "hard_negative": "A dog is wearing a green muzzle on blue grass."}
+{"query": "A woman closes her eyes as she plays her cello.", "positive": "A woman is making music.", "hard_negative": "The woman has her eyes open."}
+{"query": "A man wearing black pants, a black shirt, and an orange hat is using a nail gun to attach tar paper to a roof.", "positive": "The man is using his nail gun to attach paper tar to his roof.", "hard_negative": "The man on a merry go round."}
+{"query": "A male construction worker hammers a nail.", "positive": "A construction worker drives into a nail.", "hard_negative": "A construction worker is eating a sandwich during his lunch break."}
+{"query": "Water polo swimmers competing for a loose ball.", "positive": "A group of water polo swimmers having a water polo match.", "hard_negative": "A group of basketball players swimming together."}
+{"query": "A dark-haired drummer is playing his set with enthusiasm.", "positive": "The drummer is performing.", "hard_negative": "The drummer is playing poker."}
+{"query": "A young man dressed in black dress clothes lies down with his head resting in the lap of an older man in plain clothes.", "positive": "An older and younger man are together.", "hard_negative": "Two men sit on a bench with their backs together."}
+{"query": "An Asian woman preparing vegetables for the market.", "positive": "A woman preparing vegetables.", "hard_negative": "A woman at home."}
+{"query": "Two people look at two red motorcycles in a place where there are religious murals on the wall.", "positive": "The two people are looking at motorcycles.", "hard_negative": "The two people are looking at cars."}
+{"query": "A team in yellow, red, and blue jerseys sit next to a road and watch a tiger mascot.", "positive": "People watch a tiger mascot.", "hard_negative": "The tiger mascot is all alone."}
+{"query": "the front side of a food vendor in a park.", "positive": "A food vendor is in the park.", "hard_negative": "The park is empty."}
+{"query": "A woman wearing a scarf, hat, and coat, holding a shopping bag is looking at her phone while standing in front of a store.", "positive": "A woman wearing a scarf, hat, and coat, holding a shopping bag is outside of the store.", "hard_negative": "The woman is inside the store browsing."}
+{"query": "A girl in a flower dress is running on sand.", "positive": "The girl is running.", "hard_negative": "The girl is wearing a green striped dress."}
+{"query": "A soccer player wearing white shorts and an orange and green shirt holds the ball while being guarded by another soccer player in a blue uniform.", "positive": "A soccer player holds the soccer ball.", "hard_negative": "A football player throws a touchdown pass."}
+{"query": "A man in black reading a book for a group of people.", "positive": "The man is reading.", "hard_negative": "The man is talking to himself in the mirror."}
+{"query": "Male volleyball players in red attempt to score on the other team, lighter red.", "positive": "Guys are playing volleyball.", "hard_negative": "Women are rollerblading."}
+{"query": "There is a woman throwing daggers at a target, which is a carrot.", "positive": "A person is throwing things.", "hard_negative": "A woman is skiing."}
+{"query": "A woman in a green shirt and jeans throws a spear toward a target in the background painted with a carrot across a parking lot", "positive": "A woman throwing a spear towards a target.", "hard_negative": "A woman shooting a bow at a painted pumpkin target."}
+{"query": "Man wearing dark clothes walks down a street with a wall of graffiti to his left.", "positive": "A man walks past some graffiti.", "hard_negative": "The man is painting the street."}
+{"query": "a group of people riding bikes in a marathon as people line the street.", "positive": "There are people riding bikes in a marathon.", "hard_negative": "The people riding bikes are running from the police."}
+{"query": "Three women wearing belly dancing costumes are pictured in color while the background of the shot is in black and white.", "positive": "three women dance in belly dancing costumes", "hard_negative": "three women in snowsuits eat a racoon"}
+{"query": "A person in a yellow slicker is driving a motorboat next to the beach.", "positive": "A person in a boat.", "hard_negative": "A whale eating a fisherman."}
+{"query": "Two boys in green and white uniforms play basketball with two boys in blue and white uniforms.", "positive": "Boys are playing basketball.", "hard_negative": "Eight girls in dresses are playing basketball."}
+{"query": "A referee is talking with a couple of soccer players in red jerseys.", "positive": "There is a soccer game today.", "hard_negative": "The soccer players are casually kicking the ball down the street."}
+{"query": "A white and blue car is on the street.", "positive": "A vehicle is on the street.", "hard_negative": "A car is driving off a cliff."}
+{"query": "A young boy is hanging onto a clothing rack.", "positive": "A boy hangs from a rack.", "hard_negative": "A girl stands near a clothing rack,"}
+{"query": "A boy toddler play outside on a clothes rack full of tied dye shirts.", "positive": "A toddler is playing outside.", "hard_negative": "A toddler is playing inside the house."}
+{"query": "Two men are playing basketball, and one man is making a shot.", "positive": "Two men are playing basketball.", "hard_negative": "The men are playing soccer."}
+{"query": "A man trying to block another man from shooting the ball in.", "positive": "The man is is near the ball.", "hard_negative": "The man is playing the guitar at the concert."}
+{"query": "A man in a black coat eats a doughnut while other men look out of frame.", "positive": "A man in a black coat eats a doughnut.", "hard_negative": "A naked man eats a doughnut."}
+{"query": "A woman in black, seen from behind, sits next to a body of water.", "positive": "A woman sits outside.", "hard_negative": "A woman leaps from a balcony to the ground below."}
+{"query": "An orange car is driving across a steel bridge in a city.", "positive": "A car is driving across a bridge.", "hard_negative": "A car is driving on the highway towards the country-side."}
+{"query": "A young man wearing black jumps off a height while people clap.", "positive": "The man is jumping off something.", "hard_negative": "The man is wearing yellow."}
+{"query": "A Korean gentlemen kicks up his leg.", "positive": "A person is kicking.", "hard_negative": "A person stands on two feet."}
+{"query": "A man wearing yellow sneakers and a black vest is on a water board and hangs onto a waterski line that appears to be towed by a boat.", "positive": "A man is moving on the water.", "hard_negative": "A dog is swimming towards a stick."}
+{"query": "Two woman talk in the middle of a parking lot, near two cars, as random people wander nearby.", "positive": "Two women near cars talk in the middle of the lot", "hard_negative": "Two men talk in the middle of the lot"}
+{"query": "People are working with some white pipes.", "positive": "People working on white pipes.", "hard_negative": "People are ruining the red pipes."}
+{"query": "A man talks on his cellphone in private.", "positive": "A man is on his cellphone.", "hard_negative": "A man throws his cellphone to the ground."}
+{"query": "A baby wearing a bib makes a funny face at the camera.", "positive": "A baby in a bib is making funny faces at the camera.", "hard_negative": "A baby spits up all over his bib."}
+{"query": "A brunette baby wearing a red and gray striped shirt, jeans, and a bib with fruit characters on it is sitting on a decorative blanket.", "positive": "Fruit characters decorate this child's bib", "hard_negative": "The child is secretly a 50 year old man"}
+{"query": "Two power walkers walking beside one another in a race.", "positive": "Two people in a race", "hard_negative": "Two people driving cars"}
+{"query": "A girl wearing makeup playing a bass.", "positive": "A girl is musical.", "hard_negative": "A girl is playing the violin."}
+{"query": "A person is climbing a cliff wall that overlooks water.", "positive": "A person is climbing.", "hard_negative": "A person is walking on the beach."}
+{"query": "A middle-aged man in a bicycle race trying his hardest on the sand surrounded by watching crowd.", "positive": "A man is riding a bicycle.", "hard_negative": "A small girl bounces on a pogo stick."}
+{"query": "Man on bike, with bike clothing and helmet on, having trouble maneuvering through sand from beach.", "positive": "The man is riding a bike in sand.", "hard_negative": "The man is sailing a boat."}
+{"query": "A person is wearing a helmet and protective clothing while riding a four-wheeled vehicle.", "positive": "The person has a helmet on.", "hard_negative": "The person is riding a bicycle."}
+{"query": "Three hockey players are in the middle of a play.", "positive": "the players are playing a game", "hard_negative": "the bird is red"}
+{"query": "An infant is in a crib and crying.", "positive": "A baby is unhappy.", "hard_negative": "A puppy is eating food."}
+{"query": "Two children run up the street on the sidewalk near the building.", "positive": "The children are outside.", "hard_negative": "The children are inside."}
+{"query": "A large man dressed in black on a street corner by a red brick building.", "positive": "A man is on the street corner.", "hard_negative": "A man got shot on the street corner."}
+{"query": "Two men in animal print pants sleep on a white bed.", "positive": "Two men are inside.", "hard_negative": "A woman watches TV."}
+{"query": "A woman in an orange shirt is enjoying food in a public setting.", "positive": "the lady in the orange shirt is eating", "hard_negative": "the lady is ice skating"}
+{"query": "Two dogs biting each other playfully while jumping", "positive": "Two dogs are playing.", "hard_negative": "Two dogs are biting each other while fighting and growling"}
+{"query": "An audience cheers at a concert.", "positive": "An audience making noise at a concert.", "hard_negative": "An audience sitting in a room quietly listening to poetry."}
+{"query": "Lady vendor selling her goods, one man standing on a post, and two men in a wholesale store.", "positive": "A woman and three men.", "hard_negative": "A dog sits alone next to a swimming pool."}
+{"query": "A guy tries to climb a stone cliff while his friend helps him.", "positive": "A person is helping pull someone else up a cliff.", "hard_negative": "Two men are standing on a beach looking up at a cliff."}
+{"query": "A group of people sit before a campfire.", "positive": "People are around a fire", "hard_negative": "The elephant sits on a dog"}
+{"query": "A boy with a basketballs glowers at the camera.", "positive": "The boy scowls", "hard_negative": "The boy is smiling"}
+{"query": "A waitress with a pink shirt and black pants walking through a restaurant carrying bowls of soup.", "positive": "A person with pants", "hard_negative": "Nobody has pants"}
+{"query": "A man wearing a white jacket and pink hat is speaking into a microphone while raising one arm above his head.", "positive": "The man is wearing a hat.", "hard_negative": "The man is sitting down."}
+{"query": "A brown dog about to catch a green Frisbee.", "positive": "The dog is outdoors.", "hard_negative": "The dog is sleeping."}
+{"query": "Three people are canoeing in a stream.", "positive": "There are people outdoors", "hard_negative": "There are people indoors watching others canoe"}
+{"query": "A skateboarder glides down a railing of some stairs.", "positive": "The skateboarder goes down the railing.", "hard_negative": "A girl rides her tricycle through the neighborhood."}
+{"query": "A bride adjust her husbands flower on his coat as she holds her own bouquet of flowers.", "positive": "A bride tidies her groom.", "hard_negative": "The bride fixes her husband's tie."}
+{"query": "Runners are competing on a track in front of a stadium full of people.", "positive": "There are runners on a track.", "hard_negative": "Two women are jogging in the park."}
+{"query": "A small dog runs after a red ball, though a leafy outdoor area.", "positive": "a dog runs around outside.", "hard_negative": "a dog sleep under a tree."}
+{"query": "A man wearing a white shirt and an orange shirt jumped into the air.", "positive": "A man's feet are not touching the ground.", "hard_negative": "A man is laying down on the sofa."}
+{"query": "Two asian men in a wood shop.", "positive": "There are two asian men in that wood shop.", "hard_negative": "The two asian men are at the park."}
+{"query": "Man in while shirt and blue jeans holding hands while walking with a little girl in a blue dress and yellow hat.", "positive": "A man and girl walking together", "hard_negative": "A man takes his son to the game"}
+{"query": "The strangely dressed guys, one wearing an orange wig, sunglasses with peace signs, and a karate costume with an orannge belt, another wearing a curly blue wig, heart shaped sunglasses, and a karate outfit painted with leaves, and the third wearing pink underwear, a black afro, and giant sunglasses.", "positive": "There are people wearing outfits.", "hard_negative": "The people are naked."}
+{"query": "A jockey in blue gallops a chestnut horse on a dirt track past a wooden fence.", "positive": "A jockey rides a horse", "hard_negative": "A jockey brushing his horse"}
+{"query": "A jockey wearing a blue jacket is riding a dark brown horse in a gallop.", "positive": "A jockey is riding a horse in a gallop.", "hard_negative": "jockey wearing a green jacket is riding a dark grey horse in a trot."}
+{"query": "A man in a gray sweatshirt and blue jeans is pulling on a rope while a guy in a white shirt and black jeans watches him.", "positive": "the man in the ray sweatshirt was pulling on a rope", "hard_negative": "the two men were pulling on the rope"}
+{"query": "A man sitting on the ground carving a green coconut with a large knife.", "positive": "A man is sitting down.", "hard_negative": "The man is standing."}
+{"query": "Riot police are standing in the background while a young man with a red scarf covering his face is walking.", "positive": "there are police", "hard_negative": "a dog sleeps on a pillow"}
+{"query": "A person in a white t-shirt, military print cap and red bandanna with a skeleton on it covering most of the person's face.", "positive": "The t-shirt is white.", "hard_negative": "The bandanna is blue."}
+{"query": "A man dressed in yellow rescue gear walks in a field.", "positive": "The man is outdoors.", "hard_negative": "The man is bowling."}
+{"query": "A man in blue clothing carries a yellow bucket while walking in the water near a pelican.", "positive": "A man with a pail is in the water near a bird.", "hard_negative": "A man is at church."}
+{"query": "A young woman tennis player dressed in black carries many tennis balls on her racket.", "positive": "A young woman tennis player have many tennis balls.", "hard_negative": "A young woman never wears white dress."}
+{"query": "Young brunette woman smiling in front of bushes.", "positive": "The woman is outside.", "hard_negative": "The man looks very upset."}
+{"query": "People are gathered by a tree beside a line of white tents.", "positive": "People are gathered near a tree in proximity of white tents.", "hard_negative": "People are gathered in the middle of the atlantic after a plane chrased."}
+{"query": "Boy, of age approximately 10 years old, lunging into pristine pool on hot summer day.", "positive": "The boy is by the pool.", "hard_negative": "There are no kids allowed at the pristine pool."}
+{"query": "A dog carrying a stick in its mouth runs through a snow-covered field.", "positive": "A animal carried a stick through a snow covered field.", "hard_negative": "the animals is sleeping"}
+{"query": "Construction workers using big hooks.", "positive": "The workers are using hooks", "hard_negative": "The workers are dead"}
+{"query": "A football coach is walking on a football field.", "positive": "a football coach walks on the field", "hard_negative": "a baseball player walks on the field"}
+{"query": "A woman holding roses while she waits.", "positive": "this lady has roses while she is waiting", "hard_negative": "this lady is flying a jet pack"}
+{"query": "People mingling in the foreground and background, two of them are walking towards those in the background that are positioned nearby of a building that is overshadowed by a large number of trees, while the two in the foreground are tending to a horse drawn carriage.", "positive": "There are a bunch of people, some near a building, others walking and others are doing something to a carriage.", "hard_negative": "A bus pulls into the station."}
+{"query": "A large busted woman in a yellow shirt has a pink shoulder bag on her shoulder.", "positive": "A woman with large breasts is carrying a pink bag.", "hard_negative": "A man is working out in a gym."}
+{"query": "Sheep farmers are crouching and preparing to feed their animals as the sheepdog watches closely by.", "positive": "Farmers prepare to feed their animals in a large field.", "hard_negative": "Farmers plant their corn as a scarecrow watches closely by."}
+{"query": "A young boy playing in a bubble playing in water.", "positive": "A person is getting wet.", "hard_negative": "The man is shaving."}
+{"query": "Two men standing near a metal structure in front of a brick wall.", "positive": "Adult males stand in front of a brick wall near something made of metal.", "hard_negative": "Men hang drywall inside a house."}
+{"query": "A young child brushes his or her teeth while holding a remote.", "positive": "The young boy is multi-tasking.", "hard_negative": "The young child is asleep."}
+{"query": "Kids being walked across a lot by an adult to a larger building.", "positive": "An adult is escorting some children.", "hard_negative": "An adult is walking alone."}
+{"query": "Two woman are walking up to a brightly painted fire hydrant.", "positive": "Two women are walking.", "hard_negative": "Two women are sleeping in the street."}
+{"query": "A fire hydrant with a face painted on it.", "positive": "A fire hydrant is not just yellow or red.", "hard_negative": "There isn't a face on the fire hydrant."}
+{"query": "A man with glasses in a brown shirt talking while a man with glasses in a gray shirt listens.", "positive": "Two people are wearing glasses.", "hard_negative": "Two men in a canoe are about to tip it over."}
+{"query": "The horses pull the carriage, holding people and a dog, through the rain.", "positive": "Group of people traveling in the rain by horse-drawn carriage.", "hard_negative": "Horses ride in a carriage pulled by a dog."}
+{"query": "A woman in an red tracksuit squeezing lemons in a press.", "positive": "A woman squeezing lemons.", "hard_negative": "A woman reading a book."}
+{"query": "Tall man being stopped by an officer.", "positive": "There is a tall man.", "hard_negative": "The man is short."}
+{"query": "Two young men in unusual clothing are jumping in a gym.", "positive": "Two people are in the gym", "hard_negative": "The young men are lying in the sand"}
+{"query": "A little girl wearing a pink, yellow and white bathing suit, gets wet from a splash of water.", "positive": "A girl gets wet from a splash of water.", "hard_negative": "A girl wears a suit to work."}
+{"query": "A young man standing on a plank of wood and using a large saw to cut it.", "positive": "A young man saws wood.", "hard_negative": "A young girl is cutting wood."}
+{"query": "A town worker working on electrical equipment.", "positive": "The worker is working.", "hard_negative": "The worker is off work for the day."}
+{"query": "A nun is taking a picture outside.", "positive": "A woman is outside", "hard_negative": "A man is taking a picture outside."}
+{"query": "A man in a white and blue jacket is talking to a girl in a black jacket.", "positive": "Two people are talking", "hard_negative": "Two boys are yelling."}
+{"query": "A boy in a blue shirt looks away from the camera as a girl in a pink and orange bathing suit stares into the camera in front of an RV.", "positive": "A boy looks away from the camera while a girl looks into the camera.", "hard_negative": "A boy looks into the camera while a girl looks away from he camera."}
+{"query": "two girls sitting by a tree while playing.", "positive": "There are two girls.", "hard_negative": "The girls are not near a tree."}
+{"query": "A woman with tattoos and a black t-shirt smiles and talks to a man with a partially shaved head wearing shirt with the words' hippie killer' in white letters on it.", "positive": "A female and a male are talking to each other.", "hard_negative": "Two guys are yelling at each other."}
+{"query": "Two businessmen going to work.", "positive": "Two men go to work.", "hard_negative": "A woman drives a limo."}
+{"query": "A woman sitting on a bright blue bench looks up from her book.", "positive": "A woman is sitting.", "hard_negative": "The woman is running around."}
+{"query": "Hockey players play a game on the ice.", "positive": "People are playing a game of ice hockey.", "hard_negative": "People are competing in figure skating."}
+{"query": "A toddler in a blue one-piece plays with a stack of plastic tubs, while toys are scattered on the floor behind him.", "positive": "The baby is playing with things on the floor.", "hard_negative": "The baby is playing with glass in the middle of the street."}
+{"query": "A man with glasses and a Hawaiian shirt is standing next to a dog while another man with a blue hat looks at them from the back.", "positive": "A man stares at another man.", "hard_negative": "A butterfly flys freely."}
+{"query": "A man wearing a cap and a black wetsuit on a rocky coast lifts a large sack with three sacks in front of him with another man and a small yellow boat in the background.", "positive": "A man standing by a body of water.", "hard_negative": "A man carrying a surfboard walking towards the ocean."}
+{"query": "A girl in a field with a yellow scarf.", "positive": "The girl is outdoors.", "hard_negative": "The girl is in an office building."}
+{"query": "The person in black T-shirt is sitting.", "positive": "The human is sitting.", "hard_negative": "The boy is taking a bath."}
+{"query": "A guy on a waterskiing board is doing a stunt.", "positive": "The guy is doing a stunt.", "hard_negative": "The guy is watching tv."}
+{"query": "girl sitting in fire for a show", "positive": "The girl is a performer for the show.", "hard_negative": "The girl is sitting in a freezer."}
+{"query": "A young girl with long brown hair is brushing her teeth.", "positive": "A girl is holding a toothbrush.", "hard_negative": "A girl has short blonde hair."}
+{"query": "Several people stopped by the side of the road are watching what is happening in the woods.", "positive": "People stopped by the side of the road", "hard_negative": "Women are gossiping about a blowfish"}
+{"query": "A fireman is on a ladder leaning on a charred and smoking house.", "positive": "a fireman on a ladder", "hard_negative": "a policeman arresting a hooker"}
+{"query": "Man in red shirt about to have a barbecue", "positive": "Person in red shirt about to have a barbecue", "hard_negative": "Woman in red shirt about to have a barbecue"}
+{"query": "A costume worn by this little boy is making him feel a little insecure.", "positive": "An insecure boy.", "hard_negative": "A boy blowing up a baloon."}
+{"query": "Two men and a woman finishing a meal and drinks.", "positive": "Some people eating a meal.", "hard_negative": "Two men and a woman playing in a band."}
+{"query": "A woman holds a fat baby with sunglasses and a denim hat.", "positive": "A lady is carrying a baby", "hard_negative": "A lady carrying a small kitten"}
+{"query": "Two orthodox Jews, one male, one female, are shown in traditional dress in a sidewalk scene.", "positive": "Two jews are shown in a sidewalk scene.", "hard_negative": "Two jews celebrate the jewish holiday indoors."}
+{"query": "A man in a green safety jacket and pants stands, facing away, near bags of trash while people stand on the curb across the street.", "positive": "A person in a jacket", "hard_negative": "Nobody has a jacket"}
+{"query": "Trying very hard not to blend any of the yellow paint into the white.", "positive": "Someone is painting.", "hard_negative": "Someone is baking a cake."}
+{"query": "A man in a club addressing other people and holding his index finger up with a woman standing behind him.", "positive": "A group of people are indoors.", "hard_negative": "The man has his fists clenched tight."}
+{"query": "A cowboy clown wearing a shirt with Tax on it, red suspenders, and a white cowboy hat talks into a wireless microphone.", "positive": "A clown is talking into a microphone.", "hard_negative": "A cowboy clown in a bowler hat is talking into a wireless microphone."}
+{"query": "Woman driving in a red convertible with another girl in the passenger seat and a guy in a suit in the backseat, driving past a group of people.", "positive": "There are three people driving in a convertible past other people.", "hard_negative": "A woman, girl and man are watching television."}
+{"query": "Two women and a man are in a sporty red convertible in front of a large group of people on the sidewalk.", "positive": "Two women are in a car with a man.", "hard_negative": "The three women are in a car."}
+{"query": "Two wrestlers jump in a ring while an official watches.", "positive": "Two wrestlers were just tagged in on a tag team match.", "hard_negative": "Sea turtles are hatching and racing for the surf."}
+{"query": "Two families on a picnic with green grass.", "positive": "People are having a picnic.", "hard_negative": "People are water skiing."}
+{"query": "A man wearing glasses is vacuuming an architects model.", "positive": "There is a man vaucuming", "hard_negative": "There is a man watching someone vacuumming"}
+{"query": "AN older woman appears to read from a children's book in an indoor setting, while a seated gentleman in a service uniform looks on.", "positive": "A woman reads from a book while a man watches.", "hard_negative": "A young woman stands alone looking in the bathroom mirror."}
+{"query": "A lady reading a story book.", "positive": "A story book is open.", "hard_negative": "A lady reads a science textbook."}
+{"query": "A topless man with tattoos, black pants, and black boots is standing on a platform in front of a mirror.", "positive": "a man is standing", "hard_negative": "the man is lying on the roof"}
+{"query": "A girl prepares herself for the swim meet.", "positive": "The girl has swam before.", "hard_negative": "The girls is asleep at home"}
+{"query": "An African American wearing a red backpack looks the photographer as he walks past a concrete wall covered in graffiti.", "positive": "a person wears a backpack", "hard_negative": "an asian wears a red backpack"}
+{"query": "A man in a red hat and shirt with gray shorts attempts to do the splits.", "positive": "The man is wearing a red hat.", "hard_negative": "The man has a blue hat."}
+{"query": "A girl is standing and another one is sitting by a tree", "positive": "There are two girls.", "hard_negative": "Both girls are sitting by the tree."}
+{"query": "Several children in full riding gear are on horseback in a grassy field carrying polo equipment.", "positive": "There are children on horseback.", "hard_negative": "The children are swinging on swings at the playground."}
+{"query": "Various people shop at a street clothing sale.", "positive": "People shop at a clothing sale.", "hard_negative": "Various cats shop at a street clothing sale."}
+{"query": "People are shopping outside surrounded by a metal fence.", "positive": "The people are outside surrounded", "hard_negative": "The people are sleeping."}
+{"query": "A well dressed man standing in front of an abstract fence painting.", "positive": "A well dressed man standing in front of piece of artwork.", "hard_negative": "A homeless man laying around in front of a painting."}
+{"query": "A man in a gray wife beater grilling.", "positive": "The man is cooking.", "hard_negative": "The shirtless man is cutting the grass."}
+{"query": "Two boys in a field kicking a soccer ball.", "positive": "There are humans physically moving.", "hard_negative": "Two girls are throwing a baseball."}
