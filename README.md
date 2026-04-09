@@ -59,18 +59,3 @@ python experiments/rag_e2e_eval.py \
   --mode dual \
   --report-file outputs/reports/rag_e2e_eval/rag_e2e_proxy_dual.json
 ```
-
-## 结果目录说明
-
-当前 `outputs/reports/` 已按功能分组：
-
-- `poc_negation_gap/`
-- `eval_constraint_encoder/`
-- `rag_eval_smoke/`
-- `rag_grid_search/`
-- `rag_category_report/`
-- `baselines/`
-- `rag_e2e_eval/`
-- `latency_and_error/`
-- `alpha_sweep/`
-- `retrieval_metrics_local_dual.json`
