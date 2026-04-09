@@ -1,0 +1,37 @@
+{
+  "eval_file": "data/processed/constraint_benchmark_v1.jsonl",
+  "num_queries": 300,
+  "topic_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "constraint_model": "outputs/checkpoints/constraint-encoder-v1",
+  "alpha": 0.0,
+  "tau": 0.6,
+  "top_k": 3,
+  "overall": {
+    "vanilla_ccr": 0.47666666666666657,
+    "dual_ccr": 0.5727777777777777,
+    "improvement": 0.09611111111111115
+  },
+  "by_category": [
+    {
+      "category": "exclusion",
+      "count": 100,
+      "vanilla_ccr": 0.5433333333333333,
+      "dual_ccr": 0.605,
+      "improvement": 0.06166666666666665
+    },
+    {
+      "category": "negation",
+      "count": 100,
+      "vanilla_ccr": 0.21999999999999997,
+      "dual_ccr": 0.21999999999999997,
+      "improvement": 0.0
+    },
+    {
+      "category": "numeric",
+      "count": 100,
+      "vanilla_ccr": 0.6666666666666669,
+      "dual_ccr": 0.8933333333333334,
+      "improvement": 0.22666666666666657
+    }
+  ]
+}

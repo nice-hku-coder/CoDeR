@@ -56,7 +56,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run BM25 baseline on retrieval benchmark.")
     parser.add_argument("--benchmark-file", type=str, default=str(PROCESSED_DIR / "retrieval_benchmark_v1.jsonl"))
     parser.add_argument("--corpus-file", type=str, default=str(PROCESSED_DIR / "retrieval_corpus_v1.jsonl"))
-    parser.add_argument("--report-file", type=str, default=str(REPORTS_DIR / "bm25_metrics_report.json"))
+    parser.add_argument(
+        "--report-file",
+        type=str,
+        default=str(REPORTS_DIR / "baselines" / "bm25_metrics_report.json"),
+    )
     return parser.parse_args()
 
 

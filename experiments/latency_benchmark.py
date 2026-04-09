@@ -39,7 +39,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--alpha", type=float, default=0.0)
     parser.add_argument("--tau", type=float, default=0.6)
     parser.add_argument("--max-queries", type=int, default=100)
-    parser.add_argument("--report-file", type=str, default=str(REPORTS_DIR / "latency_benchmark_report.json"))
+    parser.add_argument(
+        "--report-file",
+        type=str,
+        default=str(REPORTS_DIR / "latency_and_error" / "latency_benchmark_report.json"),
+    )
     return parser.parse_args()
 
 

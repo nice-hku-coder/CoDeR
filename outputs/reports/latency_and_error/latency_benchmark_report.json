@@ -1,0 +1,33 @@
+{
+  "num_queries": 60,
+  "topic_model": "/data/xingkun/local_model/Llama-3.2-3B-Instruct",
+  "constraint_model": "outputs/checkpoints/constraint-encoder-v1",
+  "cross_encoder_model": "/home/xingkun/.cache/huggingface/hub/models--cross-encoder--nli-roberta-base/snapshots/1be0567456f0543475805e758725f151f283705a",
+  "candidate_k": 54,
+  "latency": {
+    "vanilla": {
+      "mean_ms": 218.68042082836232,
+      "p50_ms": 225.39039887487888,
+      "p95_ms": 243.39287541806698,
+      "count": 60
+    },
+    "dual": {
+      "mean_ms": 221.00850542386374,
+      "p50_ms": 226.1669486761093,
+      "p95_ms": 247.28968366980553,
+      "count": 60
+    },
+    "bm25": {
+      "mean_ms": 0.07911684612433116,
+      "p50_ms": 0.07195770740509033,
+      "p95_ms": 0.10177865624427795,
+      "count": 60
+    },
+    "cross_encoder": {
+      "mean_ms": 134.64795826002955,
+      "p50_ms": 133.2859769463539,
+      "p95_ms": 146.97750099003315,
+      "count": 60
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source_report": "outputs/reports/retrieval_metrics_local_dual.json",
+  "mode": "vanilla",
+  "proxy_faithfulness": 0.13666666666666666,
+  "negation_failure_rate": 1.0,
+  "by_category_proxy_faithfulness": {
+    "numeric": 0.41,
+    "exclusion": 0.0,
+    "negation": 0.0
+  }
+}

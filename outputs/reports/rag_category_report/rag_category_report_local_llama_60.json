@@ -1,0 +1,37 @@
+{
+  "eval_file": "data/processed/constraint_benchmark_v1.jsonl",
+  "num_queries": 60,
+  "topic_model": "/data/xingkun/local_model/Llama-3.2-3B-Instruct",
+  "constraint_model": "outputs/checkpoints/constraint-encoder-v1",
+  "alpha": 0.0,
+  "tau": 0.6,
+  "top_k": 3,
+  "overall": {
+    "vanilla_ccr": 0.40555555555555556,
+    "dual_ccr": 0.575,
+    "improvement": 0.1694444444444444
+  },
+  "by_category": [
+    {
+      "category": "exclusion",
+      "count": 24,
+      "vanilla_ccr": 0.4583333333333333,
+      "dual_ccr": 0.6041666666666666,
+      "improvement": 0.14583333333333331
+    },
+    {
+      "category": "negation",
+      "count": 19,
+      "vanilla_ccr": 0.10526315789473684,
+      "dual_ccr": 0.21052631578947367,
+      "improvement": 0.10526315789473684
+    },
+    {
+      "category": "numeric",
+      "count": 17,
+      "vanilla_ccr": 0.6666666666666666,
+      "dual_ccr": 0.9411764705882353,
+      "improvement": 0.27450980392156865
+    }
+  ]
+}

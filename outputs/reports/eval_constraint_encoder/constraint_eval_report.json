@@ -1,0 +1,23 @@
+{
+  "eval_file": "data/processed/val_triplets.jsonl",
+  "baseline_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "constraint_model": "outputs/checkpoints/constraint-encoder-v1",
+  "baseline": {
+    "total": 800,
+    "correct": 757,
+    "accuracy": 0.94625,
+    "avg_margin": 0.3326748636394041,
+    "median_margin": 0.32553134858608246
+  },
+  "constraint": {
+    "total": 800,
+    "correct": 772,
+    "accuracy": 0.965,
+    "avg_margin": 0.35702249739610126,
+    "median_margin": 0.3569308742880821
+  },
+  "improvement": {
+    "accuracy_abs": 0.018749999999999933,
+    "avg_margin_abs": 0.024347633756697185
+  }
+}

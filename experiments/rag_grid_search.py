@@ -38,7 +38,11 @@ def main() -> None:
     parser.add_argument("--top-k", type=int, default=3)
     parser.add_argument("--max-queries", type=int, default=0, help="0 means use all queries.")
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--report-file", type=str, default=str(REPORTS_DIR / "rag_grid_search_report.json"))
+    parser.add_argument(
+        "--report-file",
+        type=str,
+        default=str(REPORTS_DIR / "rag_grid_search" / "rag_grid_search_report.json"),
+    )
     args = parser.parse_args()
 
     ensure_project_dirs()

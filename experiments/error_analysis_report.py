@@ -12,7 +12,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--retrieval-report", type=str, required=True)
     parser.add_argument("--corpus-file", type=str, required=True)
     parser.add_argument("--min-cases", type=int, default=20)
-    parser.add_argument("--output-md", type=str, default=str(REPORTS_DIR / "error_analysis_cases.md"))
+    parser.add_argument(
+        "--output-md",
+        type=str,
+        default=str(REPORTS_DIR / "latency_and_error" / "error_analysis_cases.md"),
+    )
     return parser.parse_args()
 
 

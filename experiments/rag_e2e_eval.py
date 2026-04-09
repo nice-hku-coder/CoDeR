@@ -12,7 +12,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Proxy end-to-end RAG evaluation from retrieval outputs.")
     parser.add_argument("--retrieval-report", type=str, required=True, help="Output of eval_retrieval_metrics.py")
     parser.add_argument("--mode", type=str, default="dual", choices=["dual", "vanilla"])
-    parser.add_argument("--report-file", type=str, default=str(REPORTS_DIR / "rag_e2e_proxy_report.json"))
+    parser.add_argument(
+        "--report-file",
+        type=str,
+        default=str(REPORTS_DIR / "rag_e2e_eval" / "rag_e2e_proxy_report.json"),
+    )
     return parser.parse_args()
 
 

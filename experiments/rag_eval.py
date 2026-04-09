@@ -16,7 +16,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--constraint-model", type=str, default="outputs/checkpoints/constraint-encoder-v1")
     parser.add_argument("--alpha", type=float, default=0.7)
     parser.add_argument("--top-k", type=int, default=3)
-    parser.add_argument("--report-file", type=str, default=str(REPORTS_DIR / "rag_eval_report.json"))
+    parser.add_argument(
+        "--report-file",
+        type=str,
+        default=str(REPORTS_DIR / "rag_eval_smoke" / "rag_eval_report.json"),
+    )
     return parser.parse_args()
 
 

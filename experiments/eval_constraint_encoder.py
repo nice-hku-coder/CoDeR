@@ -21,7 +21,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--eval-file", type=str, default=str(PROCESSED_DIR / "val_triplets.jsonl"))
     parser.add_argument("--constraint-model", type=str, default="outputs/checkpoints/constraint-encoder-v1")
     parser.add_argument("--baseline-model", type=str, default="sentence-transformers/all-MiniLM-L6-v2")
-    parser.add_argument("--report-file", type=str, default=str(REPORTS_DIR / "constraint_eval_report.json"))
+    parser.add_argument(
+        "--report-file",
+        type=str,
+        default=str(REPORTS_DIR / "eval_constraint_encoder" / "constraint_eval_report.json"),
+    )
     return parser.parse_args()
 
 
