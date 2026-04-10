@@ -6,11 +6,22 @@ Constraint-Aware Disentangled Retrieval for RAG.
 
 CoDeR 是本文论文的主代码库，目标是研究并实现一种 **Constraint-Aware / Dual-View Retrieval** 框架，用于缓解 RAG 在否定、排除、数值约束等场景下的检索违约束问题。
 
-核心思路：
 
-- `Topic Encoder` 负责主题召回
-- `Constraint Encoder` 负责约束一致性判断
-- 在线阶段采用 `Retrieve -> Filter/Rerank -> Generate` 流程
+## 环境准备
+
+### 1. 创建 conda 环境
+
+```bash
+conda create -n coder python=3.10 -y
+conda activate coder
+```
+
+### 2. 安装项目依赖
+
+```bash
+cd CoDeR
+pip install -r requirements.txt
+```
 
 ## 常用流程
 
@@ -59,3 +70,16 @@ python experiments/rag_e2e_eval.py \
   --mode dual \
   --report-file outputs/reports/rag_e2e_eval/rag_e2e_proxy_dual.json
 ```
+
+### 5. Motivation 分析
+
+```bash
+python motivation/retrieval_failure_motivation.py
+```
+
+默认输出：
+
+- `outputs/reports/motivation/retrieval_failure_summary.json`
+- `outputs/figures/motivation/violation_rate_at_k.png`
+- `outputs/figures/motivation/first_violating_rank_boxplot.png`
+- `outputs/figures/motivation/violation_rate_at_5_by_category.png`
