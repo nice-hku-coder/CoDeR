@@ -73,13 +73,18 @@ python experiments/rag_e2e_eval.py \
 
 ### 5. Motivation 分析
 
+默认脚本会使用本地 `models` 目录中的 BGE / Contriever 模型；如果要同时评估 HyDE，需要显式开启 `--enable-hyde` 并传入 GPT-5 API key。
+
 ```bash
-python motivation/retrieval_failure_motivation.py
+python motivation/retrieval_failure_motivation.py \
+  --enable-hyde \
+  --hyde-api-key YOUR_API_KEY
 ```
 
 默认输出：
 
 - `outputs/reports/motivation/retrieval_failure_summary.json`
+- `outputs/reports/motivation/hyde_generations.jsonl`（启用 HyDE 时）
 - `outputs/figures/motivation/violation_rate_at_k.png`
 - `outputs/figures/motivation/first_violating_rank_boxplot.png`
 - `outputs/figures/motivation/violation_rate_at_5_by_category.png`

@@ -4,8 +4,8 @@ import argparse
 import json
 import sys
 from pathlib import Path
-import matplotlib.pyplot as plt
 
+import matplotlib.pyplot as plt
 import numpy as np
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -13,11 +13,12 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from experiments.common import FIGURES_DIR, PROCESSED_DIR, REPORTS_DIR, ensure_project_dirs, read_jsonl
 from experiments.metrics import ndcg_at_k, recall_at_k
-from motivation.rankers import build_bm25_ranker, build_dense_ranker
+from motivation.rankers import build_bm25_ranker, build_dense_ranker, build_hyde_ranker
 
 DEFAULT_MODELS = {
     "BGE": "BAAI/bge-large-en-v1.5",
     "Contriever": "facebook/contriever",
+    "HyDE_Generator": "gpt-5",
 }
 TARGET_CATEGORIES = ("negation", "exclusion", "numeric")
 K_VALUES = (1, 3, 5, 10)
@@ -26,7 +27,7 @@ PRIMARY_K = 5
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Motivation analysis: characterize constraint-violating evidence exposure in standard retrieval."
+        description="Motivation analysis: characterize constraint-violating evidence exposure in standard retrieval and HyDE."
     )
     parser.add_argument(
         "--benchmark-file",
@@ -50,6 +51,29 @@ def parse_args() -> argparse.Namespace:
         "--fig-dir",
         type=str,
         default=str(FIGURES_DIR / "motivation"),
+    )
+    parser.add_argument(
+        "--enable-hyde",
+        action="store_true",
+        help="Enable HyDE baseline aligned with texttron/hyde while keeping the local motivation corpus.",
+    )
+    parser.add_argument("--hyde-api-key", type=str, default="", help="API key for GPT-5 OpenAI-compatible endpoint.")
+    parser.add_argument("--hyde-encoder-model", type=str, default=DEFAULT_MODELS["Contriever"])
+    parser.add_argument("--hyde-generator-model", type=str, default=DEFAULT_MODELS["HyDE_Generator"])
+    parser.add_argument("--hyde-task", type=str, default="web search")
+    parser.add_argument("--hyde-n", type=int, default=8, help="Number of hypothetical documents, matching official HyDE default.")
+    parser.add_argument("--hyde-max-tokens", type=int, default=512)
+    parser.add_argument("--hyde-temperature", type=float, default=0.7)
+    parser.add_argument("--hyde-top-p", type=float, default=1.0)
+    parser.add_argument(
+        "--hyde-cache-file",
+        type=str,
+        default=str(REPORTS_DIR / "motivation" / "hyde_generations.jsonl"),
+    )
+    parser.add_argument(
+        "--hyde-wait-till-success",
+        action="store_true",
+        help="Retry generation requests until success, mirroring the official implementation option.",
     )
     return parser.parse_args()
 
@@ -159,6 +183,7 @@ def plot_violation_rate_curves(summary: dict, out_path: Path) -> None:
         "BM25": {"color": "#333333", "linestyle": "--", "marker": "o"},
         "BGE": {"color": "#1f77b4", "linestyle": "-", "marker": "s"},
         "Contriever": {"color": "#ff7f0e", "linestyle": "-", "marker": "^"},
+        "HyDE": {"color": "#2ca02c", "linestyle": "-", "marker": "D"},
     }
 
     plt.figure(figsize=(7.4, 4.8))
@@ -183,12 +208,17 @@ def plot_violation_rate_curves(summary: dict, out_path: Path) -> None:
 def plot_first_violating_rank_boxplot(summary: dict, out_path: Path) -> None:
     labels = list(summary.keys())
     values = [summary[label]["first_violating_rank"]["values"] for label in labels]
-    colors = ["#bbbbbb", "#9ecae1", "#fdae6b"]
+    palette = {
+        "BM25": "#bbbbbb",
+        "BGE": "#9ecae1",
+        "Contriever": "#fdae6b",
+        "HyDE": "#98df8a",
+    }
 
     plt.figure(figsize=(7.2, 4.8))
     box = plt.boxplot(values, patch_artist=True, tick_labels=labels, showfliers=False)
-    for patch, color in zip(box["boxes"], colors[: len(labels)]):
-        patch.set_facecolor(color)
+    for patch, label in zip(box["boxes"], labels):
+        patch.set_facecolor(palette.get(label, "#cccccc"))
         patch.set_alpha(0.9)
     for median_line in box["medians"]:
         median_line.set_color("#d62728")
@@ -215,6 +245,7 @@ def plot_category_violation_bars(summary: dict, out_path: Path) -> None:
         "BM25": "#7f7f7f",
         "BGE": "#1f77b4",
         "Contriever": "#ff7f0e",
+        "HyDE": "#2ca02c",
     }
 
     plt.figure(figsize=(8.0, 4.8))
@@ -247,6 +278,8 @@ def main() -> None:
         raise RuntimeError(f"Empty corpus: {args.corpus_file}")
     if args.max_k < PRIMARY_K:
         raise ValueError(f"--max-k must be at least {PRIMARY_K} to draw the category-level Violation Rate@5 figure.")
+    if args.enable_hyde and not args.hyde_api_key:
+        raise ValueError("--hyde-api-key is required when --enable-hyde is set.")
 
     fig_dir = Path(args.fig_dir)
     report_path = Path(args.report_file)
@@ -257,6 +290,20 @@ def main() -> None:
         "BGE": build_dense_ranker(args.bge_model, corpus, query_prefix="Represent this sentence for searching relevant passages: "),
         "Contriever": build_dense_ranker(args.contriever_model, corpus),
     }
+    if args.enable_hyde:
+        rankers["HyDE"] = build_hyde_ranker(
+            corpus=corpus,
+            encoder_name=args.hyde_encoder_model,
+            api_key=args.hyde_api_key,
+            generator_model_name=args.hyde_generator_model,
+            cache_path=args.hyde_cache_file,
+            hyde_task=args.hyde_task,
+            hyde_n=args.hyde_n,
+            hyde_max_tokens=args.hyde_max_tokens,
+            hyde_temperature=args.hyde_temperature,
+            hyde_top_p=args.hyde_top_p,
+            wait_till_success=args.hyde_wait_till_success,
+        )
 
     summary = {
         method_name: compute_method_report(method_name, benchmark, doc_ids, rank_fn, max_k=args.max_k)
@@ -273,14 +320,34 @@ def main() -> None:
     plot_first_violating_rank_boxplot(summary, figures["first_violating_rank_boxplot"])
     plot_category_violation_bars(summary, figures["category_violation_rate_bar"])
 
+    models = {
+        "BM25": "BM25",
+        "BGE": args.bge_model,
+        "Contriever": args.contriever_model,
+    }
+    if args.enable_hyde:
+        models["HyDE"] = {
+            "encoder": args.hyde_encoder_model,
+            "generator": args.hyde_generator_model,
+            "api_base_url": "https://api.vectorengine.ai/v1",
+            "task": args.hyde_task,
+            "n": args.hyde_n,
+            "max_tokens": args.hyde_max_tokens,
+            "temperature": args.hyde_temperature,
+            "top_p": args.hyde_top_p,
+            "cache_file": args.hyde_cache_file,
+            "implementation_note": (
+                "Aligned with texttron/hyde on the query side: web-search prompt + "
+                "AutoQueryEncoder(pooling='mean') + mean embedding of [query] and generated hypothetical documents, "
+                "without explicit post-mean L2 normalization. Retrieval remains over the local motivation corpus "
+                "instead of the official MS MARCO Faiss index so the topical/constraint labels stay valid."
+            ),
+        }
+
     report = {
         "benchmark_file": args.benchmark_file,
         "corpus_file": args.corpus_file,
-        "models": {
-            "BM25": "BM25",
-            "BGE": args.bge_model,
-            "Contriever": args.contriever_model,
-        },
+        "models": models,
         "metric_definition": {
             "violation_doc": "A topical relevant document that is not in constraint_satisfying_doc_ids.",
             "recall@5": "Recall on topical_relevant_doc_ids at top-5.",
@@ -291,7 +358,7 @@ def main() -> None:
         "target_categories": list(TARGET_CATEGORIES),
         "k_values": list(k for k in K_VALUES if k <= args.max_k),
         "summary": summary,
-        "figures": {name: str(path) for name, path in figures.items()}
+        "figures": {name: str(path) for name, path in figures.items()},
     }
 
     report_path.parent.mkdir(parents=True, exist_ok=True)

@@ -97,10 +97,32 @@ def safe_float(x: float) -> float:
     return float(x)
 
 
+def resolve_local_model_path(model_name_or_path: str) -> str:
+    """Resolve HuggingFace model ids to the repository's local model cache.
+    """
+
+    candidate = Path(model_name_or_path)
+    if candidate.exists():
+        return str(candidate)
+
+    local_model_map = {
+        "BAAI/bge-large-en-v1.5": PROJECT_ROOT / "models" / "BAAI_bge-large-en-v1.5",
+        "facebook/contriever": PROJECT_ROOT / "models" / "facebook_contriever"
+    }
+    local_path = local_model_map.get(model_name_or_path)
+    if local_path is not None:
+        if not local_path.exists():
+            raise FileNotFoundError(
+                f"Local model path does not exist: {local_path}. "
+            )
+        return str(local_path)
+
+
 def load_sentence_encoder(model_name_or_path: str):
     from sentence_transformers import SentenceTransformer
 
-    model = SentenceTransformer(model_name_or_path)
+    resolved_model_name_or_path = resolve_local_model_path(model_name_or_path)
+    model = SentenceTransformer(resolved_model_name_or_path)
     tokenizer = None
     if hasattr(model, "tokenizer") and model.tokenizer is not None:
         tokenizer = model.tokenizer
