@@ -13,10 +13,7 @@ from openai import OpenAI
 
 from experiments.common import load_sentence_encoder, resolve_local_model_path
 
-try:
-    from pyserini.encode import AutoQueryEncoder
-except ImportError:  # pragma: no cover - handled at runtime with an actionable error
-    AutoQueryEncoder = None
+from pyserini.encode import AutoQueryEncoder
 
 TOKEN_RE = re.compile(r"[a-zA-Z0-9$]+")
 HYDE_BASE_URL = "https://api.vectorengine.ai/v1"
@@ -218,20 +215,6 @@ def build_hyde_ranker(
     wait_till_success: bool = False,
 ) -> RankFn:
     """Build a HyDE ranker aligned with texttron/hyde under the local-corpus motivation setup.
-
-    Key alignment points:
-    - web-search prompt template from the official repository
-    - OpenAI-style generation defaults n=8, max_tokens=512, temperature=0.7,
-      top_p=1.0, stop=["\n\n\n"]
-    - query-side encoding with ``pyserini.encode.AutoQueryEncoder`` and
-      ``pooling='mean'``
-    - average embeddings across [original query] + generated hypothetical docs
-    - no explicit L2 normalization after averaging, matching the official source
-
-    Intentional deviation from the official notebook:
-    - retrieval is still performed against the local motivation corpus so that
-      ``topical_relevant_doc_ids`` and ``constraint_satisfying_doc_ids`` remain
-      valid for evaluation
     """
 
     auto_query_encoder_cls = _require_pyserini_auto_query_encoder()

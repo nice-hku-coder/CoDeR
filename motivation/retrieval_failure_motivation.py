@@ -55,9 +55,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--enable-hyde",
         action="store_true",
-        help="Enable HyDE baseline aligned with texttron/hyde while keeping the local motivation corpus.",
+        help="Enable HyDE baseline",
     )
-    parser.add_argument("--hyde-api-key", type=str, default="", help="API key for GPT-5 OpenAI-compatible endpoint.")
+    parser.add_argument("--hyde-api-key", type=str, default="", help="API key for OpenAI-compatible endpoint.")
     parser.add_argument("--hyde-encoder-model", type=str, default=DEFAULT_MODELS["Contriever"])
     parser.add_argument("--hyde-generator-model", type=str, default=DEFAULT_MODELS["HyDE_Generator"])
     parser.add_argument("--hyde-task", type=str, default="web search")
@@ -338,8 +338,8 @@ def main() -> None:
             "cache_file": args.hyde_cache_file,
             "implementation_note": (
                 "Aligned with texttron/hyde on the query side: web-search prompt + "
-                "AutoQueryEncoder(pooling='mean') + mean embedding of [query] and generated hypothetical documents, "
-                "without explicit post-mean L2 normalization. Retrieval remains over the local motivation corpus "
+                "AutoQueryEncoder(pooling='mean') + mean embedding of [query] and generated hypothetical documents. "
+                "Retrieval remains over the local motivation corpus "
                 "instead of the official MS MARCO Faiss index so the topical/constraint labels stay valid."
             ),
         }
