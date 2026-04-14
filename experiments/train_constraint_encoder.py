@@ -11,7 +11,7 @@ from common import ensure_project_dirs, read_jsonl, set_seed
 
 
 def load_trainer_config() -> dict:
-    config_path = Path(__file__).resolve().parents[2] / "CoDeR" / "encoder_trainer" / "trainer_config.py"
+    config_path = Path(__file__).resolve().parents[1] / "encoder_trainer" / "trainer_config.py"
     if not config_path.exists():
         raise FileNotFoundError(f"Config file not found: {config_path}")
 

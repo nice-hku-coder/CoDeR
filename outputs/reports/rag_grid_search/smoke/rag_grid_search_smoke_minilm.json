@@ -1,0 +1,710 @@
+{
+  "eval_file": "data/processed/smoke_eval.jsonl",
+  "topic_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "constraint_model": "outputs/checkpoints/constraint-encoder-v1",
+  "top_k": 3,
+  "alphas": [
+    0.0,
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "taus": [
+    -1.0,
+    0.0,
+    0.2,
+    0.4,
+    0.6
+  ],
+  "vanilla_avg_ccr": 0.4444444444444444,
+  "best": {
+    "alpha": 0.0,
+    "tau": 0.6,
+    "avg_ccr": 0.5555555555555555,
+    "per_query": [
+      {
+        "query": "Find hotels that are not dirty",
+        "ccr": 1.0
+      },
+      {
+        "query": "Meals without peanuts",
+        "ccr": 0.0
+      },
+      {
+        "query": "Phones under 100 dollars",
+        "ccr": 0.6666666666666666
+      }
+    ]
+  },
+  "best_improvement": 0.11111111111111105,
+  "all_results": [
+    {
+      "alpha": 0.0,
+      "tau": 0.6,
+      "avg_ccr": 0.5555555555555555,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 1.0
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.0
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "tau": 0.6,
+      "avg_ccr": 0.5555555555555555,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 1.0
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.0
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "tau": 0.6,
+      "avg_ccr": 0.5555555555555555,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 1.0
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.0
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "tau": 0.6,
+      "avg_ccr": 0.5555555555555555,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 1.0
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.0
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "tau": 0.6,
+      "avg_ccr": 0.5555555555555555,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 1.0
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.0
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "tau": 0.6,
+      "avg_ccr": 0.5555555555555555,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 1.0
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.0
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "tau": 0.6,
+      "avg_ccr": 0.5555555555555555,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 1.0
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.0
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "tau": -1.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "tau": 0.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "tau": 0.2,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.0,
+      "tau": 0.4,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "tau": -1.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "tau": 0.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "tau": 0.2,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.1,
+      "tau": 0.4,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "tau": -1.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "tau": 0.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "tau": 0.2,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.3,
+      "tau": 0.4,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "tau": -1.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "tau": 0.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "tau": 0.2,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.5,
+      "tau": 0.4,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "tau": -1.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "tau": 0.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "tau": 0.2,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.7,
+      "tau": 0.4,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "tau": -1.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "tau": 0.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "tau": 0.2,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 0.9,
+      "tau": 0.4,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "tau": -1.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "tau": 0.0,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "tau": 0.2,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "alpha": 1.0,
+      "tau": 0.4,
+      "avg_ccr": 0.4444444444444444,
+      "per_query": [
+        {
+          "query": "Find hotels that are not dirty",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Meals without peanuts",
+          "ccr": 0.3333333333333333
+        },
+        {
+          "query": "Phones under 100 dollars",
+          "ccr": 0.6666666666666666
+        }
+      ]
+    }
+  ]
+}

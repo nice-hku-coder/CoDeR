@@ -1,0 +1,6 @@
+Model: sentence-transformers/all-MiniLM-L6-v2
+Samples: 800
+Mean entailment similarity: 0.6616
+Mean contradiction similarity: 0.3276
+Mean margin (ent - contra): 0.3339
+Pairwise accuracy (ent > contra): 0.9463

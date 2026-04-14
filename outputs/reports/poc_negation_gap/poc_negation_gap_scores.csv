@@ -1,0 +1,801 @@
+premise,entailment,contradiction,ent_score,contra_score,margin
+Two women are embracing while holding to go packages.,Two woman are holding packages.,The men are fighting outside a deli.,0.761516,0.074186,0.687330
+"Two young children in blue jerseys, one with the number 9 and one with the number 2 are standing on wooden steps in a bathroom and washing their hands in a sink.",Two kids in numbered jerseys wash their hands.,Two kids in jackets walk to school.,0.727639,0.330629,0.397010
+A man selling donuts to a customer during a world exhibition event held in the city of Angeles,A man selling donuts to a customer.,A woman drinks her coffee in a small cafe.,0.783048,-0.018999,0.802047
+"Two young boys of opposing teams play football, while wearing full protection uniforms and helmets.",boys play football,dog eats out of bowl,0.803669,-0.003865,0.807534
+A man in a blue shirt standing in front of a garage-like structure painted with geometric designs.,A man is wearing a blue shirt,A man is wearing a black shirt,0.599873,0.299173,0.300700
+"Under a blue sky with white clouds, a child reaches up to touch the propeller of a plane standing parked on a field of grass.",A child is reaching to touch the propeller of a plane.,A child is playing with a ball.,0.713606,0.411280,0.302325
+A woman is doing a cartwheel while wearing a bikini in the sand next to the beach.,A woman is doing a cartwheel.,A woman is fixing her home.,0.710627,0.226836,0.483791
+Two men on bicycles competing in a race.,People are riding bikes.,A few people are catching fish.,0.597135,0.105561,0.491574
+A young boy in a field of flowers carrying a ball,boy in field,dog in pool,0.673901,0.096250,0.577651
+A senior is waiting at the window of a restaurant that serves sandwiches.,A person waits to be served his food.,A man is waiting in line for the bus.,0.653497,0.331419,0.322079
+"Man in a black suit, white shirt and black bowtie playing an instrument with the rest of his symphony surrounding him.",A person in a suit,Nobody has a suit,0.384895,0.213720,0.171175
+Two women having drinks and smoking cigarettes at the bar.,Two women are at a bar.,Three women are at a bar.,0.789630,0.667011,0.122620
+Two doctors perform surgery on patient.,Doctors are performing surgery.,Two surgeons are having lunch.,0.866747,0.692200,0.174546
+A white dog with long hair jumps to catch a red and green toy.,An animal is jumping to catch an object.,A white dog with long hair is swimming underwater.,0.697522,0.483514,0.214008
+Kids are on a amusement ride.,Kids ride an amusement ride.,A car is broke down on the side of the road.,0.979381,-0.025175,1.004556
+A man in a black shirt is playing golf outside.,The man wearing the black shirt plays a game of golf.,The man in the black shirt trades Pokemon cards with his girlfriend.,0.939988,0.278866,0.661122
+A older gentleman finds it humorous that he is getting his picture taken while doing his laundry.,a guy laughs while doing laundry,two ladies pin clothes to dry,0.654273,0.195667,0.458606
+An Indian woman is washing and cleaning dirty laundry at a lake and in the background is a kid who appears to have jumped into the lake.,An Indian woman is doing her laundry in a lake.,An Indian woman is putting her laundry into the machine.,0.782391,0.536514,0.245877
+A man in a green jersey and rollerskates stumbles as a man in a black jersey appears to collide with him.,The man stumbles stumbles in rollerskates.,They are driving cars.,0.632725,0.081355,0.551369
+A group of onlookers glance at a person doing a strange trick on her head.,People watch another person do a trick.,A boy does a card trick.,0.689388,0.182180,0.507208
+"A taxi SUV drives past an urban construction site, as a man walks down the street in the other direction.",An SUV and a man are going in opposite directions.,A man is chasing an SUV that is going in the same direction as him.,0.588082,0.540094,0.047988
+People wearing red shirts are standing in a large pool of water as it splashes over and around them.,A person in a shirt,Nobody has a shirt on,0.336219,0.233793,0.102426
+A man in a white t-shirt takes a picture in the middle of the street with two public buses in the background.,A man is wearing a white shirt,A man is wearing a black shirt,0.540319,0.293364,0.246954
+A shirtless man is singing into a microphone while a woman next to him plays an accordion.,A man is singing into a microphone.,He is playing a saxophone.,0.611245,0.262138,0.349108
+Women and children sitting outside in the shade while a group of younger children sitting inside in the shade.,The woman and kids and sitting down.,The woman is running.,0.616174,-0.006091,0.622265
+A pregnant lady singing on stage while holding a flag behind her.,A woman is making music.,A woman is sick in bed.,0.461053,0.187357,0.273696
+The two farmers are working on a piece of John Deere equipment.,John Deere equipment is being worked on by two farmers,2 Men are making a pool together,0.929894,0.197307,0.732587
+A little boy in a blue shirt holding a toy.,Boy dressed in blue holds a toy.,Boy dressed in red lighting things on fire.,0.886574,0.286079,0.600495
+A woman is writing something on a post-it note which is hanging on a bulletin board with a lot of other post-it notes.,The woman is writing a note.,The woman is talking on the phone.,0.789774,0.317223,0.472551
+A baby at the end of a slip and slide at a party,The baby is wet.,The man is at the end of the slip and slide,0.475646,0.594574,-0.118928
+A girl swings high in the air.,A girl is on a swing,A girl is laying in the pool,0.690530,0.218642,0.471888
+A view of the back of a woman having a beverage.,woman has a drink,woman dumps the drink on a man,0.744949,0.478949,0.266000
+A lady sitting on a bench that is against a building and under a poster of a man in a uniform waving.,A person sitting,Nobody is sitting,0.438760,0.196000,0.242761
+A man with a shopping cart is studying the shelves in a supermarket aisle.,There is a man inside a supermarket.,A man is watching a movie in a theater.,0.674561,0.272428,0.402133
+"A man wearing sunglasses is sitting on the steps outside, reading a magazine.",The man is sitting.,"The man is reading a spoon with the words ""HELP ME"" on it.",0.433193,0.218950,0.214243
+"A woman sitting outside weaving a long piece of red, white, and blue cloth.",She is working with cloth,He is jumping over a house,0.604090,0.063158,0.540932
+A person powerwashing stairs leading down to a pool.,a worker cleans near the pool,a dog chases a cat,0.608464,-0.093616,0.702080
+A person rides his bicycle in the sand beside the ocean.,A person is on a beach.,A person is on a boat.,0.637257,0.340578,0.296679
+"Two black little boys hanging over an upside down bicycle, one examining the pedal.",Children were looking at a bike.,Someone is riding a bike.,0.616133,0.296368,0.319765
+A brown a dog and a black dog in the edge of the ocean with a wave under them boats are on the water in the background.,The dogs are swimming among the boats.,The pets are sleeping on the grass.,0.570330,0.128796,0.441534
+A group of people prepare hot air balloons for takeoff.,A group of people are outside.,A group of people prepare cars for racing.,0.415796,0.425468,-0.009672
+Men stand on steps leading out of a body of water,Men are standing on some steps near some water.,Men are sitting outside near a golf course.,0.919335,0.248732,0.670603
+A long-beaked bird in mid-flight.,A bird flying.,A rat running on a wheel.,0.770362,0.269457,0.500905
+A man in the middle east with a corn-on-the-cob cart selling corn.,"In the middle east, a man sells corn-on-the-cob from a cart.",A middle east man is throwing corn at strangers.,0.962053,0.573159,0.388895
+A man in a black shirt is playing a guitar.,He is playing a song.,The man is wearing a blue shirt.,0.587749,0.273671,0.314078
+"Colorfully dressed people walk down the center of the road, with onlookers behind a barricade.",A group of people walking down a road.,A group of people in a motorcade driving past an audience.,0.542434,0.436262,0.106172
+A woman is talking on the phone while standing next to a dog.,A woman is on the phone.,A woman is sleeping.,0.674454,0.183314,0.491140
+5 women sitting around a table doing some crafts.,Five women sit at a table.,Five men stand on chairs.,0.786241,0.330988,0.455253
+Street performer with bowler hat and high boots performs outside.,The person is performing.,The child is dancing inside.,0.626984,0.083886,0.543098
+A young boy playing in the grass.,There is a child in the grass.,The boy is in the sand.,0.810521,0.512149,0.298372
+Two men playing baseball with the one in the black and red jersey running toward base.,There is a baseball game going on.,The man in black and red is sitting in the bleachers.,0.639188,0.194791,0.444397
+A man and a woman are looking at produce on display.,A man and woman are looking at produce.,Two men throw produce at each other for fun.,0.956903,0.481863,0.475040
+People are throwing tomatoes at each other.,The people are having a food fight.,The people are sitting and eating their food.,0.542703,0.321452,0.221251
+People standing in line of a beer and curry line.,People standing in line,People not standing in line,0.727215,0.608925,0.118291
+A man and a woman are talking in a park,A pair of people are talking outdoors.,A man and woman are talking in the aquarium.,0.666058,0.605985,0.060073
+A small ice cream stand with two people standing near it.,Two people standing outside an ice cream stand.,Two people selling ice cream from a car.,0.833181,0.517309,0.315872
+Number 916 is hoping that he is going to win the race.,A person is competing in a race.,A person is is playing baseball.,0.454089,0.045390,0.408699
+Girl plays with colorful letters on the floor.,The girl is having fun learning her letters.,The girl is playing a video game in the bath.,0.691518,0.373103,0.318415
+Two men are cooking food together on the corner of the street.,The men are making something to eat.,The two men are running in a race.,0.638902,0.306790,0.332112
+A man wandering in the desert as the clouds roll in.,A man wonders in the desert.,A man fights dead mummy's who magically came alive in the desert.,0.638650,0.344848,0.293802
+A lady with bright orange hair walking in a crowd.,A woman is near a group of people.,The woman is asleep.,0.560291,0.078640,0.481651
+A man running a marathon talks to his friend.,There is a man running.,There are people canoeing down a river.,0.424707,0.037917,0.386791
+A lot of people walking outside a row of shops with an older man with his hands in his pocket is closer to the camera.,A lot of people walking outside a row of shops with a man with hands in his pockets.,A lot of dogs barking outside a row of shops with a cat teasing them.,0.790566,0.205006,0.585560
+A barefooted adolescent boy in a yellow shirt reaching the top of a small skateboarding ramp.,a boy is barefooted,the boy is flying a helicopter,0.660283,0.230445,0.429838
+A group of children enjoy their time on the beach.,Children are at the beach.,A group of adults are swimming at the beach.,0.846970,0.468568,0.378402
+"A small baby, possibly a newborn is being bathed by a person in blue scrubs wearing protective gloves.",Someone is helping bathe the small baby.,The small baby is in it's crib sound asleep.,0.772196,0.316633,0.455563
+An asian woman sitting outside an outdoor market stall.,A woman sits outdoors.,A woman sitting in an indoor market.,0.676325,0.710630,-0.034305
+An older gentleman enjoys a scenic stroll through the countryside.,A man walks the countryside.,A pirate boards the spaceship.,0.702700,-0.014779,0.717478
+A middle-aged man is sitting indian style outside holding a folded paper in his hands.,A middle aged man is outdoors.,A middle aged man is sitting on a stool in a bar.,0.488226,0.375605,0.112622
+Number 13 kicks a soccer ball towards the goal during children's soccer game.,A player trying to score in a soccer game.,A player passing the ball in a soccer game.,0.509318,0.488429,0.020890
+A man sits in a chair on the sidewalk in front of a huge display of brightly colored artwork.,A man sits in a chair on the sidewalk in front of a huge display of brightly colored artwork,The man was watching tv,0.997777,0.189093,0.808684
+A young child is jumping into the arms of a woman wearing a black swimming suit while in a pool.,Child leaping into arms of a woman wearing swimsuit in a pool.,Mother and daughter shopping for shoes.,0.906182,0.118562,0.787620
+A guy waxing a wooden floor with wax.,a guy is waxing,the guy is dead,0.831730,0.314864,0.516866
+This is the image of two Asian men squatting near a mop-pad.,Two young asian men are squatting.,Two italian girls are squatting.,0.717199,0.450961,0.266238
+A man uses a projector to give a presentation.,A man is giving a presentation.,A man is using a projector to watch television.,0.852030,0.749312,0.102718
+A young barefoot girl in a pink dress is jumping outside.,A child is playing.,The child sits in a dark room watching television.,0.331624,0.072150,0.259474
+Four guys with guns and army gear.,The guys have guns.,The four guys are playing hopscotch.,0.760557,0.423725,0.336832
+A man is a safety suit walking outside while another man in a dark suit walks into a building.,Men are walking  in different directions.,Men are sitting in the park.,0.496471,0.174343,0.322128
+A man poses for a photo in front of a Chinese building by jumping.,The man is prepared for his photo.,The man is dancing around the building.,0.627774,0.301978,0.325796
+A couple bows their head as a man in a decorative robe reads from a scroll in Asia with a black late model station wagon in the background.,A black late model station wagon is in the background.,A white late model station wagon is in the background.,0.357157,0.340647,0.016511
+A boy looks surly as his father looks at the camera.,a boy looks at his farther,a girl looks at her father,0.641899,0.714052,-0.072153
+A boy in red slides down an inflatable ride.,A boy is playing on an inflatable ride.,A boy pierces a knife through an inflatable ride.,0.811228,0.542643,0.268584
+A man is reading a newspaper in a car dealership.,A man is at a car dealership.,A man is reading a magazine at the hospital.,0.660563,0.402854,0.257708
+A carefully balanced male stands on one foot near a clean ocean beach area.,A man is ouside near the beach.,A man is sitting on his couch.,0.704088,0.119102,0.584986
+A man wearing a white shirt is playing the drums.,A man is playing a musical instrument.,A man is playing the trumpet with his hands tied behind his back.,0.571842,0.420295,0.151547
+Three women in dress suits walk by a building.,Three women are traveling by foot.,The woman are wearing bikinis.,0.614979,0.319567,0.295412
+two people are waiting for a train at a station.,They expect a train to arrive eventually.,They are both waiting for a bus.,0.584636,0.588081,-0.003445
+A man in a black shirt is smiling at a woman in a black shirt what a tattoo and a eye brow ring.,A man is smiling at a woman.,A man is reading a book alone.,0.778371,0.035823,0.742548
+A goalie in white runs for an approaching ball while the opponent in red who kicked it waits.,A person wearing white is running towards a ball that was kicked from another person.,The goalie is sleeping at home.,0.706633,0.325938,0.380695
+"Two men sitting on a subway are reading, with coats and scarves on, but have seemed to have lost their pants.",There are people on the subway.,There are women on the subway.,0.510243,0.383771,0.126471
+kids drawing something on paper,There are kids drawing.,The kids are cutting ribbons.,0.863822,0.448410,0.415411
+A young woman is singing into a microphone.,The woman is singing.,The woman playing the trumpet.,0.802778,0.394065,0.408713
+"Three elephants, each carrying a group of people, walking through the water.",Three elephants carry people through the water.,The elephants are performing in a circus tent.,0.944081,0.392947,0.551134
+A diver is swimming with a turtle.,A turtle has a diver swimming with it.,A lion is eating raw meat at the zoo.,0.954040,0.130679,0.823361
+A man with a beard skateboarding and a boy with a blue and black backpack riding a green bike in the background.,There is a man and a boy outside.,There is a kid skateboarding and a bearded man on a bike.,0.513541,0.772479,-0.258938
+A young boy reaches for and touches the propeller of a vintage aircraft.,A young boy and an airplane.,A young boy swims in his pool.,0.613405,0.291920,0.321484
+Indian people dressed in magnificent bright colors conduct a ritual.,Indian people having a ritual,Indian people hunting animals,0.856859,0.444067,0.412792
+Two little girls ride an inflatable dinghy down a purple water slide.,Two girls on a water slide.,Barney Fife with his one bullet.,0.720712,0.081911,0.638801
+A woman walks by a brick building that's covered with graffiti.,A woman is outside.,The woman is in the bathroom.,0.492029,0.275309,0.216720
+Young girl with dark hair facing camera and holding a paper bag while wearing an orange shirt and multicolored butterfly wings.,A young girl faces the camera.,An old woman refuses to have her picture taken.,0.646852,0.291881,0.354972
+A boy in overalls blows bubbles.,A boy is blowing bubbles.,A man is juggling in the park.,0.837127,0.165101,0.672027
+Two children playing on the floor with toy trains.,The children played on the floor.,The girls slept on the floor next to the toys.,0.748381,0.499621,0.248760
+"Three men in a science lab watch one of them hold a burning object, one man on the side is reaching for the ground.",Three men are in a laboratory doing a scientific study.,There are three men on a fishing boat trying to catch bass.,0.651232,0.317390,0.333841
+A white dog is chasing a stuffed animal being pulled on a string.,the animal is running,the animal is sleeping,0.574362,0.249614,0.324748
+Two female workers sit on some steps during work.,Two women sitting on steps at their job.,Two women sitting at their workplace desks.,0.903282,0.644703,0.258579
+"A man in a blue shirt, jumping down a hill in a park.",A man is down a park,A man is sleeping.,0.649629,0.159237,0.490392
+Four girls are dancing in matching outfits at a street festival.,The four girls are attending the street festival.,The four girls are playing card games at the table.,0.851941,0.353793,0.498148
+"A small group of children are standing in a classroom and one of them has a foot in a trashcan, which also has a rope leading out of it.",There is a child with their foot in a garbage can near some other kids in a classroom.,A man looks at his watch at a bus stop.,0.755588,-0.123765,0.879353
+A child is looking out of a door.,There is a door.,The child is asleep.,0.658178,0.355725,0.302453
+A boy in a baseball cap jumps over a flight of stairs.,A boy jumping through the air.,A guy swimming in the pool.,0.676894,0.053447,0.623447
+A man is sitting in on the side of the street with brass pots.,A man is sitting.,a man does not have brass pots,0.571551,0.591141,-0.019590
+"A man in a blue windbreaker jacket, laying face down on a park bench, with a liquor bottle nestled by one of the bench's legs.",A man lays face down on a park bench.,A man is dancing at the club popping bottles.,0.699527,0.296743,0.402784
+A woman is using clothespins to hang up laundry outside on a laundry line.,A woman is taking care of her laundry.,A woman is folding her washed laundry.,0.713040,0.628103,0.084937
+A dog reaches to catch a ball with its mouth.,The dog is playing with a ball.,The dog is playing with a rope.,0.741033,0.412779,0.328254
+A young boy is sitting in a green tunnel,The boy is sitting,A girl is sitting,0.633530,0.285883,0.347647
+The little boy is jumping into a puddle on the street.,The boy is outside.,The boy is walking across the field with his dog.,0.599363,0.287974,0.311390
+Four young men sit on the floor close to a television that is showing Elmo from Sesame Street.,Four males are sitting indoors.,Four males are playing out in the yard.,0.563170,0.264063,0.299106
+"Dinner and decisions, with the crew.",the crew was having dinner,the crew all ate lunch alone,0.750010,0.356603,0.393407
+Woman wearing a white donkey costume while talking to a man.,A woman is wearing strange clothing.,A woman is dancing near a fire.,0.346242,0.138607,0.207635
+A boy and a girl in jackets gaze in a clothing store window.,Two kids are looking in a store window.,Two kids are flying on a hovercraft.,0.721741,0.215782,0.505959
+People dressed in costumes walking down a street.,Humans wearing clothes on the street.,A naked man walking down the street.,0.717097,0.422718,0.294379
+A person in a blue plaid shirt is writing on a chalkboard.,The person is writing on the chalk board.,The person is reading a book.,0.806637,0.385202,0.421434
+"This mother and her daughter and granddaughter are having car trouble, and the poor little girl looks hot out in the heat.",The car that belongs to the family is having issues.,The family is driving safe and sound while the little girl is asleep.,0.516274,0.424693,0.091581
+A large group of people are gathered outside of a brick building lit with spotlights.,The building is brick.,The building is made of logs.,0.478851,0.339483,0.139368
+A man plays the french horn as his pianist plays the supporting melody on stage.,Two people are playing an instruments on stage.,Three guys are playing the bongos on stage.,0.512000,0.352929,0.159072
+A man with a white towel wrapped around the lower part of his face and neck.,The man is covering his neck,The towel is pink and blue striped,0.619536,0.495246,0.124289
+Man walking with tall buildings with reflections behind him.,The man was walking.,The man was running through the park.,0.679304,0.233765,0.445539
+Excited children pass their parents on their way from the parking lot.,Children run past their parents.,The children are watching TV at home.,0.595735,0.098620,0.497115
+Two boys are holding red kites with water in the background.,Persons are involved in outdoor recreation.,Two boys are watching television.,0.215086,0.327535,-0.112449
+Dog herding cows,Animals are near each other.,Cats are sleeping inside the room.,0.607822,0.071734,0.536089
+Men and women walking down a sidewalk next to a garden.,They are walking by the garden.,The men and women are running through the forest.,0.693385,0.474356,0.219029
+a man is swimming inside of a pool,there is a man in a pool.,there is a person drowning.,0.759503,0.366049,0.393453
+A hispanic fruit market with many different fruits and vegetables in view on a city street with a man passing the store dressed in dark pants and a hoodie.,A fruit market and a man,A fish market is on the docks,0.720451,0.270178,0.450273
+A black and brown dog walks in the shallows of a large body of water.,The dog is in the water.,The dog is wearing a clown suit.,0.630810,0.254607,0.376203
+A man jumping sideways in the ocean.,A man jumps in the ocean.,A man sits in a hotel lobby.,0.897793,0.252022,0.645771
+"A woman with a bright red umbrella is jumping high in the air, she has on a knit hat and black shirt and colorful boots.",A woman in black is jumping in the air with a red umbrella.,A woman in black high heels is walking down a large staircase.,0.820810,0.380044,0.440766
+A teenage girl in winter clothes slides down a decline in a red sled.,A girl is sliding on a red sled.,A girl is on a beach with a blue sled.,0.737342,0.442479,0.294863
+Three men with blue jerseys try to score a goal in soccer against the other team in white jerseys and their goalie in green.,The men are playing soccer.,"Some men with jerseys are in a bar, watching a soccer match.",0.593616,0.531492,0.062125
+A dog leaps into the air in a grassy field surrounded by trees.,A dog is in a grassy field filled with trees.,A dog is sleeping in a grassy field surrounded by trees.,0.770595,0.540792,0.229803
+A man with a large power drill standing next to his daughter with a vacuum cleaner hose.,A man holding a drill stands next to a girl holding a vacuum hose.,The man and girl are painting the walls.,0.817078,0.254481,0.562596
+"Three girls are standing together in a room, one is listening, one is writing on a wall and the third is talking to them.",The girls are indoors.,The girls are outdoors.,0.629437,0.428718,0.200719
+Three children dressed in winter clothes are walking through the woods while pushing cargo along.,Three children are dressed in warm winter clothes.,Three childre are dressed in summer clothes.,0.710340,0.583735,0.126606
+A man is sitting outside wearing blue pants.,There is a person wearing pants.,The person is inside.,0.568164,0.282406,0.285758
+"A woman is looking into a mirror, brushing her hair.",A woman is brushing her hair.,The woman is taking a shower.,0.724507,0.386463,0.338044
+Two players are on a wet field and one is on the ground.,There are people in a field.,Both people are standing up.,0.628968,0.324322,0.304646
+A little baby with dirty fingers and smudges on her face points to her blue eye.,The baby is dirty.,A baby points at her green eye.,0.644379,0.717524,-0.073145
+A couple sitting in white lawn chairs are smiling at the camera.,Two people are posing for a photograph.,A woman is standing alone.,0.546381,-0.061693,0.608074
+Five people are sitting on horses at a rodeo.,A group of people are sitting on horses.,Bandits are sitting on horses as they prepare for a robbery.,0.737032,0.482873,0.254159
+"Nine women in white robes with hoods walk on plush, green grass.",The women each have one head.,The woman is alone and asleep in her bedroom.,0.307194,0.028582,0.278612
+A man in a blue shirt is in a lab looking into a microscope.,A man looking into a microscope in a lab,A man is sleeping in the park bench,0.879470,0.068181,0.811289
+An indian man walks past a temple on his way to pray.,A man is heading to his house of worship.,A man fell into the swimming pool.,0.537108,0.119837,0.417271
+Masked actors perform traditional Japanese theater.,There are multiple people present.,There is only one person present.,0.224779,0.085838,0.138941
+A man in a green Celtic sleeveless jersey shirt and short stone washed jean shorts sitting and eating.,The man is having a meal.,The man is wearing a Cowboys jersey.,0.564302,0.361401,0.202901
+A middle-aged man's shaving his beard in a room with white walls which does n't look like a bathroom.,a man is shaving,a man sleeps,0.710515,0.214483,0.496032
+Young man walking dog,The man is with his dog.,The man is walking his cat.,0.600927,0.433063,0.167864
+"a large house with three stories and 3 matching balconies, with one person standing on each balcony overlooking onlookers.",The house has balconies.,The house is single storied.,0.625583,0.433113,0.192470
+One woman with a dark coat on walking by herself in a city.,The woman is outdoors.,The woman is standing in a building.,0.482543,0.299200,0.183343
+"A man with a hat, boots, and brown pants, is playing the violin outside in front of a black structure.",A man is playing the violin.,A homeless man has stolen a child's violin in order to fulfill his fantasy of joining the London Symphony Orchestra.,0.667905,0.420752,0.247154
+Two kids are standing in the ocean hugging each other.,Two kids are outdoors.,The children are playing basketball.,0.594527,0.209248,0.385279
+A crowd of people are watching hot air balloons inflate.,People watching hot air balloons inflating.,One person watching a plane prepare for a sky diving trip.,0.930841,0.323032,0.607809
+A little girl with a hat sits between a woman's feet in the sand in front of a pair of colorful tents.,The girl is wearing a hat.,The girl and woman are inside.,0.569111,0.351995,0.217117
+A dog licks his nose.,A dog is licking his nose.,A cat is licking his fur.,0.961996,0.636905,0.325092
+A man and women are dancing together on the street.,A man and woman are dancing together.,A cat is hissing at something.,0.776974,-0.009579,0.786553
+"A brown dog is laying on his side on a beige carpet, with a green object in the foreground.",A brown dog is laying on the carpet with a green thing next to it.,The dog is dead.,0.922916,0.381478,0.541439
+A girl with brown hair and a brown shirt is building a gingerbread house.,The girl has brown hair.,The girl has blonde hair.,0.601951,0.447943,0.154008
+A black dog in front of a waterfall.,A dog is in front of a waterfall.,A dog is dancing while it rains.,0.910742,0.511338,0.399403
+A girl in a striped black and white sweater holds on to her friend who is bent over wearing a hooded black sweater and torn blue jeans.,The girl is touching her friend.,The girl is alone in her bedroom asleep.,0.685207,0.079206,0.606001
+Two girls with long brown hair sit on the floor with a view from the window behind them showing a town.,Two girls with long brown hair sit on the floor,Two girls with long brown hair sit on the spaceship,0.830527,0.650863,0.179664
+Man in a military outfit handing something in a plastic bag to a group of children outside near a brown building.,A man is handing a plastic bag to a group of children.,A man in civilian clothes hands a bag to a group of children.,0.757398,0.797223,-0.039825
+A man and a woman sit on a deck under a blue sky that is about to be overtaken by tumultuous clouds.,There are many clouds in the blue sky.,The man and woman are sitting at home.,0.552666,0.343549,0.209117
+"Two women stand on a beach and perform stretches or yoga together, facing towards the water and away from the camera.",Two people are exercising outside.,Two people are jogging on a path through a tunnel.,0.438202,0.288650,0.149552
+"People in a grocery store crowd around to watch a Tv, except one man who walks toward the camera.",There is a man walking towards a camera.,The people are crowded around a street performer.,0.413283,0.289370,0.123913
+A child holds a football and runs from other children.,There is more than one child.,The children are all sitting down.,0.574359,0.279580,0.294779
+"A black man, wearing a cap, is sitting in a bus.",A man is traveling on public transportation.,A guy fastens his seatbelt before he starts his car.,0.478941,0.215223,0.263718
+A man is walking away from tents with the word Camden on them.,The man is walking.,The tents do not have anything written on them.,0.445604,0.387291,0.058313
+Two women with badges are watching something.,Two people are looking at something.,Two men are eating outside.,0.481608,0.072470,0.409138
+A happy boy is jumping in front OD city fountain.,There is a boy near a fountain.,The boy is standing still in the fountain.,0.647592,0.520092,0.127500
+A boy walking away from two Camden tents with a group of people behind him.,A person walking away from a tent,A person building a tent,0.658330,0.258999,0.399330
+A man rides a kicking bull in a bullpen.,The man is riding a bull.,The man is riding a sheep.,0.755216,0.183020,0.572196
+"Two kids on a boat, one with a paddle, and the other on the edge wearing a life vest.",A kid is wearing a life vest.,Two kids are sleeping in bed.,0.529293,0.312696,0.216598
+"Two basketball players in black and white outfits are standing on a basketball court, talking.",The two basketball players are conversating.,The two basketball players are sitting on the bench.,0.789263,0.509444,0.279819
+A man and a woman hug on a grassy hillside overlooking the countryside in the distance.,The man and woman are outdoors.,The man and woman are at a skating rink.,0.565439,0.262583,0.302857
+A man and a young boy are eating on a city sidewalk next to a cardboard box and a red shopping cart.,a man eating with a young boy on a city sidewalk,father and son watching television at home,0.850774,0.200653,0.650120
+A young blond girl dressed in pink is lying on the floor next to some brown dominoes.,a girls lays next to dominos,a bird eats a frog,0.712029,0.026498,0.685531
+A man is holding a both a sleeping toddler and a sleeping baby on his lap.,A man holds two sleeping children.,A toddler and baby play together while their father looks on.,0.606616,0.451326,0.155290
+People on a concrete area taking pictures.,people take pictures,boy sleeps alone,0.815512,-0.078756,0.894268
+A blond woman shows her profile in front of a white luxury car.,A woman shows her profile in front of a white luxury car.,A brunette woman shows her profile in front of a white luxury car.,0.924289,0.902266,0.022022
+A musical group performing on a green carpet in front of small televisions.,A group is playing a song near some TVs.,The school band is walking to band hall.,0.685258,0.253077,0.432181
+Three workers are trimming down trees.,There are three workers,There are three business men,0.602745,0.356453,0.246292
+A young girl plays with a neon-colored Slinky in a crowd of people on a street lined with flags.,A girl is playing with a Slinky.,The Slinky is black.,0.652041,0.327306,0.324735
+"A young man attempts to pole vault over a bar, barely inches away from it mid flight.",A young man is pole vaulting.,A young man throws a shotput.,0.732451,0.311045,0.421406
+People sit around a circular bar.,people sit at a bar,people sit around a bus stop,0.820466,0.509345,0.311121
+A woman is holding a sign that says honk to indict bush.,The woman is touching the sign.,The woman is swimming in her pool.,0.705385,0.111955,0.593430
+Police officer with riot shield stands in front of crowd.,A police officer stands in front of a crowd.,A police officer teaches two children something.,0.857870,0.341895,0.515975
+A girl is using an apple laptop with her headphones in her ears.,with headphones on the girl used a computer,Working at her Dell Window 7 computer the girl talked on speaker phone with her friend,0.660498,0.446763,0.213735
+A boy is standing at the edge of a wave with the sun setting or rising in the background.,Child is outdoors.,A boy is school.,0.430902,0.350483,0.080419
+Several men in protective suits are rolling a man on a gurnee.,A man is on a gurney,Zombies are leaving the hospital,0.278626,0.016174,0.262452
+A construction worker is standing on a crane placing a large arm on top of a stature in progress.,A person standing,Nobody is standing,0.546560,0.267274,0.279286
+"Two Asian children, a boy and a girl, the girl looking squarely at the camera and the boy making a face.",there are children near the camera,the children are sleeping in their rooms,0.664694,0.158852,0.505842
+A man is jumping unto his filthy bed.,The bed is dirty.,The man is on the moon.,0.676755,0.130740,0.546015
+A gentlemen dressed in a purple shirt with a red apron selling items to eat at a sport event held during the day in the summer time.,There is a person and food.,There is a person selling food inside a fancy restaurant.,0.489540,0.451528,0.038013
+"Multiple women are wearing middle eastern outfits of gold, blue, yellow and red and performing a dance.",There are at least 2 women.,The woman is alone and asleep in her canoe on the moon.,0.541821,0.054341,0.487480
+a couple is walking down the sidewalk with their dog.,A couple is outside with their dog.,A couple is walking their cat to the vet.,0.836801,0.556424,0.280377
+Sidewalk vendor dressed in white shirt brown pants sells grilled corn.,There is a person in this picture,The corn is chasing the rainbow,0.280976,0.339002,-0.058026
+Taller runner in orange and smaller one in blue run side by side around track in crowded stadium.,Two people are running together in the stadium.,The people are laying in the grass at the park.,0.596913,0.082895,0.514018
+man grilling fish on barbecue,The man is cooking fish.,The man is sailing a boat.,0.739447,0.297510,0.441937
+The quarterback of the UTEP football team is about to be tackled by a member of the Wisconsin defensive team.,The quarterback is about to be tackled by the opposing team.,The quarterback is a taking photos of the defensive team.,0.825574,0.545053,0.280521
+A kid in a red and black coat is laying on his back in the snow with his arm in the air and a red sled is next to him.,It is a cold day.,The sled is blue.,0.349071,0.317004,0.032067
+"A cyclist in neon yellow uniform rides past spectators behind a yellow banner reading ""Lotos.""",A cyclist is biking past spectators.,A cyclist is taking a water break.,0.668715,0.335695,0.333020
+Young man running towards a tennis court while another is waiting in the other side of the net.,A young man is running.,A young girl is running to a soccer field.,0.607604,0.285849,0.321755
+A white-haired man in a white shirt looks at information in an orange-red binder.,The man looks at a binder.,A man is a secret agent orange peeler.,0.756306,0.317621,0.438686
+A group of people standing in the snow with a mountain in the background.,People are outside.,People are lounging outside on the scalding beach.,0.556484,0.296419,0.260065
+"A young woman seated at a table on what appears to be a backyard deck holds a toddler, giving him a toy or bottle of some sort, while smiling into the camera.",A woman is playing with a toddler.,The woman is changing the boy's diaper.,0.514109,0.275132,0.238977
+Three men look on as two other men carve up a freshly barbecued hog in the backyard.,Others look while two men carve a babecued hog,Other look while a man carves beef,0.662986,0.437893,0.225093
+A group is gathered outside holding flowers.,Their hands are holding something,They throw the cannonballs away,0.378244,0.099349,0.278895
+"A woman is standing near the water, looks to be throwing something.",A woman is close to the water.,The man is standing near the water.,0.670426,0.411964,0.258462
+A little boy bowls in a carpeted hallway.,A boy is bowling.,A boy is skipping rope.,0.567255,0.216463,0.350792
+A young blond woman with braided pigtails and wearing blue biking gear is bicycle racing along a dirt track.,A young blond girl is riding a bike.,A young blond girl is laying in bed.,0.600544,0.251434,0.349110
+A little boy wearing a blue stiped shirt has a party hat on his head and is playing in a puddle.,The party boy is playing in a puddle.,The little boy is taking the bus to school.,0.771624,0.220020,0.551604
+A girl in red dividing colored tabs.,Girl in red dividing colored tabs.,Girl in blue chewing on paper.,0.991103,0.441743,0.549361
+A young girl kisses a ring-bearing boy at a wedding.,Two kids are dressed for a wedding.,Two kids are playing tag.,0.541677,0.189491,0.352186
+A man with black pants on walks by a wall with unique art painted on it.,A man is near a structure.,A man is in outer space.,0.377325,0.228866,0.148459
+A woman is riding a blue bicycle in a park.,A woman cycling around in the park,A woman jogging around the park,0.792166,0.569886,0.222281
+"A well built black man stands in the subway, listening to headphones.",A man with headphones on is standing in a subway.,A man is dancing for tips on the street.,0.861201,0.153082,0.708119
+A woman is holding a baby by a window.,There is a baby in the picture.,The woman's hands are empty.,0.571890,0.303420,0.268470
+A man and woman are sitting at a table in front of a sign that reads IL PORTO and two wine bottles and two wineglasses are on the table.,Two people are ingesting alcohol.,Two teetotalers prepare for dinner.,0.368456,0.324412,0.044044
+Two men wrestle on the floor in front of an group of young men.,Two men are wrestling on the floor.,Two men walk to their favorite casino.,0.839937,0.247007,0.592930
+Rugby player lifted to attempt a score against a red team defending.,the player tries to score,chess match turns violent,0.576927,0.251107,0.325820
+A woman wearing a white baseball cap purple coat holding a poster.,A woman with a hat holding a poster.,A woman with no hat sits in the stands.,0.836186,0.294234,0.541952
+A little girl in a red flowered dress with a tennis racket.,A little girl in red.,A man in red.,0.619539,0.186596,0.432943
+A boy rides on a camel in a crowded area while talking on his cellphone.,A boy is riding an animal.,A boy is riding on an elephant through the streets.,0.574196,0.546064,0.028132
+"There are three men in this picture, two are on motorbikes, one of the men has a large piece of furniture on the back of his bike, the other is about to be handed a piece of paper by a man in a white shirt.",A man is receiving a piece of paper.,Three men are on motorcycles.,0.409964,0.670916,-0.260952
+Two black dogs are frolicking around the grass together.,Two dogs play in the grass.,Two dogs swim in the lake.,0.732876,0.316357,0.416519
+A young girl wearing a pink coat plays with a yellow toy golf club.,A girl is playing.,A girl is wearing a blue jacket.,0.632543,0.399554,0.232989
+A man wearing a yellow striped shirt laughs while seated next to another man who is wearing a light blue shirt and clasping his hands together.,Two men sitting together.,Two mimes sit in complete silence.,0.553772,0.225942,0.327830
+Two men dressed in black practicing martial arts on a gym floor.,Two men are doing martial arts.,Two men are dancing.,0.737621,0.417634,0.319987
+A young man in a white and pink striped shirt is riding in a horse and buggy down a paved road.,A man is riding a horse,A woman is riding a car,0.609879,0.079360,0.530519
+The woman is holding up the line with the fish that she caught in the lake with her bamboo fishing pole.,The woman is fishing.,The woman is hunting for elk.,0.722917,0.309289,0.413629
+"A woman wearing gray pants, a white blouse and a black vest is jumping with one hand in the air as she goes through an indoor stadium.",The jumping lady in slacks also has her hand raised.,The girl wearing a dress skips down the sidewalk.,0.532857,0.166190,0.366667
+A shirtless man wearing a black hat and a scarf works on an anvil.,A man works with an anvil.,A woman falls over an anvil.,0.717647,0.328004,0.389643
+A brunette woman in a multicolored floral outfit and a pearl necklace is talking while holding a wineglass.,a woman holds a glass,a woman is sleeping,0.557267,0.201282,0.355985
+A soldier is handing a picture to a woman holding a Donald Duck bag.,A soldier hands a woman a picture.,A man loads a gun.,0.771544,0.226306,0.545238
+A young boy in a gray and white striped shirt is playing guitar.,A kid is playing the guitar.,A boy is talking on the phone.,0.757805,0.324156,0.433649
+Professional women at the registration table of an event while men in suits look on.,People gather for an event.,People are partying.,0.518178,0.329602,0.188576
+A male soccer player has his foot extended as if he has just kicked the soccer ball while the ball flies through the air.,The man is outside.,The man is laying on the couch.,0.295734,0.101494,0.194239
+A man and a girl are both looking at something of interest.,Something catches the eye of a man and girl,A girl sleeps in her moms lap,0.732847,0.027953,0.704893
+A woman walks on a sidewalk wearing a white dress with a blue plaid pattern.,The woman is walking outside.,The woman is wearing jeans.,0.650509,0.399764,0.250746
+A man doing maintenance on the railroad tracks,There is a man working on the railroad tracks.,There is a woman doing work on the railroad tracks.,0.889251,0.599540,0.289711
+Dog standing in grassy sand dune.,A dog stands in sand near grass.,A basset hound runs by a park bench.,0.871462,0.294137,0.577324
+People protesting ICE raids in front of a school.,A group of people are participating in a protest.,Some men are helping a woman fix her car.,0.600085,0.025000,0.575084
+Two people work construction on the inside of a house.,Two people work inside.,The people are outside,0.793985,0.321207,0.472778
+There is a large group of people in front of Papa John's restaurant.,The people are outside of the restaurant.,The group of friends are sitting inside the restaurant.,0.548858,0.355346,0.193511
+A crowd watches a group of people dressed in yellow shirts perform.,Spectators watching a performance.,Spectators watching a group of dolphins perform.,0.628168,0.497679,0.130489
+A woman in black clothing runs down the street barefoot next to two people on bicycles and a female runner.,The woman is outdoors.,The woman is walking down the street with high heels.,0.431288,0.441000,-0.009712
+A man in a Santa Claus costume is sitting on a wooden chair holding a microphone and a stringed instrument.,The man is wearing a costume.,The man is swimming at the beach.,0.565295,0.007877,0.557418
+A person dressed in red and black outside a cracked wall.,A person in red and black near a wall.,A person in red and black falling through the ionosphere.,0.769527,0.416797,0.352729
+Two brown-haired men wearing short-sleeved shirts and shorts are climbing stairs.,The men are together.,The men have blonde hair.,0.488255,0.457076,0.031179
+"A young couple sit on the couch, the woman wearing a blue work shirt, her eyes half closed, while the man sits with his arm around her, looking towards the camera, in a gray shirt.",A couple sit on the couch,Two brothers sit on the couch,0.710395,0.464371,0.246024
+A medium sized brown dog jumping,The brown dog jumps up and down.,A small dog crouches under a porch.,0.794153,0.420683,0.373469
+"A man in a white button up shirt, and a man in a brown button up shirt discussing something over a table of food.",Two guys having a conversation.,Two men playing a game of darts at a bar.,0.491090,0.237853,0.253236
+Woman being photographed near a bicycle.,Someone is shooting a photo.,Three people are riding bicycles down a lane.,0.460763,0.283419,0.177344
+"On the sidewalk, near the store's entrance, a local entertains all, by playing the accordion.",A local is playing an accordion.,The man is playing a guitar.,0.707230,0.159817,0.547413
+Several bicycles parked and a couple walking together.,Two people are near some bicycles.,Several bicycles lie smashed on the ground and a couple stands holding sledgehammers.,0.694459,0.499988,0.194471
+A man is on the ground taking his shirt off as a crowd watches.,The crowd watches a person take off his shirt.,The crowd watches a gymnast on the uneven bars.,0.820608,0.401671,0.418936
+"A black dog is drinking next to a brown and white dog that is looking at an orange ball in the lake, whilst a horse and rider passes behind.","Two dogs near a lake, while a person rides by on a horse.","Two dogs run together through a park, chasing toys as they are thrown.",0.630477,0.330349,0.300128
+A young man in black pants and a gray shirt holds a skateboard with colorful decals upright while sitting on a gray stone block.,The person is seated on a rock.,The person is walking through a crowd.,0.352005,0.101933,0.250073
+"A toddler dressed only in a pamper is sitting on the floor playing with 4 ""car"" pieces to a train set.",A child plays with a train set.,People look for a lost dog.,0.687870,-0.040836,0.728706
+"Two teams of children, one green the other red, play each other in a game of Rugby while it rains.","The childrens rugby teams, red versus green are playing in the rain.",The children are wearing red and green to practice thier Christmas show.,0.903955,0.457802,0.446153
+"Five Women, wearing beautiful, colorful saris, in a circle, dancing with their hands raised and touching.",There are five women close to each other.,The women have their hands by their side.,0.657665,0.534106,0.123559
+Five little boys are playing baseball.,A few little boys playing baseball outside.,A group of boys playing basketball.,0.829549,0.449929,0.379620
+"A man in yellow, white, and blue bicycle clothing and helmet grimaces as he rides his bicycle.",A man is riding a bicycle.,A girl is riding a roller coaster.,0.600831,0.058848,0.541983
+Two older men standing in front of a store of sorts.,two older men stand,two young men play baseball,0.782751,0.325340,0.457411
+Two women playing field hockey on AstroTurf.,Women playing a game of field hockey.,Women re-sod a field hockey field.,0.833556,0.756548,0.077007
+A goalie tries to catch a ball during a soccer game.,a goalie is doing his job as a goalie.,the goalie quit during the game.,0.696396,0.561733,0.134663
+A woman wearing a red dress and head covering is standing outside of a building.,A woman is outside.,A woman is in an airport.,0.594172,0.277291,0.316881
+A man in his own world of him and his music just entertaining on the street corner.,A man is on a street corner.,A man is eating at a local diner.,0.600201,0.205469,0.394732
+A man in an orange vest is on the sidewalk playing a guitar and singing while others are walking down the sidewalk.,A man is playing a guitar on the sidewalk and singing.,A man is in a purple bathrobe is inside his home cooking breakfast.,0.778577,-0.023432,0.802008
+a man doing tricks on a motorcycle,A guy does stunts on a motorbike.,A man drives a speedboat.,0.771583,0.277191,0.494393
+A man in a bar drinks from a pitcher while a man in a green hat looks on and a woman in a black shirt drink from a glass.,A women in black drinks.,A child is sitting on a bar stool.,0.383506,0.050098,0.333408
+A group of children playing and having a good time.,The kids are together.,The children are reading books.,0.728298,0.369736,0.358562
+"Inside the igloo, the young man gets ready for his overnight stay.",The young man gets ready for his overnight stay.,The young man gets ready to leave.,0.749684,0.566478,0.183206
+Two female basketball teams watch suspenseful as the basketball nears the basket.,Two teams are following the movement of a basketball.,Two female teams are leaving the court after a basketball game.,0.650244,0.640602,0.009642
+A group of girls ride an ATV.,Girls ride ATVs.,Girls ride their skateboards to the store.,0.938206,0.438414,0.499792
+Man in brown and red checkered button up shirt and blue jeans makes a male and female laugh.,A person in casual clothing is causing two others to be merry.,A flight attendant is demonstrating airplane safety but no one is paying attention.,0.328196,0.094692,0.233504
+A girl with a purple sweater and a green headband is doing classwork in a classroom.,A girl is doing work in a classroom.,A boy is scratching his name into his desk.,0.794293,0.157887,0.636406
+A young boy is looking into a silver cellphone while resting his light brown-haired head on top of a resting blond dog's head.,A person looking,Nobody is looking,0.366807,0.092753,0.274054
+The man is walking the bride down the aisle.,A guy is participating in a wedding.,A man is hitting his wife.,0.579586,0.234727,0.344859
+Three people are kayaking in dark waters.,Three people are in a boat.,Three people are learning to use pogo sticks.,0.635928,0.211402,0.424527
+Two children standing in the grass being sprayed by a hose.,Children are getting hosed down on the grass,Children are playing tag in the grass,0.793463,0.547949,0.245514
+A crowd on a city street watches a man flipping in the air.,The man is doing tricks.,The man is doing stunts in the countryside for farmers.,0.388105,0.237410,0.150695
+Two brown dogs with green harnesses play tug-of-war.,There are dogs playing together,Some dogs are swimming in a river,0.700682,0.294032,0.406650
+"Guy in a dark suit, with a cigarette in his right hand while talking on the phone.",The guy has on a suit smoking a cig and talking on the phone.,A women in a bright suite with a cig is talking on the phone.,0.815835,0.431382,0.384453
+There are two people running around a track in lane three and the one wearing a blue shirt with a green thing over the eyes is just barely ahead of the guy wearing an orange shirt and sunglasses.,Two people run around a track.,Two people drive around a track.,0.763846,0.673057,0.090789
+A young adolescent is jumping into a pool.,The child is diving in the pool.,The child is scared to jump in the water.,0.561643,0.537875,0.023768
+"A young man and young woman wearing backpacks are placing or removing an item from an old white tree snag, with other people standing or sitting in the background.",a man and woman with backpacks,an eagle flies,0.601395,0.077826,0.523570
+A woman stands at a podium with a slide show behind her.,A woman is standing at a podium.,A girl is eating at the cafeteria.,0.832439,0.055575,0.776864
+A surfer is surfing catches a wave.,A surfer catches a wave.,A surfer walks to the hot dog truck.,0.969208,0.399403,0.569805
+A man sleeping on the ground in a subway.,There is a man on the ground.,The man is sitting in his warm house.,0.548592,0.237461,0.311130
+Two girls play with origami.,The girls hold paper,The girls eat the paper,0.414324,0.382044,0.032280
+A photographer snaps a midair action shot of a snowboarder.,The photographer has a camera.,The midair shot snaps at a boarder of snow.,0.654941,0.808736,-0.153795
+A man standing in front of a brick building.,A man is outside.,The man pushes a women on the ground.,0.539739,0.174962,0.364777
+An adult ballerina shows you children how to dance.,A ballerina is teaching kids ballet.,The ballerina is sitting down judging the children's dancing.,0.777895,0.697641,0.080254
+People in orange robes line up behind a man wearing sunglasses.,People line up behind a one other person.,People are playing basketball.,0.595975,0.076399,0.519576
+Two Children playing baseball at the park.,Children playing baseball.,Two children lighting matches in their room.,0.821750,0.378646,0.443104
+Two people are sitting next to a wood-stacked campfire at night.,People are sitting outside at night.,The sun is shining brightly on the people.,0.630949,0.288739,0.342211
+A young girl in a white summer dress walks the outer edges of a large park fountain.,The girl is wearing a white dress.,The girl is sitting by the fountain.,0.527860,0.476119,0.051742
+An older man sitting on a stool on the sidewalk playing a violin.,An old man plays the violin on the sidewalk.,A woman performs a comedy routine in a club.,0.828258,0.032901,0.795356
+2 woman walking down the street next to graffiti,The woman are by grafitti.,The 2 woman are running.,0.511990,0.407216,0.104773
+An older man is standing outside in front of a truck.,A man is on his feet.,A disabled man is in a wheelchair.,0.402321,0.318683,0.083638
+"A guy singing on stage with a cool black shirt, while turning his microphone to the audience so they can sing along.",A guy is singing on stage along with the audience.,A guy is telling a joke on stage.,0.872670,0.535307,0.337363
+A hot-air balloon getting filled.,A hot-air balloon is being operated on.,A hot-air balloon is flying over a mountain range.,0.850257,0.612554,0.237703
+"This crib contains a baby, stuffed animals, a box of matches, a cordless drill, a paperback novel, and a blanket.",The baby is in the crib.,The boy is napping in the highchair.,0.589517,0.055763,0.533754
+A man in a yellow shirt does East Asian calligraphy.,A man does calligraphy.,A man does graffiti.,0.758480,0.417978,0.340502
+Two girls talk at an ice skating rink.,Two girls are near the ice.,Two women compete in a speed skating race.,0.735771,0.463026,0.272745
+A group of people standing in front of a club.,A group of people in front of a club.,There are seven people leaving the club.,0.939242,0.524538,0.414705
+Balding man in gray sweater plays with his dog.,A man is with an animal.,A man puts the sweater he knitted on a dog.,0.541557,0.531712,0.009845
+"The small girl is sitting in a harness, strapped to a tether, while others watch.",There is a girl in a harness.,A little girl is riding a bicycle on a tightrope.,0.710928,0.425329,0.285599
+A black dog runs with a deflated ball and a tiny tire.,A dog with a ball.,A cat eats tuna.,0.649856,-0.000819,0.650675
+People are walking along the street.,Humans beings are ambling down a road.,People are skipping down a street.,0.546880,0.593054,-0.046174
+A man is sitting in a chair and looking at something that he is holding.,A man is sitting down looking at something.,A man is sleeping.,0.806384,0.127417,0.678967
+An old women in a purple skirt is gardening with a old tool.,There is a woman wearing purple outside.,A woman is cooking in the kitchen.,0.579471,0.260645,0.318826
+Two girls are on a street sidewalk and one is sitting.,girls are on the sidewalk,the street is empty,0.780313,0.268780,0.511533
+Women are standing outside,There are muliple women outdoors.,The women are seated in a bistro eating lunch.,0.753124,0.168409,0.584715
+The man in black has a condom on his head.,The man is wearing a prophylactic on his head.,The man is wearing the condom on his foot.,0.565570,0.672824,-0.107254
+A woman is holding one young children with another standing next to her while a man is sitting by a small campfire.,A woman is holding one young children with another standing next to her,A woman is holding one young chimp with another standing next to her,0.765887,0.503394,0.262493
+A distant person is climbing up a very sheer mountain.,People are outside climbing.,The mountain is unclimbable for humans.,0.518460,0.477518,0.040942
+Two girls and a guy are involved in a pie eating contest.,Three people are stuffing their faces.,Three people are drinking beer on a boat.,0.293916,0.105771,0.188145
+A couple in bathing suits walk on a beach.,there is a couple,the couple are sitting inside,0.507133,0.297979,0.209154
+A basset hound is tied to a doorway in an alley in front of a man and woman.,The dog is outside.,The dog is on the moon.,0.307188,0.199724,0.107464
+A man in a plaid shirt and brown pants walking around town with one hand in his pocket.,The man is going for a walk.,The man has a white dress shirt on.,0.488501,0.285588,0.202913
+A young man plays a racing video game.,a young man is staring at a screen,a young man is running outside,0.412096,0.538615,-0.126519
+A man napping on the ground with a shirt over his eyes with a person standing beside him.,A sleeping man.,Two people engaged in conversation.,0.479514,0.226694,0.252820
+A woman in a green skirt and white tank top singing into a microphone.,A woman sings.,A man sings.,0.726338,0.407052,0.319286
+A man wearing blue jeans and a black shirt is talking to a man wearing white shorts while they are sitting outside in folding chairs on a patio.,a man wearing jeans,the men are inside the church,0.384010,0.160065,0.223945
+A man with a gray shirt is rehearsing in front of a empty drum set.,A man practices in front of a drum set.,A man drinks bleach.,0.735545,0.121645,0.613900
+A mom and son enjoying a day in the park.,A mom and son enjoying a day,A mom and son enjoying a day on mars,0.852842,0.721155,0.131687
+A soccer game in a large area with 8 yellow players and 4 black players.,There is a soccer game with 12 players.,There is a basketball game in a cramped space.,0.706747,0.418177,0.288570
+A child in shorts throws a snowball at a mountain.,The kid is playing outside,The kid is sleeping,0.574954,0.212924,0.362030
+Four children are dressed as clowns and dancers on a stage while another two children dressed as clowns are suspended from ropes.,Six children are putting on a clown show.,Six children are eating a Thanksgiving meal.,0.727530,0.205328,0.522202
+People are getting money our of an ATM.,People are getting money from an ATM.,People are in the check out line.,0.957382,0.415477,0.541905
+Here is a picture of someone doing diagnostics on a vehicle in the dark.,Someone is looking at a vehicle.,They are driving the vehicle over a bridge.,0.690516,0.247060,0.443456
+Young children and parents splashing around a public fountain.,There are families playing in a fountain,There are families eating lunch,0.737115,0.198266,0.538849
+"A guy on a skateboard, jumping off some steps.",a guy with a skateboard making a jump,a guy on a bike,0.815812,0.458957,0.356856
+A little girl in a purple cap blows soap bubbles.,There are soap bubbles being blown.,The brown cap flew off the head of the girl while she was jumping rope.,0.651565,0.321762,0.329803
+A man and a woman is walking with a dog across a beach,The dog is walking.,The man and woman are alone.,0.403495,0.443703,-0.040208
+A woman in a long-sleeved shirt checks her phone as a man in a leather jacket passes behind her.,She checks her phone.,A woman in a short-sleeved shirt.,0.634819,0.474188,0.160631
+Two little girls play in a fountain.,There are girls outdoors,The girls are watching tv,0.582538,0.284006,0.298532
+A boy is posing next to his scooter.,A boy is next to a scooter.,A boy is dancing with his friend.,0.892263,0.267957,0.624306
+Closeup of an elderly woman walking across a street with her male companion.,People are outside.,People are walking along the beach.,0.343675,0.232891,0.110784
+Two men wearing brown hats are doing work on a yellow house.,Two guys are doing work on a dwelling.,Two men are hitchhiking to New York.,0.709995,0.252455,0.457540
+A man and woman and two small children are sitting in the floor with wrapped Christmas presents.,A man and woman are sitting around Christmas presents.,The presents have all been opened.,0.758020,0.487039,0.270981
+A dog catching a Frisbee.,A dog playing with a toy.,A dog eating food.,0.615680,0.484360,0.131320
+A football coach guiding one of his players on what he should do.,The coach knows how to play football.,The player already knew what he was doing.,0.732422,0.420663,0.311759
+"Man donned in jeans and football jersey prepares a meal complete with mean and beer, at his kitchen counter as the sunlight pours in from the kitchen window.",A person is prepaing a meal during the day.,A man is taking a nap on the couch.,0.517071,0.213050,0.304021
+A group of young women wearing black dresses stand in a row with three of them holding bouquets.,A group of women with flowers.,A group of women with flowers standing in a circle.,0.648221,0.605128,0.043093
+A girl in a red dress and white sneakers bouncing a tennis ball with a tennis racket.,A girl is playing tennis.,A boy is playing tennis.,0.731776,0.462495,0.269282
+A waitress is serving customers at a restaurant.,A waitress is doing her job at the restaurant.,The waitress is sitting in a chair ignoring the customers around her.,0.846779,0.571225,0.275554
+A man and woman are pictured from behind sitting close together on a couch while they play Nintendo DS,A pair of people play video games together on a couch.,A pair of people walk the dog on the sidewalk.,0.687857,0.185499,0.502358
+2 people in blue and purple costumes are looking at each other with a hill in the background.,2 people looking at one another,2 men drive a golf cart,0.672982,0.049577,0.623405
+"A group of six people, men and women, hold up a pole in the middle of a forest while another woman monitors this action.",The group of people hold up a pole.,The group of people hold up a tire.,0.637109,0.353444,0.283664
+A man and his two sons purchase food.,They are shopping.,They are playing basketball.,0.435052,0.061575,0.373477
+A man is navigating a boat.,A man is on a water vehicle.,A man is steering his car down the highway.,0.574483,0.271536,0.302947
+"Several people are walking on a street and there is a large, blue crane towering and leaning against a building.",Several people are walking on a street.,"Several people are sitting on the grass, watching a crane move heavy blocks.",0.661555,0.553245,0.108310
+A man in a hard hat and orange safety vest works on a machine in smoky air.,A man is working on a machine.,Two dogs are fighting.,0.682117,-0.105344,0.787461
+A young boy slides into home plate while playing little league baseball.,Boy playing baseball.,Children at waterpark splashing on hot day.,0.734180,0.150451,0.583729
+A girl is sitting in a chair blowing up a large yellow party balloon.,A child blows up balloons.,Seven men sit in meditation in a Buddhist temple.,0.606747,-0.011775,0.618522
+Three men gathered around a table of pink fish.,A bunch of people are gathered around a piece of furniture.,Three men are gathered in the living room on the couch.,0.348681,0.432761,-0.084081
+"The tiny girl dressed in a butterfly ballet costume, waves her wand near a nutcracker statue.",A small girl dances ballet.,A young boy plays baseball.,0.660186,0.059634,0.600552
+A young girl performing the nutcracker.,a child was there,the child is sleep,0.345651,0.165556,0.180094
+Male crowd surfing at a concert.,A man is at a concert.,A man is at a football game.,0.663219,0.248553,0.414666
+Blue bus parked with back door opened as man in white shirt walk by it.,Guy walks by bus.,A guy rides in his car to work.,0.615955,0.171472,0.444483
+Someone holding a bag of oranges walking outside.,Someone is holding oranges and walking,Someone is juggling oranges,0.885367,0.469731,0.415636
+A dog plays with a ball at the beach.,A dog plays ball.,A cat plays with a ball of string.,0.820793,0.453662,0.367131
+"This is a picture of three young men, dressed in suits with one on a bike, and of a young lady wearing a white dress.",three guys in suits,a dog sleeps,0.607092,-0.162795,0.769887
+A girl and boy are smiling in a green hallway.,People are standing in a hallway.,A girl and boy are wrestling on the front porch.,0.539143,0.350138,0.189005
+A female dancer works on striking a pose.,The woman is practicing modeling.,The woman is in the bathroom.,0.494649,0.181948,0.312701
+"A young girl sitting on a white comforter on a bed covered with clothing, holding a yellow stuffed duck.",A yellow duck being held by a girl.,The young girls plays with her cell phone.,0.487986,0.189719,0.298267
+Three people are wading in shallow water near a stone path and spraying fountains.,Three people are wading in the water by the fountains.,Five men are swimming in the deep water.,0.834150,0.286752,0.547398
+A baby smiles while swinging in a blue infant swing.,a baby smiling,the baby is asleep,0.702006,0.383597,0.318409
+a girl at a wedding holding some orange flowers,A girl is holding some orange flowers at a wedding.,A man is painting a house blue.,0.986451,-0.014931,1.001382
+There are three policemen on bikes making sure that the streets are cleared for the president.,Three policeman ride on bikes,Three girls sit on bikes,0.702801,0.319450,0.383351
+The wrestler in white shorts is preparing to body slam his opponent in black shorts while the referee prepares to jump in.,The athletes are wrestling.,The boxers are pounding on each other as the ref watches.,0.539033,0.417158,0.121875
+The surfer crouches low and rides the wave.,A person surfs.,The surfer stands tall and does a flip.,0.599670,0.598566,0.001104
+Two people are walking down an isolated road.,People are walking outside.,Two people are jumping on a trampoline on a isolated road.,0.628182,0.603591,0.024591
+"Person with a black helmet and vest, with a white undershirt, riding on a motorcycle on the street.",A person rides a motorcycle on the street.,A man drives his car to the fair.,0.724883,0.141570,0.583313
+A brown kid wearing jeans and no shirt is weaving a straw rug.,The boy is using his hands to weave a rug.,The boy is sleeping.,0.617680,0.133041,0.484640
+"A small child sits in the water, holding on to a bit of wood while smiling for a picture.",There is a child smiling for a picture.,A young child frowns at the camera.,0.684787,0.392852,0.291935
+"Three women, two wearing red shirts and one wearing a purple shirt, and a man, wearing a light blue shirt, jump on a basketball court with balls in their hands.",Three people's are playing basketball and holds and ball in their hands,Three people's are eating in hotel.,0.638984,0.114897,0.524086
+A young girl has her hands in a tub of water with leaves in it.,A girl with her hands in a tub.,A boy makes a mud pie.,0.848092,0.077364,0.770728
+Two toddler girls appear to enjoy basking on a pile of leaves as they smile for the camera.,Two toddlers play on a pile of leaves.,Two toddlers are fast asleep in their cribs.,0.718905,0.309906,0.408999
+"A man in a red shirt is sitting at his desk with one leg on the desk, using a computer with two screens set up side by side.",A male is not sitting outside.,A female is walking to the park.,0.353066,-0.050265,0.403331
+A dirt bike rider riding through the woods over logs.,The dirt bike rider is riding a dirt bike.,The dirt bike rider is on the beach.,0.624615,0.598655,0.025960
+A girl is posing outside.,A girl is outside.,A girl is inside taking a picture.,0.804201,0.569662,0.234539
+There is a room full of pictures all in the wall and a woman in a coat is looking back over her shoulders strangely.,a room with pictures,the room is empty,0.517743,0.254056,0.263687
+A girl is feeding a goat.,They are outside.,The goat is really a spy.,0.006938,0.388344,-0.381406
+Blurry people walking in the city at night.,People walking in the city,Seven people dancing in a nightclub.,0.615708,0.220725,0.394983
+"A woman with short blond-hair smiling and singing into a microphone while a man in a striped shirt, further back, plays an acoustic guitar.",Two people are performing.,The cow jumped over the couch,0.536691,0.024969,0.511722
+A group of people looking at menus in a white restaurant.,The people are inside.,The people are sleeping in their beds.,0.493417,0.050414,0.443003
+A woman sits in a chair under a tree and plays an acoustic guitar.,A woman plays an acoustic guitar under a tree.,A woman is climbing a tree.,0.862260,0.427150,0.435110
+A person is climbing and has nearly reached the sign at the top,a person outside,a man fishing,0.529874,0.174254,0.355620
+Man juggling apples while sitting on a couch with another man on one side and a woman on the other.,Two men sitting near a woman.,Two men drop off their friend at her house.,0.374649,0.194817,0.179832
+Two little girls and one little boy are running on the grass.,Three kids are running.,The kids are sitting down.,0.655195,0.315714,0.339481
+A person crouches under a yellow umbrella on the beach.,There is an umbrella and a person on a beach.,There is a person sitting under a large tree.,0.760384,0.388625,0.371758
+A boat docked on a river.,There's a dock,The boat is sinking,0.457228,0.581233,-0.124005
+Man with black and white hair wearing a white shirt and long boots sweeps outside.,A man has black and white hair,The man is bald,0.593992,0.329527,0.264465
+A group of young Asian men who are sans shirts and wearing identical black and white plaid pants with red belts are dancing and waving their arms in the air around a fire.,The men are close to fire.,The men are underwater.,0.593960,0.251284,0.342676
+A woman with blond-hair is sitting at a table and talking to a man with glasses.,Two people converse at a table.,Two men read the paper at a cafe.,0.686237,0.090108,0.596128
+"Two people, one in light jeans and a striped shirt, are playing pool.",The people play pool,the people are running,0.767994,0.261877,0.506117
+A man is creating a sand painting on the floor.,A man is making art.,A woman destroys a sand painting.,0.678311,0.488615,0.189697
+Football players on a field in front of a crowd.,There is a crowd,There are people watching football on tv,0.583990,0.549386,0.034604
+A man plays mini-gold on the SportsCenter set while two others observe.,The man is being watched.,Two goldfish are riding bikes in a giant pile of mashed potatoes.,0.497144,0.218331,0.278813
+Two dancers in azure appear to be performing in an alleyway.,A pair of people are in the alleyway.,A pair of dancers are sleeping on the sidewalk.,0.556345,0.467109,0.089236
+A well safety equipment biker racing on the trail in a wooded area with number 569 on his bike,A biker races on the trail,A snowboarder falls,0.657540,0.163346,0.494193
+Two monks are visiting a big city.,The monks are dressed in their robes enjoying the big city.,The monks are running down the dirt trail.,0.748415,0.449540,0.298875
+A young girl in red pants looks at a window mannequin as people walk past.,A girl is in front of a window.,The girl is blind.,0.527022,0.377987,0.149035
+A man curls up in an orange blanket on the street.,A man is holding a blanket outdoors.,A man is folding his blanket inside.,0.667175,0.481094,0.186082
+Men playing football.,Some men are playing a game.,Some men sleep.,0.716377,0.328584,0.387793
+"An African-American football player, wearing jersey number 12 for the University of Oklahoma, throws a football to his left.",A man throws a football.,The player throws the baseball to the umpire.,0.607526,0.361552,0.245975
+Man wearing a mask of an old man.,A man wears a mask.,A man wears a green mask that turns him into a superhero.,0.768482,0.516156,0.252326
+A band is playing on a stage while a lady sings.,A woman sings.,A woman fires a gun.,0.564254,0.184359,0.379895
+A woman walks down the road in all black as she holds a red umbrella over her head in the rain.,The woman in black is walking through a rainstorm with her umbrella.,The woman in black is dancing in the rain without an umbrella.,0.828139,0.619976,0.208163
+A light brown dog with his tail in the air jumps of a pontoon toward the water.,A dog jumps toward the water.,A cat is jumping in the air.,0.764959,0.300583,0.464376
+An older couple is resting on a bench.,Two people are sitting next to each other.,A couple is walking in the park.,0.450712,0.332653,0.118059
+A group of people in white uniforms doing a show in the middle of the street.,People are wearing white uniforms.,Dogs in costumes are juggling in the street.,0.750440,0.248241,0.502199
+Man in leather jacket reading a book.,A man is reading,The jacket is fleece,0.706085,0.398452,0.307633
+Three men converse in a crowd.,Three men are in a crowd,Three men talk while laying down,0.774982,0.608205,0.166777
+"Two men one in orange shirt, who is ahead, and one in green shirt running a race.",Two men running in a race.,Two men playing soccer in the park.,0.780274,0.351485,0.428789
+A person wearing a robe and a pointed hat is holding a basket of bananas.,A person has some fruit.,A person is wearing a flat hat.,0.586978,0.435758,0.151220
+children are playing with a mortar and pistil,THe children are playing.,The kids are playing football,0.665960,0.325302,0.340658
+A crowd gathers along the handrail of a boardwalk to watch young men leap into the air on the beach sand.,A number of boys are airborne at the beach.,A group of young men lay on their bellies at the beach.,0.514829,0.428508,0.086321
+older men talking and standing around.,The older men are visiting with each other.,The men are walking to their cars in silence.,0.718436,0.263718,0.454718
+"A man with white tennis shoes and an orange jacket, is sitting in a lawn chair.",a man is sitting in a lawn chair,a woman is sitting in a lawn chair,0.700995,0.485091,0.215904
+Three women in festive dresses are dancing in a large city street while a large crowd is behind them holding up a banner.,Three women dance in front of a large crowd,Three men tapdance in front of people,0.766777,0.454101,0.312675
+A woman in a blue tank-top rides a blue bicycle in front of a crowd of meandering pedestrians.,A woman rides a bike in front of a crowd,A man rides a bike in front of a crowd,0.728768,0.482078,0.246690
+A crowd of people walking on a pavement at night.,It is the evening.,The crowd of people are running.,0.426021,0.375719,0.050301
+A couple is a standing together the woman is adjusting a flower on the man's lapel and they are dressed in wedding apparel.,People are going to a wedding.,People are naked.,0.533344,0.148905,0.384440
+a woman applies makeup to a woman in black.,The woman is putting makeup on the woman in black.,The woman is putting tanner on herself.,0.908634,0.346859,0.561774
+"At a convention, a man takes a phone call behind the booth where he is selling things while others examine his merchandise.",A man is at a booth.,The man is walking outside.,0.683798,0.144734,0.539064
+One man dressed in a martial arts uniform kicks another man dressed the same way in the groin while an umpire and audience looks on.,One man kicks another in the groin.,The man kicks the umpire.,0.716082,0.645145,0.070937
+"A young boy in a Cookie Monster t-shirt sits on the ground on a fall day, holding a fallen leaf in his hand as an expression of joy lights up on his face.",A young boy is playing in a pile of leaves.,A young boy is standing indoors.,0.579666,0.319938,0.259728
+A shirtless man is sitting on a chair on the sidewalk reading a book.,A man is reading outdoors.,A man is ice skating.,0.573408,0.166329,0.407079
+A man in a beige trench coat is walking in the rain.,A gentleman wearing a beige trench coat is walking in the rain.,A man in a blue shirt is sitting in the rain.,0.962820,0.566727,0.396093
+A man and a woman are walking next to a flower display case and an escalator.,Two people are walking.,Two women are standing still talking.,0.588553,0.127087,0.461466
+"A young female student, wearing an owl t-shirt, works on an experiment by filling her test tubes.",The female student worked on the experiment.,The student was wearing a wolf t-shirt.,0.772764,0.502226,0.270538
+An old man and a child walk together along a pathway near a building.,Two people are walking together.,There are no people walking.,0.629410,0.303973,0.325437
+A woman prays while a young girl lights a fire,The woman is praying.,The woman and girl are sleeping.,0.700382,0.294254,0.406129
+Two men pause on a rock while hiking in barren terrain.,Two men are hiking outdoors.,Two men are in a kayak.,0.738659,0.355388,0.383271
+A young dark-haired woman crouches on the banks of a river while washing dishes.,A woman washes dishes.,A man cuts his hair.,0.595897,0.004805,0.591092
+A man and woman are drinking at a bar.,Two people are having drinks,Two people are slapping each other,0.605105,0.303699,0.301406
+"Three sisters, barefoot in pink dresses and who range in age from preschool to teenager are pictured on a beach as they look out at the Ocean.","Three sisters, barefoot in pink dresses and who range in age from preschool to teenager","Three sisters, barefoot in pink dresses and who range in age from preschool to 90",0.775389,0.757935,0.017454
+A woman in a yellow dress transporting picked food from the fields to wherever it may need to go.,A woman transports her crops from the fields,A man transports his crops from the field,0.693271,0.464312,0.228958
+A reson is in a blue canoe in front of some plants.,a blue canoe in front of some plants,a blue canoe inside of some plants,0.924064,0.888940,0.035124
+Five people in cowboy hats are on horses at a rodeo show.,People are riding horses.,The horses are running off without riders.,0.610820,0.345225,0.265595
+Four females wearing helments are riding on an ATV.,Four women are driving an all terrain vehicle.,Three men are driving motor scooters.,0.644542,0.229481,0.415061
+A race dog numbered six is midair.,The dog is in midair,A cat is numbered six,0.622958,0.536407,0.086551
+A young man is riding a dirt bike while standing up.,The young man stands on the pedals of his dirt bike.,A young man takes a helicopter to work.,0.871544,0.368424,0.503120
+A man and three kids walk up a paved hill.,People are walking outside.,A woman walks her children home from school.,0.504453,0.245935,0.258518
+A little girl in brown is playing with two hula-hoops.,The girl has several toys.,The person playing with hula-hoops is male.,0.574292,0.628277,-0.053985
+"A man walking in a crowd, draped in a Canadian flag.",A man is wearing a Canadian flag in the crowd.,A girl in a long dress is walking through the crowd.,0.897895,0.326559,0.571335
+Man with mustache plays violin.,The man is playing an instrument.,The man is playing the tuba.,0.659325,0.386994,0.272331
+A woman in a yellow shirt seated at a table.,A person is waiting at a table.,A woman is standing on top of the table dancing around.,0.536325,0.481717,0.054608
+"Two black dogs on a snow covered ground, the ground appears blue in the background, one dog is jumping with feet off the ground.",The dogs are black.,The dogs are resting indoors.,0.641989,0.362544,0.279444
+A man punting a football as fans from the opposing team watch in the background,A man punts a football,A man catches a football,0.763878,0.589161,0.174718
+Little girl eating cake outside.,A Little girl is enjoying cake outside.,A little girl is playing in the basement.,0.920843,0.441520,0.479323
+Two cyclist a man and a woman enjoy a leisurely bike ride on the cobblestone path.,The two cyclists are outdoors.,The two people are taking a stroll through a museum.,0.591682,0.261472,0.330210
+Several men are sitting around a parking lot.,There is people outside.,The people are standing up.,0.285416,0.161220,0.124196
+A woman in a blue jacket is drinking tea from a cup.,A woman wearing a blue jacket is drinking tea.,A woman is eating a donut.,0.958630,0.200768,0.757862
+People working digging a hole.,People are outside digging a hole.,There are people covering up a hole that someone is stuck inside of.,0.881771,0.596144,0.285627
+A man is looking affected by results from his poker game.,The man plays poker,The man swimming,0.716311,0.171541,0.544770
+Three young women pose for the camera at a parade.,A trio of women get their picture taken.,The women went to the parade but no one took their picture.,0.709327,0.528397,0.180931
+"Four young people stand in a circle conversing, while a man in white button-down shirt, coral colored pants and green hand bandage stands to the side.",The man is excluded from the conversation,The four old men talk about grapes,0.291570,0.360421,-0.068851
+Two men play basketball.,Men are playing a sport together.,Two men are playing dodge ball.,0.606599,0.621349,-0.014750
+A hiker pokes his head out of a tent high in the mountains.,The hiker is outside.,The hiker is swimming in a pool.,0.619676,0.336442,0.283234
+A middle-aged woman pretends to be a DJ as younger people point.,People are pointing at a Middle-aged woman.,A woman is a DJ for a party in a submarine.,0.546172,0.583491,-0.037319
+A young child wearing a pink top is with a female adult.,A kid is with a woman.,A kid is alone.,0.657864,0.264659,0.393205
+A young woman wearing a black shirt and black shorts jumps in the air at the beach.,A women in black at the beach.,A women taking a nap at the lake.,0.725622,0.143200,0.582422
+A woman building herself a sand castle.,a women is making a sand castle,the women is playing in the snow,0.852190,0.230362,0.621827
+The elderly bus driver opening the door for a passenger who needs to get off.,The elderly driver opens the bus doors.,The bus driver is fast asleep behind the wheel.,0.878462,0.440896,0.437566
+"Outdoors in front of a crowd, a man plays an instrument by blowing into pipes he holds up to his face.",A person playing an instrument outside.,A man sitting on the couch reading a book.,0.623912,0.052399,0.571513
+"A man performs in an outdoor space, with a lot of onlookers.",The man is performing.,There is no one watching the man.,0.697935,0.256858,0.441077
+A Person in a dark shirt and shorts and a white helmet is jumping a bicycle over a mound of dirt.,Someone rides a bicycle while wearing a helmet.,A person rides a bike on a sidewalk without a helmet.,0.569701,0.480753,0.088948
+A man on a scenic canoe trip.,A man is on a canoe.,No one is on a canoe.,0.825518,0.396918,0.428600
+"Several toddlers in a room with many toys, a yellow lamp, a window, gray carpeting and paintings.",Toddlers are in the room with toys.,Two giraffes sing a song together.,0.808682,0.080455,0.728227
+Two race car drivers smile on a stage next to a female spokes model wearing a white dress and white and blue boots.,Two race car drivers are on stage,Two race car drivers are swimming on a beach,0.681143,0.365774,0.315369
+A man is leaning out of a window to paint some decorative iron white.,A man is painting.,A woman paints.,0.556098,0.368786,0.187312
+Two people sit facing away in a downtown scene with a motorcycle parked in front of a pool,"There are 2 people in this picture, as well as a two-wheeled vehicle.",The two people run as quickly as they can for shelter as the storm picks up and begins swirling all around them.,0.461578,0.257214,0.204363
+A fisherman with his friend is setting up his pole.,Two guys get ready to fish.,A woman makes a low country boil.,0.522674,-0.008968,0.531642
+A US Air-force member is handing off a little girl and her toy unicorn to a local citizen.,A person is taking a little girl with a toy from an Airman.,A marine is dancing with kids and their toys.,0.640920,0.227040,0.413880
+A cyclist is performing a jump next to a black advertising banner.,Someone performing a jump with a bicycle.,A person is sleeping in a hammock.,0.651533,0.073076,0.578457
+Reflections of people walking in a big city.,Several folks stroll through the city.,Musicians play a concert on a busy street.,0.680183,0.319111,0.361072
+A young child is washing his hands with soap in the kitchen.,The child uses soap to wash his hands.,The young child makes faces at his teacher.,0.829778,0.345573,0.484205
+A man is on the side of a mountain and hiking around huge rocks.,A man is outdoors hiking.,The man takes a nap while hiking.,0.771137,0.504584,0.266553
+"A little girl in a blue dress and white shoes is sitting on her red toy tractor, in a dirt road near a fence.",The dress is blue.,The girl is standing.,0.328482,0.328829,-0.000347
+A little girl in a blue dress is sitting on a red you tractor.,A girl sits on a vehicle.,The girl is riding on a truck.,0.571515,0.422131,0.149384
+a blue and gray race car driving on a dirt track.,A race car is driving on a dirt track.,A race car is is driving on a paved road.,0.889141,0.669479,0.219661
+A bride wearing her bridal gown is taking pictures with her colorful wedding bouquet in front of cows.,A bride is taking wedding pictures.,A groom is riding a horse.,0.753807,0.248923,0.504885
+A man smiles while he holds a newborn in a church pew.,Someone holding their baby is smiling while sitting down.,A woman sitting at church and holding a baby.,0.581828,0.491475,0.090353
+A brown dog is trying to retrive his orange ball that has fallen in a dirt hole.,A dog is trying to get his toy back.,A brown dog is eating meow mix from a hole.,0.530362,0.516442,0.013920
+A man in a white button-up shirt looks to the side while sitting at a table by the street.,The man is sitting at the table.,A man is standing by himself outside of an office building.,0.514985,0.283004,0.231981
+A young girl in a pretty pink and white blouse and shorts is participating in a soccer game with other children.,Kids are playing a soccer game.,A man is making a candy sculpture out of peppermints.,0.628875,0.011679,0.617196
+"A man is signing a guitar, whose owner is smiling and has a hat with lights attached to it.",Two people are next to a guitar.,A man is signing a book for a fan.,0.484827,0.518418,-0.033591
+A young man is pushing a lawn mower to mow the grass.,A guy pushes a machine through the grass.,A guy rides a lawn mower in the grass.,0.666704,0.662452,0.004252
+The kid is wearing a blue jacket and standing in shallow beach water.,The kid is at the beach.,The kid is swimming in the deep ocean.,0.716393,0.515390,0.201003
+"Six children at a table with a green tablecloth, five female, one male, looking at the camera, plates and condiments at the table, two empty chairs, and red roses in the background",Kids are sitting in six of the eight chairs.,Half of the children are male.,0.517591,0.386963,0.130628
+A woman in a white hat and red dress holding hands with a man in a black jacket with a flower in his upper pocket.,A woman is touching the man.,The woman is alone and asleep in the car on the moon.,0.523824,-0.007426,0.531250
+A group of woman wearing scarves on their heads crowd together next to a building.,A group of humans standing outside,A group of bald men outside,0.403199,0.197350,0.205849
+A little girl planting her first flower in the sand.,The little girl is planting her first flower.,The little boy is planting his first worm.,0.869391,0.376915,0.492476
+A girl in blue rides a horse over a tall jump.,A girl is riding a horse.,A girl is walking her dog down the street.,0.734624,0.269709,0.464914
+A horse and rider are in midair as they leap over an obstacle in a wooded area with another photographer snapping pictures.,A person is riding a horse.,A person is riding a donkey through the sands of the desert.,0.441765,0.222199,0.219566
+Two girls riding on an amusement part ride.,The girls are outdoors.,The girls are at school.,0.574013,0.388740,0.185273
+Two girls on an amusement park ride smiling and laughing.,The two girls were happy at the amusement park,The two girls were home watching television and feeling sad,0.862042,0.285193,0.576849
+A man and women walk atop a hill.,A man and woman are walking.,The man and woman are sitting.,0.688100,0.403537,0.284563
+"At a little league baseball game, an umpire calls ""safe"" as a player crosses home.",A player crosses home at a little league baseball game.,A football player scores a touchdown.,0.737498,0.114617,0.622881
+An old dusty car is half way in the brown water.,A car partially sticking out of water.,A man drives his car.,0.626566,0.281357,0.345209
+A long-haired brown and white dog carries a snowball in his mouth.,A dog carries a snowball.,A dog carries a bone.,0.828496,0.498424,0.330072
+A young man in jogging slacks is checking information on his mobile devise while listening to something on a crowded commuter rail car.,The young man is looking at his mobile device.,a man on a boat,0.566192,0.131682,0.434510
+A young man in jogging slacks is checking information on his mobile devise while listening to something on a crowded commuter rail car.,a man in jogging pants checks his device,The young man is playing basketball.,0.696340,0.234939,0.461402
+An african american woman with 2 young girls.,There is a woman with two girls.,There is a man with his daughters.,0.736533,0.267943,0.468590
+Several people wait to checkout inside a store with a warehouse looking ceiling.,many people are waiting in a store,an elevator being serviced,0.772974,0.276586,0.496388
+Three people and a white dog are sitting in the sand on a beach.,People sitting on the beach.,Three dogs and a person are sitting in the snow.,0.715093,0.556585,0.158508
+"Young boy with tongue out hula hooping with two hula hoops in a crowded area, man in blue shirt stands behind him.",A boy is hula hooping while a man is behind him.,A boy is playing a clarinet.,0.816761,0.179313,0.637449
+A group of women wearing bikinis are playing beach volleyball.,Women play volleyball.,Women play volleyball fully covered.,0.765578,0.704271,0.061307
+A man sweeping in the street.,A man is cleaning the street.,A man is using his vaccuum to clean the street.,0.836005,0.675489,0.160516
+"Male in brown leather jacket and black slacks, looking down at his phone, leaning against a brown painted box.","Male in brown leather jacket and black slacks, looking down at his phone","Male in brown leather jacket and black slacks, looking down at his giraffe",0.905327,0.645888,0.259439
+"A woman dressed as Dorthy from the Wizard of Oz smiling at a baby, standing above her on a table, dressed as an elephant.",Somebody who is depicted is wearing a costume from a movie.,Everybody that is visible is the exact same age.,0.353191,0.180872,0.172319
+A woman is eating what appears to be a mussel.,The woman is about to ingest food,The woman is running in a marathon,0.606224,0.223690,0.382534
+Two kids begin to make a snowman on a sunny winter day.,Two kids making a snowman.,Two penguins making a snowman.,0.904236,0.552904,0.351333
+A man in a green shirt is singing karaoke while a young woman with long brownish hair stands by and listens.,A man is singing a song.,A man playing a guitar for a small crowd.,0.561771,0.266348,0.295423
+Excavation of the ruins of a ancient temple.,A ancient temple is evacuated.,People line up at the temple.,0.602484,0.460886,0.141598
+A dog with big ears holds a ball in his mouth.,The dog has big ears.,The dog has small ears.,0.735872,0.623935,0.111937
+A man riding a red motorbike near a large crowd of people by some tents.,A man is on a motorbike.,A man is on a skateboard.,0.597052,0.240259,0.356793
+A woman in a wheelchair is talking to her friend while surrounded by other people walking in the park.,The woman is outdoors.,The woman is eating a hotdog in the middle of her bedroom.,0.382172,0.003879,0.378293
+Old man with gray blanket on squatting against a wall,Old man squats against a wall.,Old man stands with a blanket on his shoulder.,0.795464,0.633628,0.161836
+A black dog holding an orange object in the water.,A dog holds an object in the water.,A dog is trying to peel an orange in the water.,0.872922,0.652295,0.220627
+A youth is kicking a soccer ball in an empty brick area.,A human kicking.,Nobody is kicking.,0.506379,0.418113,0.088266
+Four men in red vests with crosses on them ski on a mountain.,Four people are skiing,The friends are sitting in a coffee shop.,0.615097,-0.006049,0.621146
+Three young girls in uniforms stand in front of a whiteboard looking at one another with one girl holding her arm out to another girl while another girl sits in her uniform in front of classroom posters and maps.,Girls standing at a whiteboard in front of class.,Girls in line for the bathroom.,0.673807,0.437361,0.236447
+A woman wearing a hat and a man covering his eyes sit on benches on a boat.,A women and a man are sitting on a boat,A women and a man are dancing on the boat together.,0.736924,0.490411,0.246514
+"A man in a pink shirt is stealing an old couples bike, the possibility he is a loan shark collecting his dues are high.",A couple is having there bike stolen.,A couple is giving a man a bike as a gift.,0.610694,0.447128,0.163566
+"A girl in a green knit cap stands ready to push a sled, with a little boy behind her.","A person in a green knit cap stands ready to push a sled, with a little boy behind her.","A boy in a green knit cap stands ready to push a sled, with a little boy behind him.",0.917137,0.880374,0.036763
+A street vendor selling his art.,A man is selling things on the street.,A man is hanging artwork inside a museum.,0.709474,0.349302,0.360172
+"A person on a bike is midair, twisting his body around the handlebars, with graffiti behind him.",A person is riding a vehicle.,A person is eating a cheeseburger on a bike.,0.457690,0.397811,0.059879
+A man with shoulder length dark hair sits near the rocks of a waterfront while holding a cigarette in his right hand.,A man holding a cigarette.,A bald man holds a cigarette.,0.677599,0.668488,0.009112
+A boy cooking on a grill.,A grill which a boy is cooking on.,A boy sleeping under a tree.,0.960251,0.301352,0.658899
+Two commandos with gun by a staircase and an old man holding a hat is sitting on the stairs.,Two soldiers carry weapons.,Two unarmed men are held hostage by an empty handed old man.,0.472855,0.390870,0.081985
+A brown-haired lady dressed all in blue denim sits in a group of pigeons.,A lady in blue has birds around her.,A  brown-haired lady is riding a horse.,0.658835,0.448183,0.210653
+"An old woman in a sunlit room winds rough yarn into balls, the finished yarn balls placed in a pile to her right.",A woman winds yarn into a balls next to a pile of balls,A man winds yarn into balls,0.805768,0.610739,0.195029
+A group of girls in matching brown dresses and sandals dance in unison.,Girls dance together.,The girls sleep.,0.791984,0.334275,0.457709
+A smiling woman is playing the violin in front of a turquoise background.,A woman is sitting and playing the violin.,a woman is playing a piano.,0.706990,0.516150,0.190839
+"Two men, both have glasses, are wearing striped shirts are in the kitchen preparing a meal and washing up.",Two guys are fixing a meal in the kitchen.,Two men are talking as their wives make dinner in the kitchen.,0.666793,0.572095,0.094698
+A man wearing shorts is playing an acoustic guitar while a person in the background looks the other way.,a guy plays music while others look away,two women sing opera,0.571694,0.057851,0.513844
+"Many people are listening to a concert, and TV crew is recording the audience reaction.",People are listening to a concert.,A band is practicing in front of an empty room.,0.789048,0.337958,0.451090
+A man in a park holding a ball.,A man is outdoors.,A man is taking a nap in bed.,0.573292,0.099807,0.473484
+A sports match is taking place between one team wearing the colors red and white and another team sporting the colors black and blue.,The two teams are wearing different colors.,Two teams are refusing to play each other naked.,0.821119,0.388660,0.432459
+An older man with large patches on his jeans looks on as a young man swings an axe downward toward a tree stump.,Two men are outside.,Two men are indoors playing checkers.,0.400031,0.283550,0.116481
+Three ladies wearing dresses are bent down in a muddy creek gathering green plants.,Three women are outdoors.,Three females are on an airplane.,0.625180,0.262382,0.362798
+a surfer is riding the waves whilst another surfer sits on his board waiting.,There are people surfing.,A surfer watches as his friend is eaten by a large shark.,0.603167,0.495763,0.107404
+A middle-aged man works under the engine of a train on rail tracks.,A guy is working on a train.,A guy is driving to work.,0.732930,0.391897,0.341033
+A man standing at the front of the room is pointing up while several people who are seated look towards him.,A man standing in a room is pointing up.,A man is sitting outside.,0.823278,0.241362,0.581917
+A construction worker peeking out of a manhole while his coworker sits on the sidewalk smiling.,A worker is looking out of a manhole.,The workers are both inside the manhole.,0.768682,0.562809,0.205873
+A group of children walking on a trail.,Children are walking.,The people are adults.,0.783854,0.232561,0.551293
+A boy in a colorful hat and red shirt holding a green seed at the beach.,A boy is outdoors.,A boy is sitting on a sofa at home.,0.552511,0.107553,0.444958
+"A young women, in a black shirt, is holding a bike, while a young boy is holding a skateboard.",A young woman is holding a bike while a young man is holding a skateboard.,A young woman and young boy are holding hands.,0.847535,0.601569,0.245966
+"A white dog, a brown dog, and a black dog frolicking in a grassy field.",Several dogs are playing outdoors.,The dogs are eating their dinner in the kitchen.,0.646537,0.130737,0.515800
+"Two men sleeping on a park bench, slumped over each other.",Two men are sleeping.,Two women are sleeping.,0.661602,0.353571,0.308031
+Two men are listening to music through headphones.,Two men listen to music.,Two men play with yo-yos.,0.824435,0.265714,0.558721
+A woman is smiling at a baby in a stroller in a meadow.,A woman is outdoors.,A woman is angry at the baby.,0.438926,0.475534,-0.036608
+A woman carrying a shopping bag in front of Fisher's Popcorn.,a woman is shopping by fisher's popcorn,a woman is sitting in a cafe,0.862391,0.186106,0.676284
+A young boy chases away two Canadian geese.,The young boy is outdoors.,The young boy is watching TV.,0.404281,0.214381,0.189899
+A person is standing on top of a snow covered mountain.,A person stands on a mountain.,A person stands on a beach in Hawaii,0.849799,0.495194,0.354604
+A well dressed man and woman wearing floral dress dancing.,the man is well dressed.,the man is actually a woman.,0.358793,0.316862,0.041931
+Two men pull a fishing net up into their red boat.,Two men are fishing.,Two men are hunting deer.,0.679893,0.323499,0.356395
+A man is wearing a hard hat and orange jacket standing in front of a red ladder.,A man stands in front of a ladder.,A man floats up a ladder.,0.790874,0.612921,0.177953
+Woman reading a book in a laundry room,A woman is reading a book.,The woman is singing.,0.731872,0.163244,0.568628
+"Photographed from below, a somewhat husky man wearing a white and black windowpane-plaid shirt and dark trousers is holding a little boy who is wearing orange pants and a navy-blue shirt.",The man is kinda husky.,The man is holding his daughter.,0.465418,0.292102,0.173316
+Indian women playing musical chairs with white woman.,indian women playing musical chairs with white woman in out door,indain woman playing cricket with white woman,0.922714,0.645653,0.277061
+women in a hat a making selling goods.,A woman is selling goods while wearing a hat.,A woman is in a bar drinking beer.,0.895580,0.199667,0.695912
+"A festival displays two men dressed in red makeup and costume, while an older man has cream on his face.",Two men are dressed in makeup,The couple just filed for divorce.,0.588662,-0.089148,0.677810
+Two boys sitting and eating ice cream.,The boys are eating.,The boys are asleep in their beds.,0.671387,0.232933,0.438454
+Three children play on the grass under a multicolored umbrella and wearing rainbow colored outfits.,Children play on the grass surrounded by bright colors.,Children sit inside on a rainy day.,0.768336,0.401091,0.367245
+A group of people on the street dancing to a four men playing various conga drums.,People are dancing in the street.,A cat is sleeping in a tree.,0.646773,-0.089800,0.736572
+well dressed man and woman dancing in the street,A couple is dancing on the street.,Two man is dancing on the street.,0.821440,0.739643,0.081797
+A woman in sunglasses making a pouting face while eating seafood.,A woman is eating seafood.,A woman in sunglasses is taking a stroll in the park.,0.686143,0.302073,0.384071
+"A woman in white and a man in black, with an earring, are kissing.",Two people kissing.,A man brushes his teeth.,0.713742,0.173608,0.540134
+Two young girls looking at Barbie dolls.,Two girls are watching dolls.,A girl and a boy are running with toys.,0.818181,0.401199,0.416982
+A child in winter gear is hiding inside a cave made of snow while it is snowing.,A kid is playing in the snow.,A child in shorts is playing with stones.,0.626374,0.303934,0.322440
+A dark-haired girl in a spotted shirt is pointing at a picture while sitting next to a boy in a purple shirt and jeans.,A dark-haired girl in a spotted shirt is pointing at the picture while sitting next to a boy wearing a purple shirt and jeans.,The guy broke his keyboard.,0.995344,-0.048552,1.043896
+two young children on a skateboard going across a sidewalk,Two kids are playing outside.,Two young children riding on a bike.,0.602216,0.547896,0.054319
+"Two fencers dressed in the sport's traditional white suit and protective mask, practice their dueling.",a pair of fencers practice together,two women play water polo,0.707903,0.241162,0.466741
+People running down a two lane road.,Humans are moving fast.,People are sleeping in bed.,0.467036,0.110774,0.356263
+The guys in white shirts horse around near a park.,Guys wearing white shirts play around by the park.,The girls eat their lunch at the park.,0.712126,0.147003,0.565124
+A man is on the back of his friend.,A man is holding his friend.,A woman carries her young son on her back.,0.778910,0.219002,0.559907
+Two women in bathing suits climb rock piles by the ocean.,Women in bathing suits climb rock piles.,Women in dresses climb lobster piles.,0.895973,0.649859,0.246114
+Two women in bathing suit on large rocks at the ocean.,two women are outside,two women sit on a mountaintop,0.628617,0.484181,0.144436
+Someone is taking a brown canoe down to the lake.,A person is carrying a canoe.,A person is in the hospital.,0.678991,0.142124,0.536867
+Man laying on a platform outside on some rocks.,Man lays on something.,Man takes a nap on his couch.,0.710948,0.213924,0.497024
+A woman is sitting in a man's lap in a brown armchair.,The woman and man are resting together in an armchair.,"The man and woman are seated separately, facing each other.",0.698892,0.516674,0.182218
+A golfer has just finished swinging his club.,a human outside,a man shoveling snow,0.275928,0.078345,0.197584
+A motorcycle rider is making a sharp turn.,The motorcyclist is turning.,The motorcycle ride is on a straight road.,0.756900,0.660243,0.096656
+A child turning a crank with benches behind him.,The child is in front of benches.,The person is sleeping.,0.667500,0.084284,0.583216
+A young woman sits crosslegged beside her purse on the grass among a crowd of dogs.,The dogs are standing around a crosslegged woman on the grass.,The woman is on the couch with the dogs.,0.651226,0.404929,0.246298
+A woman in a red shirt and blue jeans is walking outside while a man in a khaki jacket is right behind her.,A man and a woman are walking outside.,A man in an army jacket is  following a woman in a pink dress.,0.624272,0.501743,0.122529
+A football player in a blue and yellow uniform is tackling another player in a white and gold uniform.,A football player is wearing blue and yellow.,The football player is drinking water on the bench.,0.720288,0.230304,0.489984
+A man with a dark shirt and light shorts is standing next to a person wearing a light shirt on a sidewalk.,two people stand together outside,two men stand inside a cafe,0.557743,0.292482,0.265260
+A surfer wearing a red shirt takes on a huge blue wave.,Surfer in red catches a wave.,Surfer wipes out on large wave.,0.766482,0.638480,0.128002
+A person is surfing on a large wave.,A person is surfing.,The dog is surfing on the wave.,0.837270,0.546582,0.290689
+Ample dark-skinned man looks back at camera from behind buffet.,A man looks from behind a buffet.,A thin woman glares at you over her salad.,0.791273,0.254734,0.536539
+A black dog runs along the green grass carrying a toy in its mouth.,A black dog runs through the grass carrying its toy.,A white dog is sitting under a tree.,0.908029,0.258813,0.649216
+Man relaxing on a bench at the bus stop.,The man relaxes on a bench.,The man stood next to the bench.,0.771255,0.505794,0.265462
+"An outside wedding ceremony for an asian couple under an umbrella, shielded from the blaring sun.",There are asian people outside.,Two old ladies reading the newspaper.,0.441256,0.014932,0.426324
+A man in a yellow excavator on a construction site.,the guy is on the excavator,the orange is being peeled,0.792296,0.097338,0.694958
+Four people dine at a restaurant.,four people dining,the people are at the motel sleeping,0.812293,0.123955,0.688338
+"A young child with dark shoulder length hair, in a yellow shirt and pink pants, is walking eating cheerios out of a ziplock bag.",a child eats cheerios,a child sits in a chair,0.752479,0.286238,0.466241
+A group of people are gathered in the woods around trees and a ladder.,People gathered in woods.,Miners work hard at gathering coal.,0.808552,0.305858,0.502694
+A volleyball player hitting a ball on the beach.,A volleyball player is hitting a ball.,A soccer player is kicking a ball.,0.867912,0.498208,0.369704
+A man in hat and apron flipping over his pancake by tossing it in the air back to the pan.,The male is cooking food.,The male is surfing on his day off.,0.354974,0.164565,0.190409
+A young child is enjoying the water and rock scenery with their dog.,The child and dog are enjoying some fresh air.,The teenage boy is taking his cat for a walk beside the water.,0.632802,0.345246,0.287556
+A man standing up in a rowboat with a bird perched on the boat.,A rowboat is out on the water with a man standing in it.,The man is pedaling a bicycle along the pier.,0.742220,0.233383,0.508837
+Two dogs run around inside a fence.,Two dogs are inside a fence.,Two dogs sleep inside a fence.,0.871891,0.684260,0.187631
+A man is cooking pies in the oven.,The oven has pies in it.,The oven has turkeys in it.,0.766025,0.466022,0.300003
+"A woman with blond-hair and blue boots walks among a crowd of other pedestrians on a city street, looking up at something.",A woman is walking outside.,A woman is sitting in a cafe eating lunch.,0.547710,0.077152,0.470558
+"A golden-colored dog, with his eyes alert, holds a brightly colored tennis ball in his mouth.",The dog is light colored,the Dog is black,0.549995,0.397264,0.152732
+A baby crying about getting their diaper changed.,a baby cries while getting their diaper changed,the baby is eating,0.938898,0.358295,0.580603
+A woman is tugging on a white sheet and laughing,The person is amused.,The woman is trying on a new dress.,0.530178,0.287831,0.242347
+The young girl cools off by sliding on the water slide.,The girl goes down a water slide.,No one is sliding down a water slide.,0.779898,0.464644,0.315253
+"Older Asian man, wearing orange robes in urban area.",The man is in a city.,The man is in a baseball uniform.,0.487259,0.177850,0.309410
+People shopping at the marketplace.,People are shopping.,A woman is swimming in the ocean.,0.882884,-0.086423,0.969307
+Two people are sitting in a station.,A couple of people are inside and not standing.,A jazz trio is giving a performance in the White House.,0.468351,0.124893,0.343459
+Two boys are swimming underwater in a pool and a girl is swimming in the background.,There are some kids in this picture,They are playing in a sand box,0.469524,0.193187,0.276338
+these two ladies are reading a sign while shading themselves from the sun with their umbrellas.,Two ladies out in the daytime,Two women use umbrellas keep themselves dry from the rain,0.539724,0.502906,0.036818
+"A woman, viewed through a window, sits at a restaurant table and puts down a red shopping bag.",A woman in a restaurant.,A woman trying on a pair of black knee high stiletto boots.,0.599476,0.165830,0.433646
+There is not an image here.,No image can be seen.,There is an image here.,0.606970,0.691005,-0.084035
+A bundled boy sleds down the slope.,A boy is sledding,A boy is surfing,0.786197,0.273556,0.512642
+Two men in uniforms are in soccer field behind a line waiting to play.,two men waiting to play soccer,two men waiting for the bus,0.779631,0.390292,0.389339
+A woman playing with her cats while taking pictures.,A woman is spending time with her cats.,A woman is playing with her dolls.,0.774927,0.343292,0.431636
+"A young woman dressed as a princess is waving to others from inside a ride where the carriage is a large replica of the Disney character, Dumbo.","A female with clothes on is on a moving vehicle, waving her hands left to right in the air.",The young woman is sleeping in bed.,0.461221,0.053744,0.407477
+A young woman holding a newborn in her arms while still wearing her hospital bracelet laying on a hospital bed.,A young woman is holding a newborn.,A young woman is holding a gun.,0.783514,0.325100,0.458414
+Three young men are watching a tennis match on a large screen outdoors.,Young men watch a tennis match on a screen outdoors.,Three men enjoy a football game on a plasma indoors.,0.918421,0.489041,0.429379
+A large amount of persons flying kites in a park.,a lot of people are flying kites.,one person is flying his kite.,0.798687,0.589401,0.209287
+A man is taking pictures hanging outside of a red rally car.,The man is near the car.,The man is alone in the bathroom.,0.568329,0.032069,0.536260
+"A man in a yellow outfit, fixing something on the corner of a house.",A man wearing a yellow outfit was repairing something on the corner of the house.,The man is breaking into the house.,0.945126,0.270102,0.675023
+A happy little girl rides on the merry-go-round.,a little girl rides on the merry-go-round,the girl was completely lost,0.930938,0.254793,0.676145
+The woman in the blue skirt is sleeping on a cardboard box under a picture of Mary and baby Jesus.,A person sleeping on a cardboard box below a picture of religious icons.,A homeless man suffering from hypothermia in the ruins of a burned building.,0.651134,0.141555,0.509579
+Two men with fake mustaches are dressed like archaeologist explorers.,People are wearing disguises.,Clean shaven youths are wearing formal prom attire.,0.457395,0.235561,0.221834
+A blond woman is holding 2 golf balls while reaching down into a golf hole.,A blonde female is reaching into a golf hole while holding two golf balls.,THe blond woman is sitting down.,0.933504,0.464203,0.469301
+Two horse riders and three walkers are going down a dusty path.,Five people on a path,Five people are seated,0.542593,0.258141,0.284452
+"A group of people dressed as a wizard, queen, and possibly a lobster smiling and looking at the camera.",people are dressed in costume,a man in a suit sits alone,0.546623,0.051693,0.494930
+Two dogs shaking themselves dry on the sand.,Two dogs shake off water to get dry.,Dogs swim in the ocean.,0.835822,0.325561,0.510260
+The skier is doing a flip through some trees,A skier is doing tricks.,The man is water skiing.,0.699606,0.343302,0.356305
+A man reading the paper at a cafe.,A man reading the paper while drinking cafe.,A man playing ice hockey.,0.868954,0.230636,0.638318
+A young indian boy sitting down thinking about his future.,A boy thinks.,A man teaches his daughter to ride a horse.,0.614680,0.140126,0.474555
+Snowboarder sails in the air.,A snowboarder is out snowboarding.,A young snowboarder sips hot chocolate in the cabin.,0.659731,0.359819,0.299912
+A brown dog with a blue muzzle is running on green grass.,A brown dog is wearing a muzzle.,A dog is wearing a green muzzle on blue grass.,0.717729,0.861833,-0.144104
+A woman closes her eyes as she plays her cello.,A woman is making music.,The woman has her eyes open.,0.567514,0.556084,0.011430
+"A man wearing black pants, a black shirt, and an orange hat is using a nail gun to attach tar paper to a roof.",The man is using his nail gun to attach paper tar to his roof.,The man on a merry go round.,0.844731,0.081753,0.762978
+A male construction worker hammers a nail.,A construction worker drives into a nail.,A construction worker is eating a sandwich during his lunch break.,0.790255,0.348318,0.441937
+Water polo swimmers competing for a loose ball.,A group of water polo swimmers having a water polo match.,A group of basketball players swimming together.,0.779502,0.523941,0.255561
+A dark-haired drummer is playing his set with enthusiasm.,The drummer is performing.,The drummer is playing poker.,0.721836,0.513767,0.208069
+A young man dressed in black dress clothes lies down with his head resting in the lap of an older man in plain clothes.,An older and younger man are together.,Two men sit on a bench with their backs together.,0.501937,0.299729,0.202207
+An Asian woman preparing vegetables for the market.,A woman preparing vegetables.,A woman at home.,0.785277,0.276410,0.508867
+Two people look at two red motorcycles in a place where there are religious murals on the wall.,The two people are looking at motorcycles.,The two people are looking at cars.,0.686665,0.485180,0.201484
+"A team in yellow, red, and blue jerseys sit next to a road and watch a tiger mascot.",People watch a tiger mascot.,The tiger mascot is all alone.,0.740616,0.521180,0.219436
+the front side of a food vendor in a park.,A food vendor is in the park.,The park is empty.,0.898770,0.320356,0.578414
+"A woman wearing a scarf, hat, and coat, holding a shopping bag is looking at her phone while standing in front of a store.","A woman wearing a scarf, hat, and coat, holding a shopping bag is outside of the store.",The woman is inside the store browsing.,0.821649,0.583154,0.238495
+A girl in a flower dress is running on sand.,The girl is running.,The girl is wearing a green striped dress.,0.659345,0.364733,0.294613
+A soccer player wearing white shorts and an orange and green shirt holds the ball while being guarded by another soccer player in a blue uniform.,A soccer player holds the soccer ball.,A football player throws a touchdown pass.,0.699924,0.185569,0.514355
+A man in black reading a book for a group of people.,The man is reading.,The man is talking to himself in the mirror.,0.687520,0.187427,0.500093
+"Male volleyball players in red attempt to score on the other team, lighter red.",Guys are playing volleyball.,Women are rollerblading.,0.686714,0.153546,0.533168
+"There is a woman throwing daggers at a target, which is a carrot.",A person is throwing things.,A woman is skiing.,0.495116,0.141855,0.353261
+A woman in a green shirt and jeans throws a spear toward a target in the background painted with a carrot across a parking lot,A woman throwing a spear towards a target.,A woman shooting a bow at a painted pumpkin target.,0.758444,0.605314,0.153131
+Man wearing dark clothes walks down a street with a wall of graffiti to his left.,A man walks past some graffiti.,The man is painting the street.,0.759496,0.366589,0.392907
+a group of people riding bikes in a marathon as people line the street.,There are people riding bikes in a marathon.,The people riding bikes are running from the police.,0.813613,0.487987,0.325625
+Three women wearing belly dancing costumes are pictured in color while the background of the shot is in black and white.,three women dance in belly dancing costumes,three women in snowsuits eat a racoon,0.815761,0.372573,0.443188
+A person in a yellow slicker is driving a motorboat next to the beach.,A person in a boat.,A whale eating a fisherman.,0.566330,0.195042,0.371288
+Two boys in green and white uniforms play basketball with two boys in blue and white uniforms.,Boys are playing basketball.,Eight girls in dresses are playing basketball.,0.734162,0.506441,0.227721
+A referee is talking with a couple of soccer players in red jerseys.,There is a soccer game today.,The soccer players are casually kicking the ball down the street.,0.430027,0.272835,0.157192
+A white and blue car is on the street.,A vehicle is on the street.,A car is driving off a cliff.,0.755947,0.456876,0.299071
+A young boy is hanging onto a clothing rack.,A boy hangs from a rack.,"A girl stands near a clothing rack,",0.850969,0.556349,0.294620
+A boy toddler play outside on a clothes rack full of tied dye shirts.,A toddler is playing outside.,A toddler is playing inside the house.,0.718488,0.565557,0.152930
+"Two men are playing basketball, and one man is making a shot.",Two men are playing basketball.,The men are playing soccer.,0.824001,0.426136,0.397865
+A man trying to block another man from shooting the ball in.,The man is is near the ball.,The man is playing the guitar at the concert.,0.602339,-0.039659,0.641998
+A man in a black coat eats a doughnut while other men look out of frame.,A man in a black coat eats a doughnut.,A naked man eats a doughnut.,0.889270,0.591219,0.298051
+"A woman in black, seen from behind, sits next to a body of water.",A woman sits outside.,A woman leaps from a balcony to the ground below.,0.633288,0.243235,0.390053
+An orange car is driving across a steel bridge in a city.,A car is driving across a bridge.,A car is driving on the highway towards the country-side.,0.768533,0.460520,0.308014
+A young man wearing black jumps off a height while people clap.,The man is jumping off something.,The man is wearing yellow.,0.525384,0.168833,0.356550
+A Korean gentlemen kicks up his leg.,A person is kicking.,A person stands on two feet.,0.586072,0.316389,0.269683
+A man wearing yellow sneakers and a black vest is on a water board and hangs onto a waterski line that appears to be towed by a boat.,A man is moving on the water.,A dog is swimming towards a stick.,0.519881,0.028199,0.491682
+"Two woman talk in the middle of a parking lot, near two cars, as random people wander nearby.",Two women near cars talk in the middle of the lot,Two men talk in the middle of the lot,0.842187,0.505918,0.336269
+People are working with some white pipes.,People working on white pipes.,People are ruining the red pipes.,0.986152,0.583980,0.402172
+A man talks on his cellphone in private.,A man is on his cellphone.,A man throws his cellphone to the ground.,0.740557,0.460884,0.279674
+A baby wearing a bib makes a funny face at the camera.,A baby in a bib is making funny faces at the camera.,A baby spits up all over his bib.,0.975260,0.643232,0.332028
+"A brunette baby wearing a red and gray striped shirt, jeans, and a bib with fruit characters on it is sitting on a decorative blanket.",Fruit characters decorate this child's bib,The child is secretly a 50 year old man,0.422263,0.139347,0.282916
+Two power walkers walking beside one another in a race.,Two people in a race,Two people driving cars,0.502695,0.336530,0.166165
+A girl wearing makeup playing a bass.,A girl is musical.,A girl is playing the violin.,0.603946,0.460940,0.143005
+A person is climbing a cliff wall that overlooks water.,A person is climbing.,A person is walking on the beach.,0.700367,0.339796,0.360571
+A middle-aged man in a bicycle race trying his hardest on the sand surrounded by watching crowd.,A man is riding a bicycle.,A small girl bounces on a pogo stick.,0.454346,-0.036604,0.490951
+"Man on bike, with bike clothing and helmet on, having trouble maneuvering through sand from beach.",The man is riding a bike in sand.,The man is sailing a boat.,0.707158,0.268414,0.438744
+A person is wearing a helmet and protective clothing while riding a four-wheeled vehicle.,The person has a helmet on.,The person is riding a bicycle.,0.759277,0.502139,0.257138
+Three hockey players are in the middle of a play.,the players are playing a game,the bird is red,0.590990,0.033949,0.557042
+An infant is in a crib and crying.,A baby is unhappy.,A puppy is eating food.,0.648651,0.143007,0.505643
+Two children run up the street on the sidewalk near the building.,The children are outside.,The children are inside.,0.642901,0.429979,0.212922
+A large man dressed in black on a street corner by a red brick building.,A man is on the street corner.,A man got shot on the street corner.,0.643125,0.487903,0.155222
+Two men in animal print pants sleep on a white bed.,Two men are inside.,A woman watches TV.,0.409633,-0.153794,0.563427
+A woman in an orange shirt is enjoying food in a public setting.,the lady in the orange shirt is eating,the lady is ice skating,0.760970,0.224569,0.536402
+Two dogs biting each other playfully while jumping,Two dogs are playing.,Two dogs are biting each other while fighting and growling,0.740633,0.746407,-0.005774
+An audience cheers at a concert.,An audience making noise at a concert.,An audience sitting in a room quietly listening to poetry.,0.715372,0.382904,0.332468
+"Lady vendor selling her goods, one man standing on a post, and two men in a wholesale store.",A woman and three men.,A dog sits alone next to a swimming pool.,0.331164,-0.074370,0.405534
+A guy tries to climb a stone cliff while his friend helps him.,Two people are climbing a cliff.,Two men are standing on a beach looking up at a cliff.,0.579614,0.374279,0.205335
+A group of people sit before a campfire.,People are around a fire,The elephant sits on a dog,0.713290,0.116727,0.596563
+A boy with a basketballs glowers at the camera.,The boy scowls,The boy is smiling,0.300026,0.442984,-0.142958
+A waitress with a pink shirt and black pants walking through a restaurant carrying bowls of soup.,A person with pants,Nobody has pants,0.370009,0.203575,0.166435
+A man wearing a white jacket and pink hat is speaking into a microphone while raising one arm above his head.,The man is wearing a hat.,The man is sitting down.,0.519823,0.208477,0.311347
+A brown dog about to catch a green Frisbee.,The dog is outdoors.,The dog is sleeping.,0.548620,0.177622,0.370998
+Three people are canoeing in a stream.,There are people outdoors,There are people indoors watching others canoe,0.392865,0.598362,-0.205496
+A skateboarder glides down a railing of some stairs.,The skateboarder goes down the railing.,A girl rides her tricycle through the neighborhood.,0.787971,0.130599,0.657372
+A bride adjust her husbands flower on his coat as she holds her own bouquet of flowers.,A bride tidies her groom.,The bride fixes her husband's tie.,0.588699,0.566195,0.022504
+Runners are competing on a track in front of a stadium full of people.,There are runners on a track.,Two women are jogging in the park.,0.781948,0.340999,0.440949
+"A small dog runs after a red ball, though a leafy outdoor area.",a dog runs around outside.,a dog sleep under a tree.,0.630566,0.219834,0.410733
+A man wearing a white shirt and an orange shirt jumped into the air.,A man's feet are not touching the ground.,A man is laying down on the sofa.,0.410172,0.112225,0.297947
+Two asian men in a wood shop.,There are two asian men in that wood shop.,The two asian men are at the park.,0.964015,0.530107,0.433908
+Man in while shirt and blue jeans holding hands while walking with a little girl in a blue dress and yellow hat.,A man and girl walking together,A man takes his son to the game,0.714445,0.171332,0.543113
+"The strangely dressed guys, one wearing an orange wig, sunglasses with peace signs, and a karate costume with an orannge belt, another wearing a curly blue wig, heart shaped sunglasses, and a karate outfit painted with leaves, and the third wearing pink underwear, a black afro, and giant sunglasses.",There are people wearing outfits.,The people are naked.,0.566363,0.222194,0.344169
+A jockey in blue gallops a chestnut horse on a dirt track past a wooden fence.,A jockey rides a horse,A jockey brushing his horse,0.700401,0.588882,0.111518
+A jockey wearing a blue jacket is riding a dark brown horse in a gallop.,A jockey is riding a horse in a gallop.,jockey wearing a green jacket is riding a dark grey horse in a trot.,0.855335,0.737256,0.118079
+A man in a gray sweatshirt and blue jeans is pulling on a rope while a guy in a white shirt and black jeans watches him.,the man in the ray sweatshirt was pulling on a rope,the two men were pulling on the rope,0.623773,0.663447,-0.039674
+A man sitting on the ground carving a green coconut with a large knife.,A man is sitting down.,The man is standing.,0.466120,0.201669,0.264451
+Riot police are standing in the background while a young man with a red scarf covering his face is walking.,there are police,a dog sleeps on a pillow,0.516086,-0.087277,0.603362
+"A person in a white t-shirt, military print cap and red bandanna with a skeleton on it covering most of the person's face.",The t-shirt is white.,The bandanna is blue.,0.575562,0.479738,0.095824
+A man dressed in yellow rescue gear walks in a field.,The man is outdoors.,The man is bowling.,0.503393,0.112961,0.390432
+A man in blue clothing carries a yellow bucket while walking in the water near a pelican.,A man with a pail is in the water near a bird.,A man is at church.,0.503116,0.201369,0.301747
+A young woman tennis player dressed in black carries many tennis balls on her racket.,A young woman tennis player have many tennis balls.,A young woman never wears white dress.,0.844675,0.192770,0.651905
+Young brunette woman smiling in front of bushes.,The woman is outside.,The man looks very upset.,0.447644,0.058989,0.388655
+People are gathered by a tree beside a line of white tents.,People are gathered near a tree in proximity of white tents.,People are gathered in the middle of the atlantic after a plane chrased.,0.955474,0.354986,0.600488
+"Boy, of age approximately 10 years old, lunging into pristine pool on hot summer day.",The boy is by the pool.,There are no kids allowed at the pristine pool.,0.710361,0.398973,0.311388
+A dog carrying a stick in its mouth runs through a snow-covered field.,A animal carried a stick through a snow covered field.,the animals is sleeping,0.878604,0.079802,0.798803
+Construction workers using big hooks.,The workers are working,The workers are dead,0.594347,0.396187,0.198160
+A football coach is walking on a football field.,a football coach walks on the field,a baseball player walks on the field,0.955675,0.445436,0.510239
+A woman holding roses while she waits.,this lady has roses while she is waiting,this lady is flying a jet pack,0.892156,0.267332,0.624824
+"People mingling in the foreground and background, two of them are walking towards those in the background that are positioned nearby of a building that is overshadowed by a large number of trees, while the two in the foreground are tending to a horse drawn carriage.","There are a bunch of people, some near a building, others walking and others are doing something to a carriage.",A bus pulls into the station.,0.619879,0.171534,0.448346
+A large busted woman in a yellow shirt has a pink shoulder bag on her shoulder.,A woman with large breasts is carrying a pink bag.,A man is working out in a gym.,0.645418,0.010405,0.635013
+Sheep farmers are crouching and preparing to feed their animals as the sheepdog watches closely by.,Farmers prepare to feed their animals in a large field.,Farmers plant their corn as a scarecrow watches closely by.,0.693581,0.486118,0.207463
+A young boy playing in a bubble playing in water.,A person is getting wet.,The man is shaving.,0.452311,0.111158,0.341154
+Two men standing near a metal structure in front of a brick wall.,Adult males stand in front of a brick wall near something made of metal.,Men hang drywall inside a house.,0.814264,0.391709,0.422554
+A young child brushes his or her teeth while holding a remote.,The young boy is multi-tasking.,The young child is asleep.,0.441542,0.338566,0.102977
+Kids being walked across a lot by an adult to a larger building.,An adult is escorting some children.,An adult is walking alone.,0.541971,0.215942,0.326029
+Two woman are walking up to a brightly painted fire hydrant.,Two women are walking.,Two women are sleeping in the street.,0.615582,0.283373,0.332208
+A fire hydrant with a face painted on it.,A fire hydrant is not just yellow or red.,There isn't a face on the fire hydrant.,0.595006,0.618221,-0.023215
+A man with glasses in a brown shirt talking while a man with glasses in a gray shirt listens.,Two people are wearing glasses.,Two men in a canoe are about to tip it over.,0.578189,0.113121,0.465067
+"The horses pull the carriage, holding people and a dog, through the rain.",Group of people traveling in the rain by horse-drawn carriage.,Horses ride in a carriage pulled by a dog.,0.838818,0.654839,0.183979
+A woman in an red tracksuit squeezing lemons in a press.,A woman squeezing lemons.,A woman reading a book.,0.825868,0.216053,0.609815
+Tall man being stopped by an officer.,There is a tall man.,The man is short.,0.646102,0.561191,0.084911
+Two young men in unusual clothing are jumping in a gym.,Two people are in the gym,The young men are lying in the sand,0.600180,0.273718,0.326462
+"A little girl wearing a pink, yellow and white bathing suit, gets wet from a splash of water.",A girl gets wet from a splash of water.,A girl wears a suit to work.,0.797195,0.416347,0.380848
+A young man standing on a plank of wood and using a large saw to cut it.,A young man saws wood.,A young girl is cutting wood.,0.763311,0.610638,0.152673
+A town worker working on electrical equipment.,The worker is working.,The worker is off work for the day.,0.670585,0.541919,0.128667
+A nun is taking a picture outside.,A woman is outside,A man is taking a picture outside.,0.433813,0.489036,-0.055223
+A man in a white and blue jacket is talking to a girl in a black jacket.,Two people are talking,Two boys are yelling.,0.596807,0.159832,0.436975
+A boy in a blue shirt looks away from the camera as a girl in a pink and orange bathing suit stares into the camera in front of an RV.,A boy looks away from the camera while a girl looks into the camera.,A boy looks into the camera while a girl looks away from he camera.,0.752753,0.751562,0.001191
+two girls sitting by a tree while playing.,There are two girls.,The girls are not near a tree.,0.655966,0.746544,-0.090579
+A woman with tattoos and a black t-shirt smiles and talks to a man with a partially shaved head wearing shirt with the words' hippie killer' in white letters on it.,A female and a male are talking to each other.,Two guys are yelling at each other.,0.454079,0.164739,0.289340
+Two businessmen going to work.,Two men go to work.,A woman drives a limo.,0.699996,-0.050506,0.750502
+A woman sitting on a bright blue bench looks up from her book.,A woman is sitting.,The woman is running around.,0.591513,0.182697,0.408817
+Hockey players play a game on the ice.,People are playing a game of ice hockey.,People are competing in figure skating.,0.918107,0.566427,0.351680
+"A toddler in a blue one-piece plays with a stack of plastic tubs, while toys are scattered on the floor behind him.",The baby is playing with things on the floor.,The baby is playing with glass in the middle of the street.,0.609654,0.375043,0.234611
+A man with glasses and a Hawaiian shirt is standing next to a dog while another man with a blue hat looks at them from the back.,A man stares at another man.,A butterfly flys freely.,0.485665,-0.058351,0.544016
+A man wearing a cap and a black wetsuit on a rocky coast lifts a large sack with three sacks in front of him with another man and a small yellow boat in the background.,A man standing by a body of water.,A man carrying a surfboard walking towards the ocean.,0.319338,0.384013,-0.064674
+A girl in a field with a yellow scarf.,The girl is outdoors.,The girl is in an office building.,0.625124,0.357185,0.267939
+The person in black T-shirt is sitting.,The human is sitting.,The boy is taking a bath.,0.684846,0.134140,0.550706
+A guy on a waterskiing board is doing a stunt.,The guy is doing a stunt.,The guy is watching tv.,0.776986,0.317830,0.459156
+girl sitting in fire for a show,The girl is a performer for the show.,The girl is sitting in a freezer.,0.633033,0.359355,0.273678
+A young girl with long brown hair is brushing her teeth.,A girl is holding a toothbrush.,A girl has short blonde hair.,0.740443,0.546422,0.194022
+Several people stopped by the side of the road are watching what is happening in the woods.,People stopped by the side of the road,Women are gossiping about a blowfish,0.656667,0.032692,0.623976
+A fireman is on a ladder leaning on a charred and smoking house.,a fireman on a ladder,a policeman arresting a hooker,0.850832,0.043317,0.807515
+Man in red shirt about to have a barbecue,Person in red shirt about to have a barbecue,Woman in red shirt about to have a barbecue,0.920400,0.762209,0.158191
+A costume worn by this little boy is making him feel a little insecure.,An insecure boy.,A boy blowing up a baloon.,0.699084,0.213865,0.485219
+Two men and a woman finishing a meal and drinks.,Some people eating a meal.,Two men and a woman playing in a band.,0.703202,0.355007,0.348195
+A woman holds a fat baby with sunglasses and a denim hat.,A lady is carrying a baby,A lady carrying a small kitten,0.594511,0.314499,0.280012
+"Two orthodox Jews, one male, one female, are shown in traditional dress in a sidewalk scene.",Two jews are shown in a sidewalk scene.,Two jews celebrate the jewish holiday indoors.,0.770470,0.566747,0.203723
+"A man in a green safety jacket and pants stands, facing away, near bags of trash while people stand on the curb across the street.",A person in a jacket,Nobody has a jacket,0.378098,0.221268,0.156829
+Trying very hard not to blend any of the yellow paint into the white.,Someone is painting.,Someone is baking a cake.,0.441146,0.075018,0.366128
+A man in a club addressing other people and holding his index finger up with a woman standing behind him.,A group of people are indoors.,The man has his fists clenched tight.,0.271194,0.292571,-0.021377
+"A cowboy clown wearing a shirt with Tax on it, red suspenders, and a white cowboy hat talks into a wireless microphone.",A clown is talking into a microphone.,A cowboy clown in a bowler hat is talking into a wireless microphone.,0.686233,0.810119,-0.123886
+"Woman driving in a red convertible with another girl in the passenger seat and a guy in a suit in the backseat, driving past a group of people.",There are three people driving in a convertible past other people.,"A woman, girl and man are watching television.",0.742461,0.231598,0.510863
+Two women and a man are in a sporty red convertible in front of a large group of people on the sidewalk.,Two women are in a car with a man.,The three women are in a car.,0.419298,0.277728,0.141570
+Two wrestlers jump in a ring while an official watches.,Two wrestlers are in the ring.,Sea turtles are hatching and racing for the surf.,0.818869,0.149226,0.669643
+Two families on a picnic with green grass.,People are having a picnic.,People are water skiing.,0.676247,0.122533,0.553714
+A man wearing glasses is vacuuming an architects model.,There is a man vaucuming,There is a man watching someone vacuumming,0.492357,0.549383,-0.057026
+"AN older woman appears to read from a children's book in an indoor setting, while a seated gentleman in a service uniform looks on.",A woman reads from a book while a man watches.,A young woman stands alone looking in the bathroom mirror.,0.651734,0.262158,0.389576
+A lady reading a story book.,A story book is open.,A lady reads a science textbook.,0.600801,0.719282,-0.118481
+"A topless man with tattoos, black pants, and black boots is standing on a platform in front of a mirror.",a man is standing,the man is lying on the roof,0.427082,0.193846,0.233236
+A girl prepares herself for the swim meet.,The girl has swam before.,The girls is asleep at home,0.721170,0.090659,0.630511
+An African American wearing a red backpack looks the photographer as he walks past a concrete wall covered in graffiti.,a person wears a backpack,an asian wears a red backpack,0.442009,0.404408,0.037601
+A man in a red hat and shirt with gray shorts attempts to do the splits.,The man is wearing a red hat.,The man has a blue hat.,0.504756,0.320192,0.184564
+A girl is standing and another one is sitting by a tree,There are two girls.,Both girls are sitting by the tree.,0.530121,0.781914,-0.251794
+Several children in full riding gear are on horseback in a grassy field carrying polo equipment.,There are children on horseback.,The children are swinging on swings at the playground.,0.758883,0.310090,0.448794
+Various people shop at a street clothing sale.,People shop at a clothing sale.,Various cats shop at a street clothing sale.,0.898256,0.690516,0.207740
+People are shopping outside surrounded by a metal fence.,The people are outside surrounded,The people are sleeping.,0.428859,-0.064819,0.493678
+A well dressed man standing in front of an abstract fence painting.,A well dressed man standing in front of piece of artwork.,A homeless man laying around in front of a painting.,0.738695,0.552338,0.186358
+A man in a gray wife beater grilling.,The man is cooking.,The shirtless man is cutting the grass.,0.487092,0.133072,0.354020
+Two boys in a field kicking a soccer ball.,There are humans physically moving.,Two girls are throwing a baseball.,0.299048,0.277936,0.021112

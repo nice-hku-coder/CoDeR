@@ -19,7 +19,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--topic-model", type=str, default="/data/xingkun/local_model/Llama-3.2-3B-Instruct")
     parser.add_argument("--cross-encoder-model", type=str, default="cross-encoder/ms-marco-MiniLM-L-6-v2")
     parser.add_argument("--candidate-k", type=int, default=100)
-    parser.add_argument("--report-file", type=str, default=str(REPORTS_DIR / "cross_encoder_metrics_report.json"))
+    parser.add_argument(
+        "--report-file",
+        type=str,
+        default=str(REPORTS_DIR / "baselines" / "cross_encoder_metrics_report.json"),
+    )
     return parser.parse_args()
 
 

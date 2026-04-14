@@ -70,7 +70,7 @@ def main() -> None:
     con_scores = np.sum(premise_emb * con_emb, axis=1)
     margins = ent_scores - con_scores
 
-    report_path = REPORTS_DIR / "poc_negation_gap_summary.txt"
+    report_path = REPORTS_DIR / "poc_negation_gap" / "poc_negation_gap_summary.txt"
     with report_path.open("w", encoding="utf-8") as f:
         f.write(f"Model: {args.model}\n")
         f.write(f"Samples: {len(premises)}\n")
@@ -79,7 +79,7 @@ def main() -> None:
         f.write(f"Mean margin (ent - contra): {margins.mean():.4f}\n")
         f.write(f"Pairwise accuracy (ent > contra): {(margins > 0).mean():.4f}\n")
 
-    csv_path = REPORTS_DIR / "poc_negation_gap_scores.csv"
+    csv_path = REPORTS_DIR / "poc_negation_gap" / "poc_negation_gap_scores.csv"
     with csv_path.open("w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["premise", "entailment", "contradiction", "ent_score", "contra_score", "margin"])

@@ -37,7 +37,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--report-file",
         type=str,
-        default=str(REPORTS_DIR / "rag_category_report.json"),
+        default=str(REPORTS_DIR / "rag_category_report" / "rag_category_report.json"),
     )
     return parser.parse_args()
 
