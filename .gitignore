@@ -3,4 +3,4 @@ __pycache__/
 *.pyd
 models/
 checkpoints/
-evalution/
+data/evaluation/
