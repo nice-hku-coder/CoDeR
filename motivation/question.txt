@@ -1,0 +1,19 @@
+Translate the query into first-order logic formulas.
+
+Output exactly:
+Predicates:
+predicate :: short definition.
+...
+Conclusion:
+formula :: short meaning.
+...
+
+Rules:
+- Output only plain text.
+- Use exactly one Predicates section and one Conclusion section.
+- Put one formula per line.
+- Keep the formula before `::`.
+- Do not add explanations, examples, numbering, bullets, or markdown.
+
+Query:
+%QUERY%

@@ -4,22 +4,48 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from types import SimpleNamespace
+from typing import Callable
 
 import matplotlib.pyplot as plt
 import numpy as np
+import torch
+import torch.nn.functional as F
+from llama_index.core import Document, Settings, VectorStoreIndex
+from llama_index.core.node_parser import SentenceSplitter
+from llama_index.core.retrievers import VectorIndexRetriever
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from transformers import AutoModel, AutoTokenizer
+from tqdm.auto import tqdm
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+MOTIVATION_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(MOTIVATION_DIR))
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from experiments.common import FIGURES_DIR, PROCESSED_DIR, REPORTS_DIR, ensure_project_dirs, read_jsonl
+from experiments.common import (
+    FIGURES_DIR,
+    PROCESSED_DIR,
+    REPORTS_DIR,
+    ensure_project_dirs,
+    load_sentence_encoder,
+    read_jsonl,
+    resolve_local_model_path,
+)
 from experiments.metrics import ndcg_at_k, recall_at_k
+from utils import doc2fol, query2fol, updated_embeddings
 from motivation.rankers import build_bm25_ranker, build_dense_ranker, build_hyde_ranker
 
 DEFAULT_MODELS = {
-    "BGE": "BAAI/bge-large-en-v1.5",
-    "Contriever": "facebook/contriever",
+    "TopicEncoder": str(PROJECT_ROOT / "models" / "sentence-transformers_all-MiniLM-L6-v2"),
+    "BGE": str(PROJECT_ROOT / "models" / "BAAI_bge-large-en-v1.5"),
+    "Contriever": str(PROJECT_ROOT / "models" / "facebook_contriever"),
+    "ConstraintEncoder": str(PROJECT_ROOT / "outputs" / "checkpoints" / "constraint-encoder-v1"),
+    "NSIR_Encoder": str(PROJECT_ROOT / "models" / "BAAI_bge-large-en-v1.5"),
+    "NSIR_Generator": "gpt-4o",
     "HyDE_Generator": "gpt-5",
 }
+NSIR_BASE_URL = "https://api.vectorengine.ai/v1"
 TARGET_CATEGORIES = ("negation", "exclusion", "numeric")
 K_VALUES = (1, 3, 5, 10)
 PRIMARY_K = 5
@@ -39,8 +65,13 @@ def parse_args() -> argparse.Namespace:
         type=str,
         default=str(PROCESSED_DIR / "retrieval_corpus_v1.jsonl"),
     )
+    parser.add_argument("--topic-model", type=str, default=DEFAULT_MODELS["TopicEncoder"])
     parser.add_argument("--bge-model", type=str, default=DEFAULT_MODELS["BGE"])
     parser.add_argument("--contriever-model", type=str, default=DEFAULT_MODELS["Contriever"])
+    parser.add_argument("--constraint-model", type=str, default=DEFAULT_MODELS["ConstraintEncoder"])
+    parser.add_argument("--dual-alpha", type=float, default=0.0)
+    parser.add_argument("--dual-tau", type=float, default=0.6)
+    parser.add_argument("--dual-retrieve-k", type=int, default=100)
     parser.add_argument("--max-k", type=int, default=10)
     parser.add_argument(
         "--report-file",
@@ -75,6 +106,30 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Retry generation requests until success, mirroring the official implementation option.",
     )
+    parser.add_argument("--enable-nsir", action="store_true", help="Enable NS-IR baseline")
+    parser.add_argument("--nsir-api-key", type=str, default="", help="API key for OpenAI-compatible endpoint.")
+    parser.add_argument("--nsir-base-url", type=str, default=NSIR_BASE_URL, help="OpenAI-compatible base URL.")
+    parser.add_argument("--nsir-encoder-model", type=str, default=DEFAULT_MODELS["NSIR_Encoder"])
+    parser.add_argument("--nsir-generator-model", type=str, default=DEFAULT_MODELS["NSIR_Generator"])
+    parser.add_argument("--nsir-retrieve-k", type=int, default=100)
+    parser.add_argument("--nsir-max-tokens", type=int, default=512)
+    parser.add_argument("--nsir-temperature", type=float, default=0.0)
+    parser.add_argument("--nsir-top-p", type=float, default=1.0)
+    parser.add_argument("--nsir-distortion", type=float, default=0.2)
+    parser.add_argument("--nsir-sinkhorn", action="store_true")
+    parser.add_argument("--nsir-epsilon", type=float, default=0.1)
+    parser.add_argument("--nsir-stop-thr", type=float, default=1e-6)
+    parser.add_argument("--nsir-num-iter-max", type=int, default=1000)
+    parser.add_argument(
+        "--nsir-cache-file",
+        type=str,
+        default=str(REPORTS_DIR / "motivation" / "nsir_generations.jsonl"),
+    )
+    parser.add_argument(
+        "--nsir-wait-till-success",
+        action="store_true",
+        help="Retry generation requests until success, mirroring the official implementation option.",
+    )
     return parser.parse_args()
 
 
@@ -106,6 +161,149 @@ def median(values: list[float]) -> float:
     return float(np.median(values)) if values else 0.0
 
 
+def _cosine_score(left: torch.Tensor, right: torch.Tensor) -> float:
+    return float((F.cosine_similarity(left.unsqueeze(0), right.unsqueeze(0), dim=1).item() + 1.0) / 2.0)
+
+
+def build_dual_ranker(
+    topic_model_name: str,
+    constraint_model_name: str,
+    corpus: list[dict],
+    alpha: float,
+    tau: float,
+    retrieve_k: int,
+) -> Callable[[str], list[int]]:
+    topic_model = load_sentence_encoder(topic_model_name)
+    constraint_model = load_sentence_encoder(constraint_model_name)
+    doc_texts = [row["text"] for row in corpus]
+    topic_doc_emb = topic_model.encode(doc_texts, convert_to_numpy=True, normalize_embeddings=True, show_progress_bar=True)
+    constraint_doc_emb = constraint_model.encode(
+        doc_texts, convert_to_numpy=True, normalize_embeddings=True, show_progress_bar=True
+    )
+
+    def rank(query: str) -> list[int]:
+        q_topic = topic_model.encode([query], convert_to_numpy=True, normalize_embeddings=True)[0]
+        q_constraint = constraint_model.encode([query], convert_to_numpy=True, normalize_embeddings=True)[0]
+
+        topic_scores = np.dot(topic_doc_emb, q_topic)
+        constraint_scores = np.dot(constraint_doc_emb, q_constraint)
+
+        topic_idx = np.argsort(-topic_scores)
+        retrieve_idx = topic_idx[: min(retrieve_k, len(topic_idx))]
+        if len(retrieve_idx) == 0:
+            return []
+
+        final_scores = alpha * topic_scores[retrieve_idx] + (1.0 - alpha) * constraint_scores[retrieve_idx]
+        keep_local = [j for j, i in enumerate(retrieve_idx) if float(constraint_scores[i]) >= tau]
+        if keep_local:
+            kept_idx = retrieve_idx[keep_local]
+            kept_scores = final_scores[keep_local]
+            order = np.argsort(-kept_scores)
+            fused_idx = kept_idx[order]
+        else:
+            fused_idx = retrieve_idx
+
+        fused_set = set(fused_idx)
+        return list(fused_idx) + [i for i in topic_idx if i not in fused_set]
+
+    return rank
+
+
+def build_nsir_ranker(
+    corpus: list[dict],
+    encoder_model_name: str,
+    generator_model_name: str,
+    api_key: str,
+    base_url: str,
+    device: str,
+    retrieve_k: int,
+    max_tokens: int,
+    temperature: float,
+    top_p: float,
+    distortion_ratio: float,
+    sinkhorn: bool,
+    epsilon: float,
+    stop_thr: float,
+    num_itermax: int,
+    wait_till_success: bool,
+) -> Callable[[str], list[int]]:
+    resolved_encoder_model = resolve_local_model_path(encoder_model_name)
+    Settings.embed_model = HuggingFaceEmbedding(model_name=resolved_encoder_model, device=device)
+
+    doc_texts = []
+    corpus_dict: dict[str, int] = {}
+    for idx, row in enumerate(corpus):
+        text = row["text"]
+        doc_texts.append(text)
+        corpus_dict[text] = idx
+
+    documents = [Document(text=text) for text in doc_texts]
+    splitter = SentenceSplitter(chunk_size=1000000)
+    index = VectorStoreIndex.from_documents(documents, transformations=[splitter])
+    VIretriever = VectorIndexRetriever(index=index, similarity_top_k=retrieve_k)
+
+    tokenizer = AutoTokenizer.from_pretrained(resolved_encoder_model)
+    model = AutoModel.from_pretrained(resolved_encoder_model).to(device)
+    model.eval()
+    args_namespace = SimpleNamespace(api_key=api_key, base_url=base_url)
+
+    def rank(query: str) -> list[int]:
+        bge_nodes = VIretriever.retrieve(query)
+        if len(bge_nodes) == 0:
+            return []
+
+        reranked: list[tuple[int, float]] = []
+        doc_reprs: list[tuple[int, torch.Tensor, torch.Tensor]] = []
+        doc_iterator = tqdm(bge_nodes, desc="NS-IR docs", leave=False, total=len(bge_nodes))
+        for node in doc_iterator:
+            doc_text = node.text
+            doc_id = corpus_dict[doc_text]
+            doc_premise = doc2fol(
+                doc_text,
+                args_namespace,
+            )
+            doc_embedding, doc_word_embedding = updated_embeddings(
+                model,
+                tokenizer,
+                doc_text,
+                doc_premise,
+                device=device,
+                distortion_ratio=distortion_ratio,
+                sinkhorn=sinkhorn,
+                epsilon=epsilon,
+                stop_thr=stop_thr,
+                num_itermax=num_itermax,
+            )
+            doc_reprs.append((doc_id, doc_embedding, doc_word_embedding))
+
+        query_premise = query2fol(
+            query,
+            args_namespace,
+        )
+        query_embedding, query_word_embedding = updated_embeddings(
+            model,
+            tokenizer,
+            query,
+            query_premise,
+            device=device,
+            distortion_ratio=distortion_ratio,
+            sinkhorn=sinkhorn,
+            epsilon=epsilon,
+            stop_thr=stop_thr,
+            num_itermax=num_itermax,
+        )
+
+        for idx, doc_embedding, doc_word_embedding in doc_reprs:
+            score = _cosine_score(query_embedding, doc_embedding) + _cosine_score(query_word_embedding, doc_word_embedding)
+            reranked.append((idx, score))
+
+        reranked.sort(key=lambda item: item[1], reverse=True)
+        fused_idx = [idx for idx, _ in reranked]
+        return fused_idx
+
+    return rank
+
+
 def compute_method_report(method_name: str, benchmark: list[dict], doc_ids: list[str], rank_fn, max_k: int) -> dict:
     overall_vr: dict[int, list[float]] = {k: [] for k in K_VALUES if k <= max_k}
     category_vr5: dict[str, list[float]] = {cat: [] for cat in TARGET_CATEGORIES}
@@ -114,7 +312,9 @@ def compute_method_report(method_name: str, benchmark: list[dict], doc_ids: list
     fvr_values: list[int] = []
     per_query: list[dict] = []
 
-    for item in benchmark:
+    iterator = tqdm(benchmark, desc=f"Evaluating {method_name}", total=len(benchmark), leave=False) if method_name == "NS-IR" else benchmark
+
+    for item in iterator:
         ranked_idx = rank_fn(item["query"])
         ranked_doc_ids = [doc_ids[i] for i in ranked_idx]
         violating_ids = violating_doc_set(item)
@@ -183,6 +383,10 @@ def plot_violation_rate_curves(summary: dict, out_path: Path) -> None:
         "BM25": {"color": "#333333", "linestyle": "--", "marker": "o"},
         "BGE": {"color": "#1f77b4", "linestyle": "-", "marker": "s"},
         "Contriever": {"color": "#ff7f0e", "linestyle": "-", "marker": "^"},
+        "EncoderA": {"color": "#4c78a8", "linestyle": "-", "marker": "s"},
+        "EncoderB": {"color": "#9467bd", "linestyle": "-", "marker": "P"},
+        "DualFusion": {"color": "#d62728", "linestyle": "-", "marker": "X"},
+        "NS-IR": {"color": "#8c564b", "linestyle": "-", "marker": "v"},
         "HyDE": {"color": "#2ca02c", "linestyle": "-", "marker": "D"},
     }
 
@@ -212,6 +416,10 @@ def plot_first_violating_rank_boxplot(summary: dict, out_path: Path) -> None:
         "BM25": "#bbbbbb",
         "BGE": "#9ecae1",
         "Contriever": "#fdae6b",
+        "EncoderA": "#aec7e8",
+        "EncoderB": "#c5b0d5",
+        "DualFusion": "#ff9896",
+        "NS-IR": "#c49c94",
         "HyDE": "#98df8a",
     }
 
@@ -240,11 +448,15 @@ def plot_category_violation_bars(summary: dict, out_path: Path) -> None:
     methods = list(summary.keys())
     categories = list(TARGET_CATEGORIES)
     x = np.arange(len(categories))
-    width = 0.18
+    width = min(0.18, 0.75 / max(1, len(methods)))
     colors = {
         "BM25": "#7f7f7f",
         "BGE": "#1f77b4",
         "Contriever": "#ff7f0e",
+        "EncoderA": "#4c78a8",
+        "EncoderB": "#9467bd",
+        "DualFusion": "#d62728",
+        "NS-IR": "#8c564b",
         "HyDE": "#2ca02c",
     }
 
@@ -280,16 +492,48 @@ def main() -> None:
         raise ValueError(f"--max-k must be at least {PRIMARY_K} to draw the category-level Violation Rate@5 figure.")
     if args.enable_hyde and not args.hyde_api_key:
         raise ValueError("--hyde-api-key is required when --enable-hyde is set.")
+    if args.enable_nsir and not args.nsir_api_key:
+        raise ValueError("--nsir-api-key is required when --enable-nsir is set.")
 
     fig_dir = Path(args.fig_dir)
     report_path = Path(args.report_file)
     doc_ids = [row["doc_id"] for row in corpus]
 
     rankers = {
+        "EncoderA": build_dense_ranker(args.topic_model, corpus),
+        "EncoderB": build_dense_ranker(args.constraint_model, corpus),
+        "DualFusion": build_dual_ranker(
+            topic_model_name=args.topic_model,
+            constraint_model_name=args.constraint_model,
+            corpus=corpus,
+            alpha=args.dual_alpha,
+            tau=args.dual_tau,
+            retrieve_k=args.dual_retrieve_k,
+        ),
         "BM25": build_bm25_ranker(corpus),
         "BGE": build_dense_ranker(args.bge_model, corpus, query_prefix="Represent this sentence for searching relevant passages: "),
         "Contriever": build_dense_ranker(args.contriever_model, corpus),
     }
+    if args.enable_nsir:
+        nsir_device = "cuda:0" if torch.cuda.is_available() else "cpu"
+        rankers["NS-IR"] = build_nsir_ranker(
+            corpus=corpus,
+            encoder_model_name=args.nsir_encoder_model,
+            generator_model_name=args.nsir_generator_model,
+            api_key=args.nsir_api_key,
+            base_url=args.nsir_base_url,
+            device=nsir_device,
+            retrieve_k=args.nsir_retrieve_k,
+            max_tokens=args.nsir_max_tokens,
+            temperature=args.nsir_temperature,
+            top_p=args.nsir_top_p,
+            distortion_ratio=args.nsir_distortion,
+            sinkhorn=args.nsir_sinkhorn,
+            epsilon=args.nsir_epsilon,
+            stop_thr=args.nsir_stop_thr,
+            num_itermax=args.nsir_num_iter_max,
+            wait_till_success=args.nsir_wait_till_success,
+        )
     if args.enable_hyde:
         rankers["HyDE"] = build_hyde_ranker(
             corpus=corpus,
@@ -321,10 +565,39 @@ def main() -> None:
     plot_category_violation_bars(summary, figures["category_violation_rate_bar"])
 
     models = {
+        "EncoderA": args.topic_model,
+        "EncoderB": args.constraint_model,
+        "DualFusion": {
+            "topic_model": args.topic_model,
+            "constraint_model": args.constraint_model,
+            "alpha": args.dual_alpha,
+            "tau": args.dual_tau,
+            "retrieve_k": args.dual_retrieve_k,
+        },
         "BM25": "BM25",
         "BGE": args.bge_model,
         "Contriever": args.contriever_model,
     }
+    if args.enable_nsir:
+        models["NS-IR"] = {
+            "encoder": args.nsir_encoder_model,
+            "generator": args.nsir_generator_model,
+            "api_base_url": args.nsir_base_url or NSIR_BASE_URL,
+            "retrieve_k": args.nsir_retrieve_k,
+            "max_tokens": args.nsir_max_tokens,
+            "temperature": args.nsir_temperature,
+            "top_p": args.nsir_top_p,
+            "distortion": args.nsir_distortion,
+            "sinkhorn": args.nsir_sinkhorn,
+            "epsilon": args.nsir_epsilon,
+            "stop_thr": args.nsir_stop_thr,
+            "num_itermax": args.nsir_num_iter_max,
+            "implementation_note": (
+                "Aligned with NS-IR-main: initial dense retrieval on the topic encoder, then query/doc FOL generation, "
+                "OT-based logic alignment, connective masking, and candidate-only reranking. The local motivation utils "
+                "module mirrors the original control flow and prompt parsing."
+            ),
+        }
     if args.enable_hyde:
         models["HyDE"] = {
             "encoder": args.hyde_encoder_model,
@@ -354,6 +627,14 @@ def main() -> None:
             "ndcg@5": "nDCG@5 computed from graded_relevance labels.",
             "violation_rate_at_k": "Fraction of top-k results that are violating documents.",
             "first_violating_rank": f"Rank position of the first violating document within top-{args.max_k}; {args.max_k + 1} means none found.",
+            "dual_fusion": "DualFusion combines encoder A and encoder B scores with alpha weighting and tau filtering, mirroring eval_retrieval_metrics.py.",
+        },
+        "dual_config": {
+            "topic_model": args.topic_model,
+            "constraint_model": args.constraint_model,
+            "alpha": args.dual_alpha,
+            "tau": args.dual_tau,
+            "retrieve_k": args.dual_retrieve_k,
         },
         "target_categories": list(TARGET_CATEGORIES),
         "k_values": list(k for k in K_VALUES if k <= args.max_k),

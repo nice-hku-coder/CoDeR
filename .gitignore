@@ -7,3 +7,4 @@ data/evaluation/
 indexes/
 tmp/
 abandoned/
+*.pdf
