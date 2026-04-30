@@ -33,7 +33,7 @@ from experiments.common import (
     resolve_local_model_path,
 )
 from experiments.metrics import ndcg_at_k, recall_at_k
-from utils import doc2fol, query2fol, updated_embeddings
+from utils import FolGenerationCache, doc2fol, query2fol, updated_embeddings
 from motivation.rankers import build_bm25_ranker, build_dense_ranker, build_hyde_ranker
 
 DEFAULT_MODELS = {
@@ -226,6 +226,7 @@ def build_nsir_ranker(
     stop_thr: float,
     num_itermax: int,
     wait_till_success: bool,
+    cache_path: str | Path | None = None,
 ) -> Callable[[str], list[int]]:
     resolved_encoder_model = resolve_local_model_path(encoder_model_name)
     Settings.embed_model = HuggingFaceEmbedding(model_name=resolved_encoder_model, device=device)
@@ -245,7 +246,13 @@ def build_nsir_ranker(
     tokenizer = AutoTokenizer.from_pretrained(resolved_encoder_model)
     model = AutoModel.from_pretrained(resolved_encoder_model).to(device)
     model.eval()
-    args_namespace = SimpleNamespace(api_key=api_key, base_url=base_url)
+    args_namespace = SimpleNamespace(
+        api_key=api_key,
+        base_url=base_url,
+        generator_model=generator_model_name,
+        wait_till_success=wait_till_success,
+    )
+    fol_cache = FolGenerationCache(cache_path)
 
     def rank(query: str) -> list[int]:
         bge_nodes = VIretriever.retrieve(query)
@@ -261,6 +268,7 @@ def build_nsir_ranker(
             doc_premise = doc2fol(
                 doc_text,
                 args_namespace,
+                cache=fol_cache,
             )
             doc_embedding, doc_word_embedding = updated_embeddings(
                 model,
@@ -279,6 +287,7 @@ def build_nsir_ranker(
         query_premise = query2fol(
             query,
             args_namespace,
+            cache=fol_cache,
         )
         query_embedding, query_word_embedding = updated_embeddings(
             model,
@@ -533,6 +542,7 @@ def main() -> None:
             stop_thr=args.nsir_stop_thr,
             num_itermax=args.nsir_num_iter_max,
             wait_till_success=args.nsir_wait_till_success,
+            cache_path=args.nsir_cache_file,
         )
     if args.enable_hyde:
         rankers["HyDE"] = build_hyde_ranker(

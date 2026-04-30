@@ -1,6 +1,9 @@
 from __future__ import annotations
 
+import hashlib
+import json
 import re
+import time
 from pathlib import Path
 
 import openai
@@ -19,7 +22,10 @@ def _read_prompt(prompt_file: Path) -> str:
 
 def get_vecs(model, tokenizer, sentence, device):
     model.eval()
-    encoded_input = tokenizer(sentence, padding=True, truncation=True, return_tensors="pt")
+    max_length = getattr(tokenizer, "model_max_length", 512)
+    if not isinstance(max_length, int) or max_length <= 0 or max_length > 512:
+        max_length = 512
+    encoded_input = tokenizer(sentence, padding=True, truncation=True, max_length=max_length, return_tensors="pt")
     encoded_input = {_key: encoded_input[_key].to(device) for _key in encoded_input}
     with torch.no_grad():
         model_output = model(**encoded_input)
@@ -76,29 +82,134 @@ def _openai_client(api_key: str, base_url: str):
     return openai.OpenAI(api_key=api_key, base_url=base_url)
 
 
+class FolGenerationCache:
+    def __init__(self, cache_path: str | Path | None = None):
+        self.cache_path = Path(cache_path) if cache_path else None
+        self._cache: dict[str, dict] = {}
+
+        if self.cache_path and self.cache_path.exists():
+            print(f"Loading NS-IR cache from {self.cache_path}...")
+            with self.cache_path.open("r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    try:
+                        row = json.loads(line)
+                    except json.JSONDecodeError:
+                        continue
+                    kind = row.get("kind")
+                    text = row.get("text")
+                    if not kind or not text:
+                        continue
+                    self._cache[self._make_key(kind, text)] = row
+
+    @staticmethod
+    def _make_key(kind: str, text: str) -> str:
+        digest = hashlib.sha1(f"{kind}\0{text}".encode("utf-8")).hexdigest()
+        return f"{kind}:{digest}"
+
+    def get(self, kind: str, text: str) -> dict | None:
+        return self._cache.get(self._make_key(kind, text))
+
+    def set(self, kind: str, text: str, payload: dict) -> None:
+        record = dict(payload)
+        record.setdefault("kind", kind)
+        record.setdefault("text", text)
+        record.setdefault("cache_key", self._make_key(kind, text))
+
+        key = self._make_key(kind, text)
+        self._cache[key] = record
+
+        if self.cache_path is None:
+            return
+
+        self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+        with self.cache_path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+
+def _extract_fol_body(generated_text: str, section_label: str) -> str:
+    if "Predicates:" not in generated_text or section_label not in generated_text:
+        return ""
+
+    try:
+        after_predicates = generated_text.split("Predicates:", 1)[1]
+        body = after_predicates.split(section_label, 1)[0]
+        return body.strip()
+    except IndexError:
+        return ""
+
+
+def _generate_fol_text(client, prompt_input: str, section_label: str, kind: str, model_name: str, wait_till_success: bool = False) -> str:
+    retry_prompt = (
+        f"Invalid format. Re-output the {kind} using only Predicates: and {section_label}, "
+        f"one formula per line, and nothing else."
+    )
+
+    for attempt in range(2):
+        current_prompt = prompt_input if attempt == 0 else f"{prompt_input}\n\n{retry_prompt}"
+        request_params = {
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant. Make sure you carefully and fully understand the details of user's requirements before you start solving the problem.",
+                },
+                {"role": "user", "content": current_prompt},
+            ],
+        }
+        request_params["model"] = model_name
+        try:
+            response = client.chat.completions.create(**request_params)
+            response = response.model_dump()
+            generated_text = response["choices"][0]["message"]["content"].strip()
+            body = _extract_fol_body(generated_text, section_label)
+            if body:
+                return generated_text
+        except Exception:
+            if attempt == 0 or wait_till_success:
+                time.sleep(1.0)
+                continue
+            raise
+
+    raise ValueError(f"Unable to parse {kind} FOL output after retry: {generated_text}")
+
+
 def query2fol(
     query: str,
     args,
+    cache: FolGenerationCache | None = None,
 ):
+    cached = cache.get("query", query) if cache else None
+    if cached and cached.get("premise"):
+        return cached["premise"]
+
     client = _openai_client(args.api_key, args.base_url)
     prompt = _read_prompt(QUESTION_PROMPT_FILE)
     prompt_input = prompt.replace("%QUERY%", query)
-    request_params = {
-        "model": "gpt-4o",
-        "messages": [
+    generated_text = _generate_fol_text(
+        client,
+        prompt_input,
+        "Conclusion:",
+        "query",
+        getattr(args, "generator_model", "gpt-4o"),
+        getattr(args, "wait_till_success", False),
+    )
+    query_premise_body = _extract_fol_body(generated_text, "Conclusion:")
+    if not query_premise_body:
+        raise ValueError(f"Unable to parse query FOL output after retry: {generated_text}")
+    query_premise = " ".join([q.split(" ::: ")[0] for q in query_premise_body.split("\n")])
+    if cache:
+        cache.set(
+            "query",
+            query,
             {
-                "role": "system",
-                "content": "You are a helpful assistant. Make sure you carefully and fully understand the details of user's requirements before you start solving the problem.",
+                "query": query,
+                "premise": query_premise,
+                "generator_model": getattr(args, "generator_model", "gpt-4o"),
+                "base_url": args.base_url,
             },
-            {"role": "user", "content": prompt_input},
-        ],
-    }
-    response = client.chat.completions.create(**request_params)
-    response = response.model_dump()
-    generated_text = response["choices"][0]["message"]["content"].strip()
-    pattern = re.compile(r"(.*)(?=Predicates:)|(?<=Predicates:)(.*?)(?=Conclusion:)|(?<=Conclusion:)(.*?)(?=\Z)", re.DOTALL)
-    matches = pattern.findall(generated_text)
-    query_premise = " ".join([q.split(" ::: ")[0] for q in matches[2][2].strip().split("\n")])
+        )
     # print("************generate FOL-query************")
     return query_premise
 
@@ -106,26 +217,38 @@ def query2fol(
 def doc2fol(
     document: str,
     args,
+    cache: FolGenerationCache | None = None,
 ):
+    cached = cache.get("doc", document) if cache else None
+    if cached and cached.get("premise"):
+        return cached["premise"]
+
     client = _openai_client(args.api_key, args.base_url)
     prompt = _read_prompt(PROBLEM_PROMPT_FILE)
     prompt_input = prompt.replace("%DOCUMENT%", document)
-    request_params = {
-        "model": "gpt-4o",
-        "messages": [
+    generated_text = _generate_fol_text(
+        client,
+        prompt_input,
+        "Premises:",
+        "document",
+        getattr(args, "generator_model", "gpt-4o"),
+        getattr(args, "wait_till_success", False),
+    )
+    doc_premise_body = _extract_fol_body(generated_text, "Premises:")
+    if not doc_premise_body:
+        raise ValueError(f"Unable to parse document FOL output after retry: {generated_text}")
+    doc_premise = " ".join([q.split(" ::: ")[0] for q in doc_premise_body.split("\n")])
+    if cache:
+        cache.set(
+            "doc",
+            document,
             {
-                "role": "system",
-                "content": "You are a helpful assistant. Make sure you carefully and fully understand the details of user's requirements before you start solving the problem.",
+                "text": document,
+                "premise": doc_premise,
+                "generator_model": getattr(args, "generator_model", "gpt-4o"),
+                "base_url": args.base_url,
             },
-            {"role": "user", "content": prompt_input},
-        ],
-    }
-    response = client.chat.completions.create(**request_params)
-    response = response.model_dump()
-    generated_text = response["choices"][0]["message"]["content"].strip()
-    pattern = re.compile(r"(.*)(?=Predicates:)|(?<=Predicates:)(.*?)(?=Premises:)|(?<=Premises:)(.*?)(?=\Z)", re.DOTALL)
-    matches = pattern.findall(generated_text)
-    doc_premise = " ".join([q.split(" ::: ")[0] for q in matches[2][2].strip().split("\n")])
+        )
     # print("************generate FOL-document************")
     return doc_premise
 

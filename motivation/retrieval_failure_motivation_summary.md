@@ -4,7 +4,7 @@
 
 传统检索器即使能检索到 topic-level relevance 文档，也会在 top-k 中频繁暴露 **constraint-violating** 文档。
 
-6 个方法：EncoderA、EncoderB、DualFusion、BM25、BGE、Contriever。
+7 个方法：EncoderA、EncoderB、DualFusion、BM25、BGE、Contriever、NS-IR。
 
 | Method | Recall@5 | nDCG@5 | VR@1 | VR@3 | VR@5 | VR@10 |
 |---|---:|---:|---:|---:|---:|---:|
@@ -14,11 +14,13 @@
 | BM25 | 0.9591 | 0.9712 | 0.2273 | 0.6818 | 0.7523 | 0.3932 |
 | BGE | 0.6636 | 0.7373 | 0.0455 | 0.4432 | 0.4500 | 0.2773 |
 | Contriever | 0.5455 | 0.6225 | 0.2159 | 0.3712 | 0.3455 | 0.2443 |
+| NS-IR | 0.6682 | 0.7437 | 0.0682 | 0.4697 | 0.4545 | 0.2750 |
 
-- **EncoderA / EncoderB / DualFusion** 的 `Recall@5` 和 `nDCG@5` 都明显低于 BM25，但高于或接近 Contriever，说明这条“约束相关”分支并没有把 topic-side 排名做强；其中 **DualFusion 与 EncoderA 几乎完全一致**，仅 `nDCG@5` 有极小提升，说明当前 `alpha/tau` 配置下融合几乎没有改变 top-k 排序。
-- **BM25** 在这个 SciFact negation 子集上反而拿到了最强的 topic-side 指标（`Recall@5 = 0.9591`, `nDCG@5 = 0.9712`），但 `VR@5 = 0.7523` 也最高，说明它非常擅长命中主题相关文档，同时也最容易把违反约束的文档一起排到前面。
-- **BGE** 是这组结果里最平衡的一条 dense baseline：topic-side 高于 Contriever，constraint-side 也显著优于 BM25，尤其 `VR@1 = 0.0455` 很低，说明它更不容易把 violating doc 顶到第一位。
-- **Contriever** 的 topic-side 最弱（`Recall@5 = 0.5455`, `nDCG@5 = 0.6225`），但 violation exposure 仍然不低，说明语义检索强弱与是否遵守约束是两件不同的事。
+- **NS-IR** 在这组结果里拿到了最好的 topic-side 指标（`Recall@5 = 0.6682`, `nDCG@5 = 0.7437`），并且 `VR@1 = 0.0682` 仍然明显低于 BM25 和大多数 dense baseline，说明逻辑对齐 reranker 对 top-1 的违约抑制确实有帮助；但它在 `VR@3` / `VR@5` 上并没有显著领先 BGE，说明“更懂约束”并没有自动转化成全 top-k 的全面优势。
+- **BGE** 最干净的 top-1 dense baseline：`VR@1 = 0.0455` 最低，但 topic-side 略弱于 NS-IR，说明它在“第一名是否踩约束”上更保守，而不是整体召回更强。
+- **BM25** violation exposure 最重的方法，`VR@5 = 0.7523`、`VR@10 = 0.3932` 都最高，说明词法匹配会非常积极地把主题相关但违反约束的文档推到前面。
+- **Contriever** 的 topic-side 仍然最弱（`Recall@5 = 0.5455`, `nDCG@5 = 0.6225`），但 violation exposure 并不低，说明语义检索强弱与是否遵守约束是两件不同的事。
+- **EncoderA / EncoderB / DualFusion** 仍然处在一个很接近的区间，尤其 DualFusion 只比 EncoderA 在 `nDCG@5` 上高一点点，说明当前融合配置没有形成稳定的排序增益。
 
 ## 2. 两类指标
 
@@ -93,6 +95,7 @@ $$\text{score}(D, Q) = \sum_{q_i \in Q} \text{IDF}(q_i) \cdot \frac{f(q_i, D) \c
 - **EncoderA** 使用 `sentence-transformers/all-MiniLM-L6-v2`，对应 topic encoder；
 - **EncoderB** 使用 `outputs/checkpoints/constraint-encoder-v1`，对应 constraint encoder；
 - **DualFusion** 先用 EncoderA 做候选召回，再按 EncoderA / EncoderB 的分数做融合，并用 `tau` 过滤，和 [eval_retrieval_metrics.py](../experiments/eval_retrieval_metrics.py) 的逻辑一致；
+- **NS-IR** 先用 topic encoder 做候选召回，再对 query/doc 生成一阶逻辑表示，做 OT-based 逻辑对齐与 connective masking，最后基于 query/doc 的更新后表示进行 rerank；
 - **BGE** 会把 query 改写成：
 
 ```text
@@ -109,6 +112,14 @@ Contriever 不加前缀，直接编码 query。
 2. `tau` 过滤和 `alpha` 融合在当前设置下对排序边界的影响很弱；
 3. 这个 checkpoint 更像是“可作为约束分支使用的 encoder B”，但单独拿出来并不能自动形成一个更强的双路模型。
 
+### 4.4 为什么 NS-IR 只在部分指标上领先
+
+NS-IR 在这组结果里把 `Recall@5` 和 `nDCG@5` 都推到了最高，但它并没有把 violation exposure 全面压下去，尤其在 `VR@3` 和 `VR@5` 上仍然和 BGE / EncoderA 处在同一量级。这说明：
+
+1. 逻辑对齐 reranker 更擅长帮助模型保住 topic-side 覆盖，而不是完全消除 top-k 中的 violating document；
+2. 在 negation 这类约束上，NS-IR 的收益主要体现在 top-1 和整体排序质量，而不是中间位次的严格过滤；
+3. 这类方法对“是否守约束”的改善是局部的，不能简单理解为“加了逻辑模块就能同时提高召回和约束遵守”。
+
 ## 5. 实验图解读
 
 ### 5.1 Violation Rate@k 曲线
@@ -117,6 +128,7 @@ Contriever 不加前缀，直接编码 query。
 
 - **BM25 的 violation exposure 最重**，`VR@5 = 0.7523`、`VR@10 = 0.3932`，说明它虽然能强力命中 topic-side 文档，但几乎不区分约束是否被满足。
 - **BGE 的 top-1 最干净**，`VR@1 = 0.0455`，这意味着它很少把 violating doc 顶到第一位；但随着 k 增大，`VR@5` 和 `VR@10` 仍然回到与其他 dense 方法相近的区间。
+- **NS-IR 把 top-1 违约率压到了很低的水平**（`VR@1 = 0.0682`），而且整体 topic-side 最强，说明逻辑 reranking 的主要收益是把更相关的文档排进前列；不过它在 `VR@3` / `VR@5` 上并没有明显优于 BGE，表明中等深度的违反约束曝光仍然存在。
 - **EncoderA / EncoderB / DualFusion 三条曲线几乎重合**，说明这次 dual fusion 没有改变主要排序结构。
 - **Contriever 的 topic-side 反而最弱，但 violation exposure 并不低**，表明“语义更弱”不代表“更守约束”。
 
@@ -125,7 +137,7 @@ Contriever 不加前缀，直接编码 query。
 `first_violating_rank_boxplot.png` 显示：
 
 - 所有方法的 first violating rank 都偏低，说明 violating document 往往很早出现。
-- **BGE 的分布最靠后一些**，和它极低的 `VR@1` 一致，说明它在 top-1 上更不容易踩到 violating doc。
+- **BGE 和 NS-IR 的分布相对更靠后一些**，和它们较低的 `VR@1` 一致，说明它们在 top-1 上更不容易踩到 violating doc；其中 NS-IR 的中位数仍然集中在 2 附近，表示它只是把第一条 violation 稍微往后推了一点。
 - **BM25 的箱体更靠前且更分散**，和它较高的 VR 曲线一致，说明它对 constraint satisfaction 的区分能力最弱。
 - **EncoderA / EncoderB / DualFusion** 的箱线图差异很小，进一步说明当前融合配置没有形成稳定优势。
 - 图中虚线表示 top-10 内未出现 violation 的哨兵值 `max_k + 1 = 11`；多数箱体远低于该线，说明“top-10 内完全没有 violating document”并不是常态。
@@ -134,7 +146,7 @@ Contriever 不加前缀，直接编码 query。
 
 `violation_rate_at_5_by_category.png` 显示：
 
-- **Negation 与 exclusion 仍然是主要失败类型**，但这次结果里 BM25 的 violation exposure 更高，说明词法匹配会更容易把“主题对但违反约束”的文档推上来。
-- **BGE 在 negation 上的表现最好**，这与它更低的 `VR@1` 一致。
-- **EncoderA / EncoderB / DualFusion 在三类上的柱状高度接近**，说明它们在类别级别上也没有被当前融合策略拉开。
-- **Numeric 类整体仍然最低**，说明数值约束仍然更容易被当前 embedding 检索区分；但这并不代表模型真正理解了数值约束，只能说明在这个 benchmark 上它更少把 numeric violating doc 推入 top-5。
+- 这次 benchmark 本身是 negation 子集，所以图里只有 **Negation** 有非零柱状，Exclusion 和 Numeric 基本为 0；因此这里更适合把它读成“negation 约束下各方法的相对曝光”。
+- **BM25 在 negation 上仍然最容易暴露 violating doc**，说明词法命中强并不等于遵守约束强。
+- **NS-IR 和 BGE 在 negation 上都明显优于 BM25**，其中 NS-IR 的 topic-side 指标更强，但 BGE 的 top-1 更干净，这两个方法分别偏向“更相关”与“更保守”。
+- **EncoderA / EncoderB / DualFusion** 的柱状高度仍然很接近，说明当前融合策略没有在 negation 上形成稳定分离。
