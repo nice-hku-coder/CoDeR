@@ -3,3 +3,8 @@ __pycache__/
 *.pyd
 models/
 checkpoints/
+data/evaluation/
+indexes/
+tmp/
+abandoned/
+*.pdf

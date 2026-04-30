@@ -106,6 +106,7 @@ def resolve_local_model_path(model_name_or_path: str) -> str:
         return str(candidate)
 
     local_model_map = {
+        "sentence-transformers/all-MiniLM-L6-v2": PROJECT_ROOT / "models" / "sentence-transformers_all-MiniLM-L6-v2",
         "BAAI/bge-large-en-v1.5": PROJECT_ROOT / "models" / "BAAI_bge-large-en-v1.5",
         "facebook/contriever": PROJECT_ROOT / "models" / "facebook_contriever"
     }
